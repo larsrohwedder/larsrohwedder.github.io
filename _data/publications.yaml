@@ -1,0 +1,12 @@
+- authors: "Klaus Jansen, R."
+  title: "On Integer Programming and Convolution"
+  conference: "ITCS'19"
+
+- authors: "Klaus Jansen, Alexandra Lassota, R."
+  title: "Near-Linear Time Algorithm for n-fold ILPs via Color Coding"
+  conference: "ICALP'19"
+  
+- authors: "Klaus Jansen, R."
+  title: "Local Search Breaks 1.75 for Graph Balancing"
+  conference: "ICALP'19"
+  preprint: "https://arxiv.org/abs/1811.00955"
