@@ -1,0 +1,27 @@
+education:
+  - from: Feb. 2016
+    to: Sep. 2019
+    title: Ph.D. (Computer Science)
+    institute: University of Kiel
+  - from: Mar. 2013
+    to: Feb. 2016]
+    title: Master of Science (Computer Science)
+    institute: University of Kiel
+  - from: Oct. 2010
+    to: Feb. 2013]
+    title: Bachelor of Science (Computer Science)
+    institute: University of Kiel
+
+training:
+  - from: Apr. 2015 
+    to: Jun. 2015 
+    title: Research Assistant
+    institute: VMWare (Palo Alto, USA)
+  - from: Feb. 2014 
+    to: Apr. 2014
+    title: Research Assistant
+    institute: Oracle Labs (Redwood Shores, USA)
+  - from: Mar. 2013 
+    to: Sep. 2013
+    title: Research Assistant
+    institute: Oracle Labs (Redwood Shores, USA)

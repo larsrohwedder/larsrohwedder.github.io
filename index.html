@@ -110,13 +110,15 @@
         <dt class="col-sm-3">Office</dt>
         <dd class="col-sm-9">
           <address>
-            {{ site.address }}
+            {% for line in site.address %}
+              {{ line }} <br/>
+            {% endfor %}
           </address>
         </dd>
         <dt class="col-sm-3">Phone</dt>
         <dd class="col-sm-9">{{ site.phone }}</dt>
         <dt class="col-sm-3">Email</dt>
-        <dd class="col-sm-9">{{ site.email }}</dt> 
+        <dd class="col-sm-9">{{ site.email-uglyfied }}</dt> 
       </dl>
     </div>
 

@@ -1,0 +1,84 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.10)  9 MAR 2020 16:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**_site/cv.tex
+(./_site/cv.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/a4wide/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+)) (./cv.aux)
+\openout1 = `cv.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
+
+Overfull \hbox (6.33728pt too wide) in paragraph at lines 71--73
+\OT1/cmr/m/n/10 Marin Bougeret, Klaus Jansen, Michael Poss, Lars Ro-hwed-der. \
+OT1/cmr/m/it/10 Ap-prox-i-ma-tion Re-sults for Makespan
+ []
+
+
+Overfull \hbox (2.49722pt too wide) in paragraph at lines 79--81
+\OT1/cmr/m/n/10 Klaus Jansen, Lars Ro-hwed-der. \OT1/cmr/m/it/10 On In-te-ger P
+ro-gram-ming, Dis-crep-ancy, and Con-vo-lu-tion. \OT1/cmr/m/n/10 ITCS'18.
+ []
+
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./cv.aux) ) 
+Here is how much of TeX's memory you used:
+ 234 strings out of 492642
+ 2780 string characters out of 6129369
+ 63918 words of memory out of 5000000
+ 4193 multiletter control sequences out of 15000+600000
+ 4899 words of font info for 18 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,4n,18p,194b,107s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb>
+Output written on cv.pdf (1 page, 66772 bytes).
+PDF statistics:
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

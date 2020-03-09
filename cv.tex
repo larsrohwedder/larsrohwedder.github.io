@@ -1,0 +1,39 @@
+---
+---
+\documentclass{article}
+\usepackage{a4wide}
+\pagenumbering{gobble}
+
+\begin{document}
+  \subsection*{Lars Rohwedder}
+  {% for line in site.address %}
+    \noindent {{ line }}
+  {% endfor %}
+  \noindent {{ site.email }}
+
+  \noindent {{ site.phone }}
+
+  \subsubsection*{\underline{Research Interests}}
+    Approximation algorithms, scheduling, (integer) linear programming
+
+  \subsubsection*{\underline{Academia}}
+  {% for ac in site.data.academia %}
+    \noindent
+    {{ ac.from }} - {{ ac.to }}.\textbf{ {{ ac.title }} }- {{ ac.institute }}. \medskip
+
+  {% endfor %}
+
+  \subsubsection*{\underline{Training}}
+  {% for tr in site.data.training %}
+    \noindent
+    {{ tr.from }} - {{ tr.to }}.\textbf{ {{ tr.title }} }- {{ tr.institute }}. \medskip
+
+  {% endfor %}
+
+  \subsubsection*{\underline{Publications}}
+  {% for paper in site.data.publications %}
+     \noindent
+     {{ paper.authors }}. {\it {{ paper.title }}.} {{ paper.conference }}. \medskip
+
+  {% endfor %}
+\end{document}
