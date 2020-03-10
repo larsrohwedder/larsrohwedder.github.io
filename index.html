@@ -84,6 +84,19 @@
 
       You can find my CV <a href="cv.pdf" target="_blank">here</a>.
     </div>
+    <div class="row mt-3 row-cols-1 row-cols-md-3">
+      {% for card in site.data.gallery %}
+      <div class="col mb-4">
+        <div class="card">
+          <img src="{{ card.image }}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">{{ card.title }}</h5>
+            <p class="card-text">{{ card.text }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
     <h3 id="research" class="pt-5">Research Interests</h3>
     <div class="container pl-0 pr-0">
       {% capture research %}{% include research.markdown %}{% endcapture %}
