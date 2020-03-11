@@ -98,8 +98,7 @@
     </div>
     <h3 id="research" class="pt-5">Research Interests</h3>
     <div class="container pl-0 pr-0">
-      {% capture research %}{% include research.markdown %}{% endcapture %}
-      {{ research | markdownify }}
+      {{ site.data.cv.research }}
     </div>
   	<h3 id="publications" class="pt-5">Publications</h3>
     <div class="container pl-0 pr-0">

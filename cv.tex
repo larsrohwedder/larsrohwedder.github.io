@@ -14,7 +14,7 @@
   \noindent {{ site.phone }}
 
   \subsubsection*{\underline{Research Interests}}
-    Approximation algorithms, scheduling, (integer) linear programming
+    {{ site.data.cv.research }}
 
   \subsubsection*{\underline{Academia}}
   {% for ac in site.data.academia %}
@@ -29,6 +29,9 @@
     {{ tr.from }} - {{ tr.to }}.\textbf{ {{ tr.title }} }- {{ tr.institute }}. \medskip
 
   {% endfor %}
+
+  \subsubsection*{\underline{Awards and Honors}}
+    {{ site.data.cv.awards }}
 
   \subsubsection*{\underline{Publications}}
   {% for paper in site.data.publications %}
