@@ -1,3 +1,8 @@
+- authors: "Paritosh Garg, Sagar Kale, Lars Rohwedder, Ola Svensson"
+  title: "Robust Algorithms under Adversarial Injections"
+  conference: "ICALP'20"
+  preprint: "https://arxiv.org/abs/2004.12667"
+
 - authors: "Lars Rohwedder"
   title: "Algorithms for Integer Programming and Allocation"
   conference: "Ph.D. thesis"
