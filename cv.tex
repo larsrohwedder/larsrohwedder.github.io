@@ -1,42 +1,121 @@
----
----
 \documentclass{article}
 \usepackage{a4wide}
 \pagenumbering{gobble}
 
 \begin{document}
   \subsection*{Lars Rohwedder}
-  {% for line in site.address %}
-    \noindent {{ line }}
-  {% endfor %}
-  \noindent {{ site.email }}
+  
+    \noindent EPFL
+  
+    \noindent INJ 131 (Bâtiment INJ)
+  
+    \noindent Station 14
+  
+    \noindent CH-1015 Lausanne
+  
+  \noindent contact@larsrohwedder.com
 
-  \noindent {{ site.phone }}
+  \noindent +41 21 693 5219
 
   \subsubsection*{\underline{Research Interests}}
-    {{ site.data.cv.research }}
+    My research focuses mostly on algorithms in theoretical computer science. I am interested in combinatorial optimization, approximative and parameterized algorithms. Most of my work is connected to scheduling and (integer) linear programming.
+
 
   \subsubsection*{\underline{Academia}}
-  {% for ac in site.data.academia %}
+  
     \noindent
-    {{ ac.from }} - {{ ac.to }}.\textbf{ {{ ac.title }} }- {{ ac.institute }}. \medskip
+    Oct. 2019 - current.\textbf{ Post-Doc }- EPFL. \medskip
 
-  {% endfor %}
+  
+    \noindent
+    Feb. 2016 - Sep. 2019.\textbf{ Ph.D. }- University of Kiel. \medskip
+
+  
+    \noindent
+    Mar. 2013 - Feb. 2016.\textbf{ Master of Science (Computer Science) }- University of Kiel. \medskip
+
+  
+    \noindent
+    Oct. 2010 - Feb. 2013.\textbf{ Bachelor of Science (Computer Science) }- University of Kiel. \medskip
+
+  
 
   \subsubsection*{\underline{Training}}
-  {% for tr in site.data.training %}
+  
     \noindent
-    {{ tr.from }} - {{ tr.to }}.\textbf{ {{ tr.title }} }- {{ tr.institute }}. \medskip
+    Apr. 2015 - Jun. 2015.\textbf{ Research Assistant }- VMWare (Palo Alto, USA). \medskip
 
-  {% endfor %}
+  
+    \noindent
+    Feb. 2014 - Apr. 2014.\textbf{ Research Assistant }- Oracle Labs (Redwood Shores, USA). \medskip
+
+  
+    \noindent
+    Mar. 2013 - Sep. 2013.\textbf{ Research Assistant }- Oracle Labs (Redwood Shores, USA). \medskip
+
+  
 
   \subsubsection*{\underline{Awards and Honors}}
-    {{ site.data.cv.awards }}
+    I was admitted a scholarship by the Studienstiftung (German Academic Scholarship Foundation), a prestigious German organization that supports exceptionally talented students.
+My Master's degree was among the three best (by grade) within the graduating class. My Bachelor's degree was the best.
+
 
   \subsubsection*{\underline{Publications}}
-  {% for paper in site.data.publications %}
+  
      \noindent
-     {{ paper.authors }}. {\it {{ paper.title }}.} {{ paper.conference }}. \medskip
+     Moritz Buchem, Lars Rohwedder, Tjark Vredeveld, Andreas Wiese. {\it Additive Approximation Schemes for Load Balancing Problems.} manuscript. \medskip
 
-  {% endfor %}
+  
+     \noindent
+     Etienne Bamas, Paritosh Garg, Lars Rohwedder. {\it The Combinatorial Santa Claus Problem or: How to Find Good Matchings in Non-Uniform Hypergraphs.} manuscript. \medskip
+
+  
+     \noindent
+     Paritosh Garg, Sagar Kale, Lars Rohwedder, Ola Svensson. {\it Robust Algorithms under Adversarial Injections.} ICALP'20. \medskip
+
+  
+     \noindent
+     Lars Rohwedder. {\it Algorithms for Integer Programming and Allocation.} Ph.D. thesis. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Alexandra Lassota, Lars Rohwedder. {\it Near-Linear Time Algorithm for n-fold ILPs via Color Coding.} ICALP'19. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Lars Rohwedder. {\it Local Search Breaks 1.75 for Graph Balancing.} ICALP'19. \medskip
+
+  
+     \noindent
+     Marin Bougeret, Klaus Jansen, Michael Poss, Lars Rohwedder. {\it Approximation Results for Makespan Minimization with Budgeted Uncertainty.} WAOA'19. \medskip
+
+  
+     \noindent
+     Sebastian Berndt, Leah Epstein, Klaus Jansen, Asaf Levin, Marten Maack, Lars Rohwedder. {\it Online Bin Covering with Limited Migration.} ESA'19. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Lars Rohwedder. {\it On Integer Programming, Discrepancy, and Convolution.} ITCS'18. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Lars Rohwedder. {\it A Note on the Integrality Gap of the Configuration LP for Restricted Santa Claus.} unpublished. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Lars Rohwedder. {\it Compact LP Relaxations for Allocation Problems.} SOSA'18. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Lars Rohwedder. {\it A Quasi-Polynomial Approximation for the Restricted Assignment Problem.} IPCO'17. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Lars Rohwedder. {\it Structured Instances of Restricted Assignment with Two Processing Times.} CALDAM'17. \medskip
+
+  
+     \noindent
+     Klaus Jansen, Lars Rohwedder. {\it On the Configuration-LP of the Restricted Assignment Problem.} SODA'17. \medskip
+
+  
 \end{document}
