@@ -1,3 +1,13 @@
+- authors: "Moritz Buchem, Lars Rohwedder, Tjark Vredeveld, Andreas Wiese"
+  title: "Additive Approximation Schemes for Load Balancing Problems"
+  conference: "manuscript"
+  preprint: "https://arxiv.org/abs/2007.09333"
+
+- authors: "Etienne Bamas, Paritosh Garg, Lars Rohwedder"
+  title: "The Combinatorial Santa Claus Problem or: How to Find Good Matchings in Non-Uniform Hypergraphs"
+  conference: "manuscript"
+  preprint: "https://arxiv.org/abs/2007.09116"
+
 - authors: "Paritosh Garg, Sagar Kale, Lars Rohwedder, Ola Svensson"
   title: "Robust Algorithms under Adversarial Injections"
   conference: "ICALP'20"
