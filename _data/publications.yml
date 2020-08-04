@@ -1,3 +1,8 @@
+- authors: "Jana Cslovjecsek, Friedrich Eisenbrand, Christoph Hunkenschröder, Lars Rohwedder, Robert Weismantel"
+  title: "Block-Structured Integer and Linear Programming in Strongly Polynomial and Near Linear Time"
+  conference: "manuscript"
+  preprint: "https://arxiv.org/abs/2002.07745v2"
+
 - authors: "Moritz Buchem, Lars Rohwedder, Tjark Vredeveld, Andreas Wiese"
   title: "Additive Approximation Schemes for Load Balancing Problems"
   conference: "manuscript"
