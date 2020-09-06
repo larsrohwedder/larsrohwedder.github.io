@@ -91,7 +91,7 @@
   </nav>
 
   <div class="container">
-    <h3 id="about" class="pt-5">About me</h3>
+    <h3 id="about" class="scroll-padding">About me</h3>
     <div class="container pl-0 pr-0">
       {% capture about %}{% include about.markdown %}{% endcapture %}
       {{ about | markdownify }}
@@ -110,11 +110,11 @@
         {% endfor %}
       </div>
     </div>
-    <h3 id="research" class="pt-5">Research Interests</h3>
+    <h3 id="research" class="scroll-padding">Research Interests</h3>
     <div class="container pl-0 pr-0">
       {{ site.data.cv.research }}
     </div>
-  	<h3 id="publications" class="pt-5">Publications</h3>
+    <h3 id="publications" class="scroll-padding">Publications</h3>
     <div class="container pl-0 pr-0">
       You can also find a list of my publications on <a class="badge badge-primary" href="{{ site.google-scholar }}" target="_blank">Google Scholar</a>
       or on <a class="badge badge-primary" href="{{ site.dblp }}" target="_blank">DBLP</a>.
@@ -131,7 +131,7 @@
       {% endfor %}
       
     </div>
-    <h3 id="contact" class="pt-5">Contact</h3>
+    <h3 id="contact" class="scroll-padding">Contact</h3>
     <div class="container pl-0 pr-0">
       <dl class="row">
         <dt class="col-sm-3">Office</dt>
