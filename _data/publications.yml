@@ -54,8 +54,8 @@
   
 - authors: "Klaus Jansen, Lars Rohwedder"
   title: "A Note on the Integrality Gap of the Configuration LP for Restricted Santa Claus"
-  conference: "unpublished"
-  preprint: "https://drops.dagstuhl.de/opus/volltexte/2018/8301/"
+  conference: "Information Processing Letters"
+  preprint: "https://arxiv.org/abs/1807.03626"
   
 - authors: "Klaus Jansen, Lars Rohwedder"
   title: "Compact LP Relaxations for Allocation Problems"
