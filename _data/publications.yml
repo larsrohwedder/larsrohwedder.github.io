@@ -3,6 +3,11 @@
   conference: "manuscript"
   preprint: "https://arxiv.org/abs/2011.05676"
 
+- authors: "Etienne Bamas, Paritosh Garg, Lars Rohwedder"
+  title: "The Submodular Santa Claus Problem in the Restricted Assignment Case"
+  conference: "manuscript"
+  preprint: "https://arxiv.org/abs/2011.06939"
+
 - authors: "Etienne Bamas, Andreas Maggiori, Lars Rohwedder, Ola Svensson"
   title: "Learning Augmented Energy Minimization via Speed Scaling"
   conference: "NeurIPS'20"
@@ -17,11 +22,6 @@
   title: "Additive Approximation Schemes for Load Balancing Problems"
   conference: "manuscript"
   preprint: "https://arxiv.org/abs/2007.09333"
-
-- authors: "Etienne Bamas, Paritosh Garg, Lars Rohwedder"
-  title: "The Combinatorial Santa Claus Problem or: How to Find Good Matchings in Non-Uniform Hypergraphs"
-  conference: "manuscript"
-  preprint: "https://arxiv.org/abs/2007.09116"
 
 - authors: "Paritosh Garg, Sagar Kale, Lars Rohwedder, Ola Svensson"
   title: "Robust Algorithms under Adversarial Injections"
