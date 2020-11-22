@@ -39,4 +39,13 @@
      {{ paper.authors }}. {\it {{ paper.title }}.} {{ paper.conference }}. \medskip
 
   {% endfor %}
+
+  \subsubsection*{\underline{Teaching Experience}}
+  {% for teaching in site.data.teaching %}
+     \noindent
+     {{ teaching.translation }}. {\it {{ teaching.time }}.} {{ teaching.role }}. \medskip
+
+
+  {% endfor %}
+
 \end{document}
