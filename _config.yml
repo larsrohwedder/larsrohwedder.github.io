@@ -1,5 +1,5 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://larsrohwedder.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Lars Rohwedder" # the name of your site, e.g. ACME Corp.
 google-scholar: "https://scholar.google.de/citations?hl=en&user=CPVBn8AAAAAJ"
 dblp: "https://dblp.org/pers/r/Rohwedder:Lars.html"

@@ -1,51 +1,91 @@
 ---
 ---
-\documentclass{article}
-\usepackage{a4wide}
+\documentclass[12pt]{article}
+\usepackage[none]{hyphenat}
+\usepackage[margin=1in]{geometry}
+\usepackage{scrextend}
+\usepackage[colorlinks, linkcolor = black, citecolor = black, filecolor = black, urlcolor = blue]{hyperref}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+
 \pagenumbering{gobble}
+\newcommand{\void}{}
 
 \begin{document}
-  \subsection*{Lars Rohwedder}
+\section*{Lars Rohwedder}
+\hrule
+\bigskip
+
+\begin{labeling}{
+{\parbox[t]{3cm}{aaa}}
+}
+\begingroup
+\renewcommand{\section}[1]{
+  \item[
+{\parbox[t]{3cm}{#1}}
+  ]
+}
+
+  \section{Contact}
+
+  \begin{minipage}[t]{0.4\linewidth}
   {% for line in site.address %}
     \noindent {{ line }}
   {% endfor %}
-  \noindent {{ site.email }}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.4\linewidth}
+  \noindent \href{\void%
+    {{ site.url }}%
+  }{\void%
+    {{ site.url }}%
+  }
+
+  \noindent \href{\void%
+    mailto:{{ site.email }}%
+  }{\void%
+    {{site.email}}%
+  }
 
   \noindent {{ site.phone }}
+  \end{minipage}
 
-  \subsubsection*{\underline{Research Interests}}
+  \section{Research Interests}
     {{ site.data.cv.research }}
 
-  \subsubsection*{\underline{Academia}}
+  \section{Academia}%
   {% for ac in site.data.academia %}
-    \noindent
-    {{ ac.from }} - {{ ac.to }}.\textbf{ {{ ac.title }} }- {{ ac.institute }}. \medskip
+    \textbf{\void{}{{ ac.title }} } \hfill {{ ac.from }} - {{ ac.to }}
+
+    {{ ac.institute }} \smallskip
 
   {% endfor %}
 
-  \subsubsection*{\underline{Training}}
+  \section{Training}
   {% for tr in site.data.training %}
-    \noindent
-    {{ tr.from }} - {{ tr.to }}.\textbf{ {{ tr.title }} }- {{ tr.institute }}. \medskip
+    \textbf{\void{}{{ tr.title }} } \hfill {{ tr.from }} - {{ tr.to }} 
+
+    {{ tr.institute }} \smallskip
 
   {% endfor %}
 
-  \subsubsection*{\underline{Awards and Honors}}
+  \section{Awards and\\ Honors}
     {{ site.data.cv.awards }}
 
-  \subsubsection*{\underline{Publications}}
+  \section{Publications}
   {% for paper in site.data.publications %}
-     \noindent
-     {{ paper.authors }}. {\it {{ paper.title }}.} {{ paper.conference }}. \medskip
+     {{ paper.authors }}. {\it {{ paper.title }}.} {{ paper.conference }}. \smallskip
 
   {% endfor %}
 
-  \subsubsection*{\underline{Teaching Experience}}
+  \section{Teaching Activities}
   {% for teaching in site.data.teaching %}
-     \noindent
-     {{ teaching.translation }}. {\it {{ teaching.time }}.} {{ teaching.role }}. \medskip
+     \textbf{\void{}{{ teaching.translation }} }- {{ teaching.role }} \hfill {{ teaching.time }} \smallskip
 
 
   {% endfor %}
+
+\endgroup
+\end{labeling}
 
 \end{document}
