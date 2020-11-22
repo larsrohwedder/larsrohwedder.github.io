@@ -65,14 +65,9 @@
     </div>
   </div>
 
-  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light mb-3">
+  <nav id="navbar" class="navbar sticky-top navbar-expand navbar-light bg-light mb-3">
     <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav w-100 nav-justified">
+      <ul class="navbar-nav d-flex justify-content-between text-nowrap" style="overflow-x: auto;">
           <li class="nav-item">
             <a class="nav-link" href="#about">about</a>
           </li>
@@ -83,10 +78,12 @@
             <a class="nav-link" href="#publications">publications</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#teaching">teaching</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#contact">contact</a>
           </li>
-	    </ul>
-	  </div>
+      </ul>
     </div>
   </nav>
 
@@ -130,6 +127,20 @@
         </div>
       </div>
       {% endfor %}
+      
+    <h3 id="teaching" class="scroll-padding">Teaching</h3>
+    <table class="table">
+      <tbody>
+      {% for teaching in site.data.teaching %}
+        <tr>
+          <th scope="row">{{ teaching.translation }}</th>
+          <td>{{ teaching.time }}</td>
+          <td>{{ teaching.role }}</td>
+        </tr>
+      {% endfor %}
+        <tr><th scope="row"></th><td></td><td></td></tr>
+      </tbody>
+    </table>
       
     </div>
     <h3 id="contact" class="scroll-padding">Contact</h3>
