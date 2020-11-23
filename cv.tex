@@ -12,6 +12,8 @@
 \newcommand{\void}{}
 
 \begin{document}
+\hyphenpenalty=1000
+
 \section*{Lars Rohwedder}
 \hrule
 \bigskip
@@ -50,40 +52,51 @@
   \noindent {{ site.phone }}
   \end{minipage}
 
-  \section{Research Interests}
+  \section{Research \\ Interests}
+\begin{minipage}[t]{\linewidth}
     {{ site.data.cv.research }}
+\end{minipage}
 
   \section{Academia}%
+\begin{minipage}[t]{\linewidth}
   {% for ac in site.data.academia %}
     \textbf{\void{}{{ ac.title }} } \hfill {{ ac.from }} - {{ ac.to }}
 
     {{ ac.institute }} \smallskip
 
   {% endfor %}
+\end{minipage}
 
-  \section{Training}
+  \section{Industry}
+\begin{minipage}[t]{\linewidth}
   {% for tr in site.data.training %}
     \textbf{\void{}{{ tr.title }} } \hfill {{ tr.from }} - {{ tr.to }} 
 
     {{ tr.institute }} \smallskip
 
   {% endfor %}
+\end{minipage}
 
   \section{Awards and\\ Honors}
+\begin{minipage}[t]{\linewidth}
     {{ site.data.cv.awards }}
+\end{minipage}
 
   \section{Publications}
+%\begin{minipage}[t]{\linewidth}
   {% for paper in site.data.publications %}
-     {{ paper.authors }}. {\it {{ paper.title }}.} {{ paper.conference }}. \smallskip
-
+     {{ paper.authors }}.\emph{ {{ paper.title }}.} {{ paper.conference }}.\smallskip
   {% endfor %}
+%\end{minipage}
 
-  \section{Teaching Activities}
+  \section{Teaching \\ Activities}
+\begin{minipage}[t]{\linewidth}
   {% for teaching in site.data.teaching %}
      \textbf{\void{}{{ teaching.translation }} }- {{ teaching.role }} \hfill {{ teaching.time }} \smallskip
 
 
   {% endfor %}
+\end{minipage}
 
 \endgroup
 \end{labeling}
