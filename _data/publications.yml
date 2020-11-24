@@ -35,7 +35,7 @@
 
 - authors: "Klaus Jansen, Alexandra Lassota, Lars Rohwedder"
   title: "Near-Linear Time Algorithm for n-fold ILPs via Color Coding"
-  conference: "ICALP'19 / SIAM J. Discrete Math"
+  conference: "ICALP'19 / SIAM J. Discrete Math'20"
   preprint: "https://arxiv.org/abs/1811.00950"
   
 - authors: "Klaus Jansen, Lars Rohwedder"
@@ -60,7 +60,7 @@
   
 - authors: "Klaus Jansen, Lars Rohwedder"
   title: "A Note on the Integrality Gap of the Configuration LP for Restricted Santa Claus"
-  conference: "Information Processing Letters"
+  conference: "Inf. Process. Lett.'20"
   preprint: "https://arxiv.org/abs/1807.03626"
   
 - authors: "Klaus Jansen, Lars Rohwedder"
@@ -70,7 +70,7 @@
   
 - authors: "Klaus Jansen, Lars Rohwedder"
   title: "A Quasi-Polynomial Approximation for the Restricted Assignment Problem"
-  conference: "IPCO'17 / SIAM J. Comput."
+  conference: "IPCO'17 / SIAM J. Comput.'20"
   preprint: "https://arxiv.org/abs/1701.07208"
   
 - authors: "Klaus Jansen, Lars Rohwedder"
