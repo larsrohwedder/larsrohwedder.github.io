@@ -2,20 +2,64 @@
 ---
 \documentclass[12pt]{article}
 \usepackage[none]{hyphenat}
-\usepackage[margin=1in]{geometry}
+
+\usepackage{geometry}
+\geometry{paper=a4paper, top=1cm, left=1in, right=1in, bottom=1in}
+
+\usepackage{afterpage}
+
 \usepackage{scrextend}
 \usepackage[colorlinks, linkcolor = black, citecolor = black, filecolor = black, urlcolor = blue]{hyperref}
 \usepackage{mathptmx}
 \usepackage[T1]{fontenc}
 
+\newcommand{\head}{
+  \parbox{\textwidth}{
+    {\hfill\sffamily \LARGE Dr. Lars Rohwedder} \\
+    \hrule
+    \medskip
+
+    \begin{minipage}{0.4\textwidth}
+      \sffamily
+      Phone:{ {{ site.phone }} }\\
+      Email:{
+        \href{\void%
+          mailto:{{ site.email }}%
+        }{\void%
+          {{site.email}}%
+        }
+      }\\
+      Url:{ \href{\void%
+          {{ site.url }}%
+        }{\void%
+          {{ site.url }}%
+        }
+      }
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+      \begin{flushright}
+        \sffamily
+  {% for line in site.address %}
+    \noindent {{ line }}
+  {% endfor %}
+      \end{flushright}
+    \end{minipage}
+  }%
+}
+
 \pagenumbering{gobble}
 \newcommand{\void}{}
 
-\begin{document}
 \hyphenpenalty=1000
 
-\section*{Lars Rohwedder \hfill \rm{\small (updated~\today{})}}
-\hrule
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+\noindent\head{}
+\bigskip
+
+\section*{Curriculum Vitae \hfill \rm{\normalsize updated~\today{}}}
 \bigskip
 
 \begin{labeling}{
@@ -28,29 +72,10 @@
   ]
 }
 
-  \section{Contact}
-
-  \begin{minipage}[t]{0.4\linewidth}
-  {% for line in site.address %}
-    \noindent {{ line }}
-  {% endfor %}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[t]{0.4\linewidth}
-  \noindent \href{\void%
-    {{ site.url }}%
-  }{\void%
-    {{ site.url }}%
-  }
-
-  \noindent \href{\void%
-    mailto:{{ site.email }}%
-  }{\void%
-    {{site.email}}%
-  }
-
-  \noindent {{ site.phone }}
-  \end{minipage}
+  \section{Nationality}
+  German
+  \section{Date of birth}
+  July 1, 1991
 
   \section{Research \\ Interests}
 \begin{minipage}[t]{\linewidth}
@@ -76,11 +101,31 @@
 
   {% endfor %}
 \end{minipage}
-
   \section{Awards and\\ Honors}
 \begin{minipage}[t]{\linewidth}
     {{ site.data.cv.awards }}
 \end{minipage}
+
+  \section{Other \\ Activities}
+\begin{minipage}[t]{\linewidth}
+    {{ site.data.cv.other }}
+\end{minipage}
+
+
+\endgroup
+\end{labeling}
+\end{titlepage}
+
+\newgeometry{margin=1in}
+\begin{labeling}{
+{\parbox[t]{3cm}{aaa}}
+}
+\begingroup
+\renewcommand{\section}[1]{
+  \item[
+{\parbox[t]{3cm}{#1}}
+  ]
+}
 
   \section{Publications}
 %\begin{minipage}[t]{\linewidth}
