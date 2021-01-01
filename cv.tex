@@ -4,7 +4,7 @@
 \usepackage[none]{hyphenat}
 
 \usepackage{geometry}
-\geometry{paper=a4paper, top=1cm, left=1in, right=1in, bottom=1in}
+\geometry{paper=a4paper, top=0.25in, left=1in, right=1in, bottom=1in}
 
 \usepackage{afterpage}
 
@@ -19,7 +19,7 @@
     \hrule
     \medskip
 
-    \begin{minipage}{0.4\textwidth}
+    \begin{minipage}[t]{0.4\textwidth}
       \sffamily
       Phone:{ {{ site.phone }} }\\
       Email:{
@@ -37,12 +37,12 @@
       }
     \end{minipage}
     \hfill
-    \begin{minipage}{0.4\textwidth}
+    \begin{minipage}[t]{0.4\textwidth}
       \begin{flushright}
         \sffamily
-  {% for line in site.address %}
-    \noindent {{ line }}
-  {% endfor %}
+        {{ site.address[0] }} \\
+        {{ site.address[1] }} \\
+        {{ site.address[2] }}
       \end{flushright}
     \end{minipage}
   }%

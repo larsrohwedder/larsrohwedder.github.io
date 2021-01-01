@@ -1,10 +1,10 @@
-url: "https://larsrohwedder.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.larsrohwedder.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Lars Rohwedder" # the name of your site, e.g. ACME Corp.
 google-scholar: "https://scholar.google.de/citations?hl=en&user=CPVBn8AAAAAJ"
 dblp: "https://dblp.org/pers/r/Rohwedder:Lars.html"
 email-uglyfied: "contact at larsrohwedder dot com"
-email: "contact@larsrohwedder.com"
+email: "lars.rohwedder@epfl.ch"
 phone: "+41 21 693 5219"
 address:
   - "EPFL INJ 131"
