@@ -124,6 +124,9 @@
           {% if paper.preprint %}
           <a href="{{paper.preprint}}" target="_blank" class="card-link">Download</a>
           {% endif %}
+          {% if paper.video %}
+          <a href="{{paper.video}}" target="_blank" class="card-link">Video</a>
+          {% endif %}
         </div>
       </div>
       {% endfor %}

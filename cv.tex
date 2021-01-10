@@ -4,7 +4,7 @@
 \usepackage[none]{hyphenat}
 
 \usepackage{geometry}
-\geometry{paper=a4paper, top=0.25in, left=1in, right=1in, bottom=1in}
+\geometry{paper=a4paper, top=1in, left=1in, right=1in, bottom=1in}
 
 \usepackage{afterpage}
 
@@ -13,9 +13,13 @@
 \usepackage{mathptmx}
 \usepackage[T1]{fontenc}
 
+\usepackage{amssymb}
+\usepackage{enumitem}
+\setlist{label={\footnotesize $\blacktriangleright$}, leftmargin=1.5em, topsep=0.1em, itemsep=0em}
+
 \newcommand{\head}{
   \parbox{\textwidth}{
-    {\hfill\sffamily \LARGE Dr. Lars Rohwedder} \\
+    {\hfill\sffamily \LARGE Lars Rohwedder} \\
     \hrule
     \medskip
 
@@ -54,14 +58,15 @@
 \hyphenpenalty=1000
 
 \begin{document}
-\begin{titlepage}
-\thispagestyle{empty}
+\newgeometry{paper=a4paper, top=0.25in, left=1in, right=1in, bottom=1in}
+\afterpage{\aftergroup\restoregeometry}
+
 \noindent\head{}
 \bigskip
 
 \subsubsection*{
-\rm\normalsize 
-\hfill Updated \today{} \bigskip\\
+%\rm\normalsize 
+%\hfill Updated \today{} \bigskip\\
 \textbf{Curriculum Vitae}}
 \bigskip
 
@@ -106,7 +111,11 @@
 \end{minipage}
   \section{Awards and\\ Honors}
 \begin{minipage}[t]{\linewidth}
-    {{ site.data.cv.awards }}
+  \begin{itemize}
+  {% for award in site.data.cv.awards %}
+    \item {{ award }}
+  {% endfor %}
+  \end{itemize}
 \end{minipage}
 
   \section{Other \\ Activities}
@@ -117,7 +126,7 @@
 
 \endgroup
 \end{labeling}
-\end{titlepage}
+
 
 \newgeometry{margin=1in}
 \begin{labeling}{
@@ -132,19 +141,25 @@
 
   \section{Publications}
 %\begin{minipage}[t]{\linewidth}
+\begin{enumerate}[label={[\arabic*]}]
   {% for paper in site.data.publications %}
-     {{ paper.authors }}.\emph{ {{ paper.title }}.} {{ paper.conference }}.\smallskip
+    \item {{ paper.authors }}.\emph{ {{ paper.title }}.} {{ paper.conference }}.\smallskip
   {% endfor %}
 %\end{minipage}
+\end{enumerate}
 
   \section{Teaching \\ Activities}
-\begin{minipage}[t]{\linewidth}
+\hspace{-0.6em}
+\begin{tabular}[t]{lll}
   {% for teaching in site.data.teaching %}
-     \textbf{\void{}{{ teaching.translation }} }- {{ teaching.role }} \hfill {{ teaching.time }} \smallskip
-
-
+    {% if teaching.comment %}
+      \textbf{\void{}{{ teaching.translation }} } & {{ teaching.role }} & {{ teaching.time }} \\
+       \multicolumn{3}{l}{\emph{\void{}{{ teaching.comment }} } } \smallskip \\
+    {% else %}
+      \textbf{\void{}{{ teaching.translation }} } & {{ teaching.role }} & {{ teaching.time }} \smallskip \\
+    {% endif %}
   {% endfor %}
-\end{minipage}
+\end{tabular}
 
   \section{References}
 Available upon request

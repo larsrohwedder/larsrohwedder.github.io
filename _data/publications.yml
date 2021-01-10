@@ -1,3 +1,9 @@
+- authors: "Jana Cslovjecsek, Friedrich Eisenbrand, Christoph Hunkenschröder, Lars Rohwedder, Robert Weismantel"
+  title: "Block-Structured Integer and Linear Programming in Strongly Polynomial and Near Linear Time"
+  conference: "SODA'21"
+  preprint: "https://arxiv.org/abs/2002.07745v2"
+  video: "https://www.youtube.com/watch?v=SjVjwqBAlSM"
+
 - authors: "Lars Rohwedder, Andreas Wiese"
   title: "A (2+eps)-approximation algorithm for preemptive weighted flow time on a single machine"
   conference: "preprint"
@@ -8,20 +14,15 @@
   conference: "preprint"
   preprint: "https://arxiv.org/abs/2011.06939"
 
-- authors: "Moritz Buchem, Lars Rohwedder, Tjark Vredeveld, Andreas Wiese"
-  title: "Additive Approximation Schemes for Load Balancing Problems"
-  conference: "preprint"
-  preprint: "https://arxiv.org/abs/2007.09333"
-
-- authors: "Jana Cslovjecsek, Friedrich Eisenbrand, Christoph Hunkenschröder, Lars Rohwedder, Robert Weismantel"
-  title: "Block-Structured Integer and Linear Programming in Strongly Polynomial and Near Linear Time"
-  conference: "SODA'21"
-  preprint: "https://arxiv.org/abs/2002.07745v2"
-
 - authors: "Etienne Bamas, Andreas Maggiori, Lars Rohwedder, Ola Svensson"
   title: "Learning Augmented Energy Minimization via Speed Scaling"
   conference: "NeurIPS'20"
   preprint: "https://arxiv.org/abs/2010.11629"
+
+- authors: "Moritz Buchem, Lars Rohwedder, Tjark Vredeveld, Andreas Wiese"
+  title: "Additive Approximation Schemes for Load Balancing Problems"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2007.09333"
 
 - authors: "Paritosh Garg, Sagar Kale, Lars Rohwedder, Ola Svensson"
   title: "Robust Algorithms under Adversarial Injections"
