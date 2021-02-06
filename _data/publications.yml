@@ -1,13 +1,13 @@
+- authors: "Lars Rohwedder, Andreas Wiese"
+  title: "A (2+eps)-approximation algorithm for preemptive weighted flow time on a single machine"
+  conference: "STOC'21"
+  preprint: "https://arxiv.org/abs/2011.05676"
+
 - authors: "Jana Cslovjecsek, Friedrich Eisenbrand, Christoph Hunkenschröder, Lars Rohwedder, Robert Weismantel"
   title: "Block-Structured Integer and Linear Programming in Strongly Polynomial and Near Linear Time"
   conference: "SODA'21"
   preprint: "https://arxiv.org/abs/2002.07745v2"
   video: "https://www.youtube.com/watch?v=SjVjwqBAlSM"
-
-- authors: "Lars Rohwedder, Andreas Wiese"
-  title: "A (2+eps)-approximation algorithm for preemptive weighted flow time on a single machine"
-  conference: "preprint"
-  preprint: "https://arxiv.org/abs/2011.05676"
 
 - authors: "Etienne Bamas, Paritosh Garg, Lars Rohwedder"
   title: "The Submodular Santa Claus Problem in the Restricted Assignment Case"

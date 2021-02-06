@@ -8,6 +8,7 @@
   lecture: "Bachelorarbeit"
   translation: "Bachelor's thesis"
   comment: "Fast Approximation Algorithms for Scheduling via Discrepancy and FFT"
+  hideonweb: True
 
 - time: "Winter'18/19"
   role: "Teaching Assistant"
@@ -29,6 +30,7 @@
   lecture: "Masterarbeit"
   translation: "Master's thesis"
   comment: "Experimental Comparison of Theoretical Algorithms for FVS"
+  hideonweb: True
 
 - time: "Summer'17"
   role: "Teaching Assistant"
@@ -40,6 +42,7 @@
   lecture: "Bachelorarbeit"
   translation: "Bachelor's thesis"
   comment: "Local Search for the Restricted Assignment Problem"
+  hideonweb: True
 
 - time: "Winter'16/17"
   role: "Teaching Assistant"

@@ -135,11 +135,14 @@
     <table class="table">
       <tbody>
       {% for teaching in site.data.teaching %}
+        {% if teaching.hideonweb %}
+        {% else %}
         <tr>
           <th scope="row">{{ teaching.translation }}</th>
           <td>{{ teaching.time }}</td>
           <td>{{ teaching.role }}</td>
         </tr>
+        {% endif %}
       {% endfor %}
         <tr><th scope="row"></th><td></td><td></td></tr>
       </tbody>
