@@ -6,6 +6,7 @@
 - authors: "Adam Polak, Lars Rohwedder, Karol Wegrzycki"
   title: "Knapsack and Subset Sum with Small Items"
   conference: "ICALP'21"
+  preprint: "https://arxiv.org/abs/2105.04035"
 
 - authors: "Moritz Buchem, Lars Rohwedder, Tjark Vredeveld, Andreas Wiese"
   title: "Additive Approximation Schemes for Load Balancing Problems"
