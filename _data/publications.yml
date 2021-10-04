@@ -1,3 +1,12 @@
+- authors: "Xinrui Jia, Lars Rohwedder, Kshiteej Sheth, Ola Svensson"
+  title: "Towards Non-Uniform k-Center with Constant Types of Radii"
+  conference: "SOSA'22"
+
+- authors: "Sebastian Berndt, Max A. Deppert, Klaus Jansen, Lars Rohwedder"
+  title: "Load Balancing: The Long Road from Theory to Practice"
+  conference: "ALENEX'22"
+  preprint: "https://arxiv.org/abs/2107.13638"
+
 - authors: "Etienne Bamas, Paritosh Garg, Lars Rohwedder"
   title: "The Submodular Santa Claus Problem in the Restricted Assignment Case"
   conference: "ICALP'21"
@@ -52,7 +61,7 @@
   
 - authors: "Marin Bougeret, Klaus Jansen, Michael Poss, Lars Rohwedder"
   title: "Approximation Results for Makespan Minimization with Budgeted Uncertainty"
-  conference: "WAOA'19"
+  conference: "WAOA'19 / Theory Comput. Syst.'21"
   preprint: "https://arxiv.org/abs/1905.08592"
   
 - authors: "Sebastian Berndt, Leah Epstein, Klaus Jansen, Asaf Levin, Marten Maack, Lars Rohwedder"
