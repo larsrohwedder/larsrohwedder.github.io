@@ -1,6 +1,7 @@
 - authors: "Xinrui Jia, Lars Rohwedder, Kshiteej Sheth, Ola Svensson"
   title: "Towards Non-Uniform k-Center with Constant Types of Radii"
   conference: "SOSA'22"
+  preprint: "https://arxiv.org/abs/2110.02688"
 
 - authors: "Sebastian Berndt, Max A. Deppert, Klaus Jansen, Lars Rohwedder"
   title: "Load Balancing: The Long Road from Theory to Practice"
