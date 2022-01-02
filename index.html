@@ -152,6 +152,7 @@
     <h3 id="contact" class="scroll-padding">Contact</h3>
     <div class="container pl-0 pr-0">
       <dl class="row">
+        {% if site.address %}
         <dt class="col-sm-3">Office</dt>
         <dd class="col-sm-9">
           <address>
@@ -160,10 +161,15 @@
             {% endfor %}
           </address>
         </dd>
+        {% endif %}
+        {% if site.phone %}
         <dt class="col-sm-3">Phone</dt>
         <dd class="col-sm-9">{{ site.phone }}</dt>
+        {% endif %}
+        {% if site.email %}
         <dt class="col-sm-3">Email</dt>
         <dd class="col-sm-9">{{ site.email-uglyfied }}</dt> 
+        {% endif %}
       </dl>
     </div>
 

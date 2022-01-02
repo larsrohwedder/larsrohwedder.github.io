@@ -1,3 +1,7 @@
+- authors: "Leah Epstein, Alexandra Lassota, Asaf Levin, Marten Maack, Lars Rohwedder"
+  title: "Cardinality Constrained Scheduling in Online Models"
+  conference: "STACS'22"
+
 - authors: "Xinrui Jia, Lars Rohwedder, Kshiteej Sheth, Ola Svensson"
   title: "Towards Non-Uniform k-Center with Constant Types of Radii"
   conference: "SOSA'22"

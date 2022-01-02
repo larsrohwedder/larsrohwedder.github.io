@@ -25,7 +25,11 @@
 
     \begin{minipage}[t]{0.4\textwidth}
       \sffamily
+
+    {% if site.phone %} %
       Phone:{ {{ site.phone }} }\\
+    {% endif %} %
+    {% if site.email %} %
       Email:{
         \href{\void%
           mailto:{{ site.email }}%
@@ -33,21 +37,26 @@
           {{site.email}}%
         }
       }\\
+    {% endif %} %
+    {% if site.url %} %
       Url:{ \href{\void%
           {{ site.url }}%
         }{\void%
           {{ site.url }}%
         }
+    {% endif %} %
       }
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.4\textwidth}
+    {% if site.address %}
       \begin{flushright}
         \sffamily
         {{ site.address[0] }} \\
         {{ site.address[1] }} \\
         {{ site.address[2] }}
       \end{flushright}
+    {% endif %}
     \end{minipage}
   }%
 }
