@@ -1,3 +1,7 @@
+- authors: "Nikhil Bansal, Lars Rohwedder, Ola Svensson"
+  title: "Flow Time Scheduling and Prefix Beck-Fiala"
+  conference: "STOC'22"
+
 - authors: "Leah Epstein, Alexandra Lassota, Asaf Levin, Marten Maack, Lars Rohwedder"
   title: "Cardinality Constrained Scheduling in Online Models"
   conference: "STACS'22"
