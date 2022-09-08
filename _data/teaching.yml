@@ -1,5 +1,10 @@
 - time: "Spring'22"
   role: "Coordinator / Tutor"
+  lecture: "Management of Operations and Product Development (Maastricht)"
+  translation: "Management of Operations and Product Development (Maastricht)"
+
+- time: "Spring'22"
+  role: "Coordinator / Tutor"
   lecture: "Advanced Algorithms (Maastricht)"
   translation: "Advanced Algorithms (Maastricht)"
 
