@@ -1,3 +1,8 @@
+- authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
+  title: "A PTAS for Minimizing Weighted Flow Time on a Single Machine"
+  conference: "Preprint"
+  preprint: "https://arxiv.org/abs/2208.03127"
+
 - authors: "Nikhil Bansal, Lars Rohwedder, Ola Svensson"
   title: "Flow Time Scheduling and Prefix Beck-Fiala"
   conference: "STOC'22"
