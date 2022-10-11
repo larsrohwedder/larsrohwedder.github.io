@@ -1,3 +1,7 @@
+- authors: "Kim-Manuel Klein, Adam Polak, Lars Rohwedder"
+  title: "On Minimizing Tardy Processing Time, Max-Min Skewed Convolution, and Triangular Structured ILPs"
+  conference: "SODA'23"
+
 - authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
   title: "A PTAS for Minimizing Weighted Flow Time on a Single Machine"
   conference: "Preprint"
