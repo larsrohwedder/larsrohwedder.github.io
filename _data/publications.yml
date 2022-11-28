@@ -1,3 +1,8 @@
+- authors: "Etienne Bamas, Lars Rohwedder"
+  title: "Better Trees for Santa Claus"
+  conference: "Preprint"
+  preprint: "https://arxiv.org/abs/2211.14259"
+
 - authors: "Kim-Manuel Klein, Adam Polak, Lars Rohwedder"
   title: "On Minimizing Tardy Processing Time, Max-Min Skewed Convolution, and Triangular Structured ILPs"
   conference: "SODA'23"
