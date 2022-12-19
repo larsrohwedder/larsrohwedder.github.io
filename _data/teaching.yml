@@ -1,3 +1,13 @@
+- time: "Fall'22"
+  role: "Coordinator / Tutor"
+  lecture: "Algorithms and Optimisation (Maastricht)"
+  translation: "Algorithms and Optimisation (Maastricht)"
+
+- time: "Fall'22"
+  role: "Tutor"
+  lecture: "Supply Chain Operations Management (Maastricht)"
+  translation: "Supply Chain Operations Management (Maastricht)"
+
 - time: "Spring'22"
   role: "Coordinator / Tutor"
   lecture: "Management of Operations and Product Development (Maastricht)"
