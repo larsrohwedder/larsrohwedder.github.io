@@ -1,0 +1,16 @@
+The Operations Research group in the Quantitative Economics department of Maastricht University is seeking a PhD candidate within an NWO project on theory of algorithms, called "The Twilight Zone of Efficiency: Optimality of Quasi-Polynomial Time Algorithms". Principal investigator of this project and supervisor of the PhD candidate is Lars Rohwedder. The position is fully funded for four years (salary according to labor agreement of Dutch universities) and contains a moderate teaching load of at most 25%.
+
+The applicant needs to hold a master's degree (or be close to completion) in mathematics, computer science, or similar. Strong mathematical skills (e.g., in writing formal proofs) are required. Prior experiences with approximation algorithms, scheduling, computational complexity, or fixed-parameter tractability are a plus. Good proficiency in English (both oral and written) is required; knowledge of Dutch is not necessary.
+
+Starting date: as soon as possible, preferably first half of 2023
+Deadline for applications: 27/01/2023
+
+To apply, please send the following to l.rohwedder@maastrichtuniversity.nl:
+
+- cover letter
+- cv
+- transcript of records
+- copies of academic certificates (BSc and MSc, if available)
+- other optional material (letter of recommendation, research papers, etc.)
+
+For any questions about the vacancy, please contact Lars Rohwedder (l.rohwedder@maastrichtuniversity.nl).
