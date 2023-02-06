@@ -1,21 +1,21 @@
+- authors: "Etienne Bamas, Lars Rohwedder"
+  title: "Better Trees for Santa Claus"
+  conference: "STOC'23"
+  preprint: "https://arxiv.org/abs/2211.14259"
+
+- authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
+  title: "A PTAS for Minimizing Weighted Flow Time on a Single Machine"
+  conference: "STOC'23"
+  preprint: "https://arxiv.org/abs/2208.03127"
+
 - authors: "Daniel Dadush, Arthur Leonard, Lars Rohwedder, Jose Verschae"
   title: "Optimizing Low Dimensional Functions over the Integers"
   conference: "IPCO'23"
-
-- authors: "Etienne Bamas, Lars Rohwedder"
-  title: "Better Trees for Santa Claus"
-  conference: "Preprint"
-  preprint: "https://arxiv.org/abs/2211.14259"
 
 - authors: "Kim-Manuel Klein, Adam Polak, Lars Rohwedder"
   title: "On Minimizing Tardy Processing Time, Max-Min Skewed Convolution, and Triangular Structured ILPs"
   conference: "SODA'23"
   preprint: "https://arxiv.org/abs/2211.05053"
-
-- authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
-  title: "A PTAS for Minimizing Weighted Flow Time on a Single Machine"
-  conference: "Preprint"
-  preprint: "https://arxiv.org/abs/2208.03127"
 
 - authors: "Nikhil Bansal, Lars Rohwedder, Ola Svensson"
   title: "Flow Time Scheduling and Prefix Beck-Fiala"
