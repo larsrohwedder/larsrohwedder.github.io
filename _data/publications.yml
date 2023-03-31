@@ -11,6 +11,7 @@
 - authors: "Daniel Dadush, Arthur Leonard, Lars Rohwedder, Jose Verschae"
   title: "Optimizing Low Dimensional Functions over the Integers"
   conference: "IPCO'23"
+  preprint: "https://arxiv.org/abs/2303.02474"
 
 - authors: "Kim-Manuel Klein, Adam Polak, Lars Rohwedder"
   title: "On Minimizing Tardy Processing Time, Max-Min Skewed Convolution, and Triangular Structured ILPs"
