@@ -1,6 +1,6 @@
 - authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
   title: "Simpler constant factor approximation algorithms for weighted flow time - now for any p-norm"
-  conference: "Preprint"
+  conference: "SOSA'24"
   preprint: "https://arxiv.org/abs/2308.06209"
 
 - authors: "Etienne Bamas, Alexander Lindermayr, Nicole Megow, Lars Rohwedder, Jens Schlöter"
