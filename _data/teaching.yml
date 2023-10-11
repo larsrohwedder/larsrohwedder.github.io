@@ -1,3 +1,24 @@
+
+- time: "Fall'23"
+  role: "Coordinator / Tutor"
+  lecture: "Operations Management (Maastricht)"
+  translation: "Operations Management (Maastricht)"
+  
+- time: "Spring'23"
+  role: "Tutor"
+  lecture: "Quantitative Business (Maastricht)"
+  translation: "Quantitative Business (Maastricht)"
+  
+- time: "Spring'23"
+  role: "Lecturer"
+  lecture: "Randomized Algorithms (LNMB)"
+  translation: "Randomized Algorithms (LNMB)"
+
+- time: "Spring'23"
+  role: "Coordinator / Tutor"
+  lecture: "Advanced Algorithms (Maastricht)"
+  translation: "Advanced Algorithms (Maastricht)"
+
 - time: "Fall'22"
   role: "Coordinator / Tutor"
   lecture: "Algorithms and Optimisation (Maastricht)"
