@@ -1,3 +1,8 @@
+- authors: "Etienne Bamas, Sarah Morell, Lars Rohwedder"
+  title: "The Submodular Santa Claus Problem"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2407.04824"
+
 - authors: "Friedrich Eisenbrand, Lars Rohwedder, Karol Wegrzycki"
   title: "Sensitivity, Proximity and FPT Algorithms for Exact Matroid Problems"
   conference: "FOCS'24"
