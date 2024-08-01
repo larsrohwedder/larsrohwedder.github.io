@@ -1,4 +1,18 @@
+- time: "Spring'24"
+  role: "Coordinator / Tutor"
+  lecture: "Advanced Algorithms (Maastricht)"
+  translation: "Advanced Algorithms (Maastricht)"
+  
+- time: "Fall'23"
+  role: "Coordinator / Tutor"
+  lecture: "Algorithms and Optimisation (Maastricht)"
+  translation: "Algorithms and Optimisation (Maastricht)"
 
+- time: "Fall'23"
+  role: "Tutor"
+  lecture: "Supply Chain Operations Management (Maastricht)"
+  translation: "Supply Chain Operations Management (Maastricht)"
+  
 - time: "Fall'23"
   role: "Coordinator / Tutor"
   lecture: "Operations Management (Maastricht)"
