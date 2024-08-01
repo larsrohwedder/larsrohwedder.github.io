@@ -7,7 +7,7 @@ I am grateful to the NWO for funding my Open Competition M1 project ``Twilight Z
 
 **Supervision**
 - PhD student Leo Wennmann (2023-)
-- Long term visitor [Sarah Morell (2022)](https://www3.math.tu-berlin.de/coga/team/morell/)
+- Long term visitor [Sarah Morell (2023)](https://www3.math.tu-berlin.de/coga/team/morell/)
 - PhD student [Ashkan Safari (2021-)](https://ashkansafari.com/) (together with Tjark Vredeveld)
 
 In my personal life, I'm married and I have two dogs and a cat. Some of my hobbies can be seen in the gallery below.
