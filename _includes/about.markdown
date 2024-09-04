@@ -1,4 +1,6 @@
-I work as an Assistant Professor in Maastricht University (Netherlands).
+I will be moving to the University of Southern Denmark (SDU) in Odense soon! There I will work as an Associate Professor in the [algorithms group](https://algorithms.sdu.dk/)..
+
+Currently, I am an Assistant Professor in Maastricht University (Netherlands).
 Previously, I was a postdoc researcher in Ola Svensson's group at EPFL, Lausanne (Switzerland).
 Before that I have received my Ph.D. in computer science at CAU, Kiel (Germany) where I was
 adviced by Klaus Jansen. I am alumni of the Studienstiftung des deutschen Volkes (German Academic Scholarship Foundation).
