@@ -1,4 +1,4 @@
-### I will be moving to the University of Southern Denmark (SDU) in Odense soon! There I will work as an associate professor in the [algorithms group](https://algorithms.sdu.dk/).
+I will be moving to the University of Southern Denmark (SDU) in Odense soon! There I will work as an associate professor in the [algorithms group](https://algorithms.sdu.dk/).
 
 Currently, I am an assistant professor in Maastricht University (Netherlands).
 Previously, I was a postdoc researcher in Ola Svensson's group at EPFL, Lausanne (Switzerland).
