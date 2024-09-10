@@ -1,8 +1,3 @@
-- authors: "Etienne Bamas, Sarah Morell, Lars Rohwedder"
-  title: "The Submodular Santa Claus Problem"
-  conference: "preprint"
-  preprint: "https://arxiv.org/abs/2407.04824"
-
 - authors: "Lars Rohwedder, Karol Wegrzycki"
   title: "Space-Efficient Algorithm for Integer Programming with Few Constraints"
   conference: "preprint"
@@ -12,6 +7,11 @@
   title: "Fine-Grained Equivalence for Problems Related to Integer Linear Programming"
   conference: "preprint"
   preprint: "https://arxiv.org/abs/2409.03675"
+
+- authors: "Etienne Bamas, Sarah Morell, Lars Rohwedder"
+  title: "The Submodular Santa Claus Problem"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2407.04824"
 
 - authors: "Friedrich Eisenbrand, Lars Rohwedder, Karol Wegrzycki"
   title: "Sensitivity, Proximity and FPT Algorithms for Exact Matroid Problems"
