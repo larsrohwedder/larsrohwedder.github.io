@@ -1,7 +1,7 @@
-I will be moving to the University of Southern Denmark (SDU) in Odense soon! There I will work as an associate professor in the [algorithms group](https://algorithms.sdu.dk/).
+I am an associate professor at the [algorithms group](https://algorithms.sdu.dk/) of the University of Southern Denmark (SDU) in Odense.
 
-Currently, I am an assistant professor in Maastricht University (Netherlands).
-Previously, I was a postdoc researcher in Ola Svensson's group at EPFL, Lausanne (Switzerland).
+From 2022 to 2024, I was an assistant professor in Maastricht University (Netherlands).
+Between 2019 and 2021, I was a postdoc researcher in Ola Svensson's group at EPFL, Lausanne (Switzerland).
 Before that I have received my Ph.D. in computer science at CAU, Kiel (Germany) where I was
 adviced by Klaus Jansen. I am alumni of the Studienstiftung des deutschen Volkes (German Academic Scholarship Foundation).
 I will serve or have served in the program committees of STACS'25, [MAPSP'24](https://people.cs.pitt.edu/~kirk/MAPSP/), [ICALP'24](https://compose.ioc.ee/icalp2024/), [APPROX'23](https://approxconference.wordpress.com/), [SODA'23](https://www.siam.org/conferences/cm/conference/soda23), and [WAOA'20](http://algo2020.di.unipi.it/WAOA2020/).
