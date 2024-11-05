@@ -8,6 +8,7 @@ I will serve or have served in the program committees of STACS'25, [MAPSP'24](ht
 I am grateful to the NWO for funding my Open Competition M1 project ``Twilight Zone of Efficiency: Optimality of Quasi-Polynomial Time Algorithms".
 
 **Supervision**
+- Long term visitor [Leander Schnaars (2024-2025)](https://www.ot.mgt.tum.de/en/or/group/leander-schnaars/)
 - PhD student Leo Wennmann (2023-)
 - Long term visitor [Sarah Morell (2023)](https://www3.math.tu-berlin.de/coga/team/morell/)
 - PhD student [Ashkan Safari (2021-)](https://ashkansafari.com/) (together with Tjark Vredeveld)
