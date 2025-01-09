@@ -72,9 +72,20 @@
     <div class="container">
       <ul class="navbar-nav w-100 nav-justified text-nowrap" style="overflow-x: auto;">
       	{% for link in course.links %}
+	  {% if link.list %}
+          <li class="nav-item dropdown">
+  	      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
+	      <div class="dropdown-menu">
+		{% for item in link.list %}
+		<a class="dropdown-item" href="{{ item.href }}">{{ item.title }}</a>
+		{% endfor %}
+	      </div>
+	  </li>
+	  {% elsif %}
           <li class="nav-item">
 	    <a class="nav-link" href="{{ link.href }}">{{ link.title }}</a>
           </li>
+	  {% endif %}
 	{% endfor %}
       </ul>
     </div>

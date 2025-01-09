@@ -5,3 +5,9 @@ links:
     href: index
   - title: Resources
     href: res
+  - title: Study Notes
+    list:
+      - title: "Week 1"
+      - href: week1
+      - title: "Week 2"
+      - href: week2
