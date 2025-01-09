@@ -5,6 +5,8 @@ links:
     href: index
   - title: Resources
     href: res
+  - title: Course Plan
+    href: plan
   - title: Study Notes
     dropdown:
       - title: "Week 1"
