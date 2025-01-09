@@ -4,9 +4,9 @@ layout: teaching
 course_id: dm510-25
 ---
 
-Welcome to the course DM510 Operating Systems!
+Welcome to the course DM510 Operating Systems at IMADA, SDU!
 
-The course provides knowledge of the structure of computer systems, the interplay of hardware and software,
+This course provides knowledge of the structure of computer systems, the interplay of hardware and software,
 the role of operating systems in this task, and the resource abstractions provided by an operating system.
 
 Students will gain knowledge about actual operating systems, scheduling algorithms, security and protection mechanisms,
