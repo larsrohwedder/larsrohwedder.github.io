@@ -52,15 +52,7 @@
   <div class="jumbotron jumbotron-fluid mb-0 pt-3 pb-3" style="{{ page.banner }}">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center">
-        <div class="p-2 order-1"></div>
-        <div class="p-2 order-3">
-          <img src="assets/img/photo4.jpg" width="256px" height="256px" class="shadow-lg rounded-circle border border-light" style="border-width: 0.25rem !important;"></img>
-        </div>
-        <div class="p-2 order-2 flex-grow-1">
-          <div class="d-flex justify-content-center">
-		  <div class="p-2"><h3>{{ page.title }}</h3></div>
-          </div>
-        </div>
+	<div class="p-2"><h3>{{ page.title }}</h3></div>
       </div>
     </div>
   </div>
@@ -68,15 +60,11 @@
   <nav id="navbar" class="navbar sticky-top navbar-expand navbar-light bg-light mb-3 border">
     <div class="container">
       <ul class="navbar-nav w-100 nav-justified text-nowrap" style="overflow-x: auto;">
+      	{% for link in page.links %}
           <li class="nav-item">
-            <a class="nav-link" href="#">LINK 1</a>
+	    <a class="nav-link" href="{{ link.href }}">{{ link.title }}</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">LINK 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">LINK 3</a>
-          </li>
+	{% endfor %}
       </ul>
     </div>
   </nav>
