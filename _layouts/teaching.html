@@ -1,5 +1,6 @@
 ---
 ---
+{% assign course = data[page.course_id] %}
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -49,10 +50,14 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <div class="jumbotron jumbotron-fluid mb-0 pt-3 pb-3" style="min-height: 200px; {{ page.banner }}">
+  <div class="jumbotron jumbotron-fluid mb-0 pt-3 pb-3" style="{{ course.banner }}">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center">
-	<div class="p-2"><h3>{{ page.title }}</h3></div>
+        <div class="p-2 order-2 flex-grow-1">
+          <div class="d-flex justify-content-center">
+	    <div class="p-2"><h3>{{ page.title }}</h3></div>
+	  </div>
+	</div>
       </div>
     </div>
   </div>
@@ -60,7 +65,7 @@
   <nav id="navbar" class="navbar sticky-top navbar-expand navbar-light bg-light mb-3 border">
     <div class="container">
       <ul class="navbar-nav w-100 nav-justified text-nowrap" style="overflow-x: auto;">
-      	{% for link in page.links %}
+      	{% for link in course.links %}
           <li class="nav-item">
 	    <a class="nav-link" href="{{ link.href }}">{{ link.title }}</a>
           </li>

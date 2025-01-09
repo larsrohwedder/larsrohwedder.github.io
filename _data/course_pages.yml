@@ -1,0 +1,7 @@
+dm510-25:
+  banner: "min-height: 225px; background: url(/assets/img/os-logo.jpg) left top repeat;"
+  links:
+      - title: "Overview"
+        href: "index"
+      - title: Resources
+        href: "res"
