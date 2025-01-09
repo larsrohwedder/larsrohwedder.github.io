@@ -7,6 +7,9 @@
   title: "Fine-Grained Equivalence for Problems Related to Integer Linear Programming"
   conference: "ITCS'25"
   preprint: "https://arxiv.org/abs/2409.03675"
+  other: 
+    - link: "https://www.youtube.com/watch?v=FYotfv52p7o"
+      title: "Video (by Karol)"
 
 - authors: "Etienne Bamas, Sarah Morell, Lars Rohwedder"
   title: "The Submodular Santa Claus Problem"

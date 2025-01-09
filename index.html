@@ -128,6 +128,11 @@
           {% if paper.video %}
           <a href="{{paper.video}}" target="_blank" class="card-link">Video</a>
           {% endif %}
+          {% if paper.other %}
+      		{% for other in paper.other %}
+		<a href="{{other.link}}" target="_blank" class="card-link">{{other.title}}</a>
+		 {% endfor %}
+          {% endif %}
         </div>
       </div>
       {% endfor %}
