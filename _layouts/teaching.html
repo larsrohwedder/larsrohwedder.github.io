@@ -76,11 +76,12 @@
 
   <div class="container">
 
-{% for c in site.data.courses %}
-  a {{ c.id }}
+{% for course_hash in site.data.courses %}
+a {{ course_hash[1].id }}
   b {{ page.course_id }}
-  {% if c.id == page.course_id %}
+  {% if course_hash[1].id == page.course_id %}
     {% assign course = c %}
+    success {{ course }}
   {% endif %}
 {% endfor %}
 
