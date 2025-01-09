@@ -6,6 +6,7 @@ course_id: dm510-25
 
 ### Lectures
 
+{: .table .table-striped}
 |   Date     |              Topic           | Relevant Book Chapter |
 | ---------- | ---------------------------- | --------------------- |
 | 04-02-2025 | Introduction, Overview       | Chapter 1             |
