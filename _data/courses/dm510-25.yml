@@ -6,7 +6,7 @@ links:
   - title: Resources
     href: res
   - title: Study Notes
-    list:
+    dropdown:
       - title: "Week 1"
       - href: week1
       - title: "Week 2"

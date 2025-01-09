@@ -72,11 +72,11 @@
     <div class="container">
       <ul class="navbar-nav w-100 nav-justified text-nowrap" style="overflow-x: auto;">
       	{% for link in course.links %}
-	  {% if link.list %}
+	  {% if link.dropdown %}
           <li class="nav-item dropdown">
   	      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
 	      <div class="dropdown-menu">
-		{% for item in link.list %}
+		{% for item in link.dropdown %}
 		<a class="dropdown-item" href="{{ item.href }}">{{ item.title }}</a>
 		{% endfor %}
 	      </div>
