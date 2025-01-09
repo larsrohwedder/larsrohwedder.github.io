@@ -1,10 +1,6 @@
 ---
 ---
-{% for c in data.courses %}
-  {% if c.id == page.course_id %}
-    {% assign course = c %}
-  {% endif %}
-{% endfor %}
+
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -79,6 +75,14 @@
   </nav>
 
   <div class="container">
+{% for c in data.courses %}
+  a {{ c.id }}
+  b {{ page.course_id }}
+  {% if c.id == page.course_id %}
+    {% assign course = c %}
+  {% endif %}
+{% endfor %}
+
 	  {{ content }}
   </div>
   
