@@ -1,7 +1,7 @@
 ---
 ---
 {% for c in data.courses %}
-  {% if c.id == course_id %}
+  {% if c.id == page.course_id %}
     {% assign course = c %}
   {% endif %}
 {% endfor %}
