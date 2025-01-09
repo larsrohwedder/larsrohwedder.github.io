@@ -75,7 +75,8 @@
   </nav>
 
   <div class="container">
-{% for c in data.courses %}
+
+{% for c in site.data.courses %}
   a {{ c.id }}
   b {{ page.course_id }}
   {% if c.id == page.course_id %}
