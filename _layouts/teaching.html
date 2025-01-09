@@ -1,6 +1,10 @@
 ---
 ---
-{% assign course = data.course_pages[page.course_id] %}
+{% for c in data.courses %}
+  {% if c.id = course_id %}
+    {% assign course = c %}
+  {% endif %}
+{% endfor %}
 <!doctype html>
 <html class="no-js" lang="">
 
