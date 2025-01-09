@@ -1,6 +1,12 @@
 ---
 ---
 
+{% for course_hash in site.data.courses %}
+  {% if course_hash[1].id == page.course_id %}
+    {% assign course = course_hash[1] %}
+  {% endif %}
+{% endfor %}
+
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -75,16 +81,6 @@
   </nav>
 
   <div class="container">
-
-{% for course_hash in site.data.courses %}
-a {{ course_hash[1].id }}
-  b {{ page.course_id }}
-  {% if course_hash[1].id == page.course_id %}
-    {% assign course = c %}
-    success {{ course }}
-  {% endif %}
-{% endfor %}
-
 	  {{ content }}
   </div>
   
