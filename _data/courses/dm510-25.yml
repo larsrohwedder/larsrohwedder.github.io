@@ -1,5 +1,5 @@
 id: "dm510-25"
-title: "DM510 Operating Systems"
+title: "DM510"
 banner: "min-height: 225px; background: url(/assets/img/os-logo.jpg) left top repeat;"
 links:
   - title: Overview
@@ -8,9 +8,3 @@ links:
     href: res
   - title: Course Plan
     href: plan
-  - title: Study Notes
-    dropdown:
-      - title: "Week 1"
-      - href: week1
-      - title: "Week 2"
-      - href: week2
