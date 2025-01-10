@@ -1,3 +1,8 @@
+- authors: "Lars Rohwedder"
+  title: "ETH-Tight FPT Algorithm for Makespan Minimization on Uniform Machines"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2501.04859"
+
 - authors: "Lars Rohwedder, Karol Wegrzycki"
   title: "Space-Efficient Algorithm for Integer Programming with Few Constraints"
   conference: "preprint"

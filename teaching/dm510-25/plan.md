@@ -25,3 +25,6 @@ Note that the information on this page may be subject to changes during the run 
 
 There will be a written exam at the end of the course. It will count as 80% of the grade and
 the programming projects count as 20% of the grade. Both parts have to be passed.
+
+The topics are the following:
+- Chapter 1+2 
