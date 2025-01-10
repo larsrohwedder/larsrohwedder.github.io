@@ -58,14 +58,10 @@
   <![endif]-->
 
   <div class="jumbotron jumbotron-fluid mb-0 pt-3 pb-3" style="{{ course.banner }}">
-    <div class="container">
-      <div class="d-flex align-items-center" height="225px">
-	<div class="p-2"><h3>{{ page.title }}</h3></div>
-      </div>
-    </div>
   </div>
 
   <nav id="navbar" class="navbar sticky-top navbar-expand navbar-light bg-light mb-3 border">
+    <a class="navbar-brand mb-0 h1">{{ course.title }}</a>
     <div class="container">
       <ul class="navbar-nav w-100 nav-justified text-nowrap" style="overflow-x: auto;">
       	{% for link in course.links %}
