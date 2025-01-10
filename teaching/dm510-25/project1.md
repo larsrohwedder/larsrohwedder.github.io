@@ -10,6 +10,7 @@ course_id: dm510-25
 In this assignment, your task is to add system calls to User-mode Linux (UML), that implement a message box in kernel space.
 
 {: .card .text-white .bg-warning .mb-3 }
+{: .card-body }
 Before staring working on this assignment, make sure you have a running user mode linux kernel, and that you followed the description of how to add a Linux system call. The system calls that you have to implement are more complex and useful.
 
 ## The System Calls
@@ -128,8 +129,73 @@ You could try to insert the `dm510_msgbox_put` and `dm510_msgbox_get` function d
 
 Note: all the functions mentioned below, can be used in your own kernel source file, if you include **linux/slab.h** and **linux/uaccess.h**.
 
+# Memory allocation
+Memory allocation and deallocation in the Linux kernel is not done with the usual malloc and free. Instead you have to use kmalloc and kfree
 
+For further information have a look at the corresponding linux kernel man pages for example here (or for more details here, potentially outdated).
 
+# Address translation
+An address from user-space does not map to the same physical address in kernel-space (cf. Operating System Concepts: Chapter 9). The Linux Kernel has special functions to translate user-space addresses in kernel-space. Three of these are particularly helpful for this assignment:
 
+* `access_ok(char* addr, int n)`: Checks whether it is safe to read (or write) n bytes from the user space address addr.
+* `copy_to_user(char* to, char* from, int n)`: Copies n bytes from the kernel address from to the user address to.
+* `copy_from_user(char* to, char* from, int n)`: Copies n bytes from the user address from to the kernel address to.
 
+( For further information, have a look at the kernel API, for even more details look in Chapter 3 of the [Linux Device Driver book](https://lwn.net/Kernel/LDD3/) (page 64,65). )
+
+# Parameter checking and error handling
+The simple version above is not checking its parameters at all. This means that if you call the function with invalid parameters, e.g. a wrong `length < 0`, the function would fail or cause unpredictable results. A system call must not be able to fail uncontrolled, because it could bring the kernel down.
+
+For example, a system call that does not check user addresses could unintentionally overwrite parts of the kernels memory, which would leave the kernel in an invalid state. The functions described in the previous section return a non-zero value if there are problems accessing user addresses. `kmalloc` returns a `NULL` pointer, if it is unable to allocate memory.
+
+When a system call detects an error it has to return an error code to make the caller aware of what has happened. In case of an error the function that implements the system call must return the negative value of the code that defines the error. Error codes used by other system calls are defined in **include/uapi/asm-generic/errno.h** and **include/uapi/asm-generic/errno-base.h** and these will suffice for this assignment.
+
+`man errno` and `man perror` describes how errors are handled in user-space.
+
+# Concurrency
+Unless special measures are taken any function in Linux including a system call may be interrupted. If the system call is in some critical region, this may cause problems. As an example of this, consider two processes that call the `dm510_msgbox` system call almost simultaneously. While the first process has partly updated the message box data structures with a new message, this process is interrupted, and the second process subsequently fails to update the data structures correctly.
+
+To ensure that this does not happen, interrupts can be temporarily disabled using `local_irq_save` and `local_irq_restore`.
+{% highlight C }
+unsigned long flags;
+
+local_irq_save(flags);
+
+/* critical region */
+
+local_irq_restore(flags);
+{% endhighlight }
+`local_irq_save` saves the current processor state and disables interrupts, `local_irq_restore` restores the processor state, including enabling interrupts. You can find the definition of these two macro’s (that is why it works with the flags parameter directly) in the file **include/linux/irqflags.h** and you can read a bit more here: [https://litux.nl/mirror/kerneldevelopment/0672327201/ch06lev1sec7.html]
+
+Later in the course you will learn how this could be done in a smarter way, e.g., by using semaphores. For more information, have a look at [Documentation/cli-sti-removal.txt](https://lwn.net/Articles/5512/).
+
+## Report / Submission
+The report must be short and precise (maximum 10 pages, English language, without source code). Please follow the rules for Scientific Writing. Remember that you must prove that you have understood the problems and solutions.
+
+The clear and well-structured report must include the following:
+
+* A small introduction.
+* A description of the design decisions you have made.
+    - This section should also answer what would happen if multiple processes simultaneously want to access the message box.
+* A description of your implementation. Here, it is fine to use snippets of interesting code, where you explain what you have done.
+* A description of the tests you have made and the motivation for these. The tests must be able to verify that your solution works correctly with both valid and invalid call parameters.
+* A small conclusion.
+
+The source code (files you have edited), you should put in the appendix (and that does not count as the 10 pages).
+
+For submitting the report, the sources, and the desktop session, proceed as follows: Create the following directory structure
+
+{% highlight C }
+assignment1/
+assignment1/report/
+assignment1/sources/
+{% endhighlight }
+
+Put your report, sources, and video in the corresponding directory. The sources should not include the source code of the complete Linux kernel, but only the files you changed and those files you added. The report direcory and the sources directory should not contain more than 10MB of data. If this constraint is not fulfilled the submission will be not considered.
+
+Package and compress with the directory with zip -r assignment1 assignment1. Submit the created zip file in itslearning.
+
+As this project is quite resource consuming, please take care, that you clean up your home directory and that you remove unneeded files as soon as possible.
+
+## Frequently Asked Questions (FAQ)
 
