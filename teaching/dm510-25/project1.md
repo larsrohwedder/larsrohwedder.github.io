@@ -156,7 +156,7 @@ When a system call detects an error it has to return an error code to make the c
 Unless special measures are taken any function in Linux including a system call may be interrupted. If the system call is in some critical region, this may cause problems. As an example of this, consider two processes that call the `dm510_msgbox` system call almost simultaneously. While the first process has partly updated the message box data structures with a new message, this process is interrupted, and the second process subsequently fails to update the data structures correctly.
 
 To ensure that this does not happen, interrupts can be temporarily disabled using `local_irq_save` and `local_irq_restore`.
-{% highlight C }
+{% highlight C %}
 unsigned long flags;
 
 local_irq_save(flags);
@@ -164,7 +164,7 @@ local_irq_save(flags);
 /* critical region */
 
 local_irq_restore(flags);
-{% endhighlight }
+{% endhighlight %}
 `local_irq_save` saves the current processor state and disables interrupts, `local_irq_restore` restores the processor state, including enabling interrupts. You can find the definition of these two macro’s (that is why it works with the flags parameter directly) in the file **include/linux/irqflags.h** and you can read a bit more here: [https://litux.nl/mirror/kerneldevelopment/0672327201/ch06lev1sec7.html]
 
 Later in the course you will learn how this could be done in a smarter way, e.g., by using semaphores. For more information, have a look at [Documentation/cli-sti-removal.txt](https://lwn.net/Articles/5512/).
@@ -185,11 +185,11 @@ The source code (files you have edited), you should put in the appendix (and tha
 
 For submitting the report, the sources, and the desktop session, proceed as follows: Create the following directory structure
 
-{% highlight C }
+{% highlight C %}
 assignment1/
 assignment1/report/
 assignment1/sources/
-{% endhighlight }
+{% endhighlight %}
 
 Put your report, sources, and video in the corresponding directory. The sources should not include the source code of the complete Linux kernel, but only the files you changed and those files you added. The report direcory and the sources directory should not contain more than 10MB of data. If this constraint is not fulfilled the submission will be not considered.
 
