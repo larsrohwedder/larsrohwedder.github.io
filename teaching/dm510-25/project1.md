@@ -123,7 +123,7 @@ The return value of the two system calls has to be implemented as follows:
 ## Approaching the Problem
 You could try to insert the `dm510_msgbox_put` and `dm510_msgbox_get` function directly into the kernel, but this would not work. In order to make it work you must address the following issues.
 
-Note: all the functions mentioned below, can be used in your own kernel source file, if you include `linux/slab.h` and `linux/uaccess.h`.
+Note: all the functions mentioned below, can be used in your own kernel source file, if you include **linux/slab.h** and **linux/uaccess.h**.
 
 
 
