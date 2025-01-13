@@ -44,7 +44,7 @@ To make this a working copy of UML you also need a root filesystem, that you can
 {% highlight terminal %}
 wget https://fs.devloop.org.uk/filesystems/Fedora21/Fedora21-AMD64-root_fs.bz2
 bzip2 -d Fedora21-AMD64-root_fs.bz2
-mv Fedora21-AMD64-root_fs.bz2 root_fs
+mv Fedora21-AMD64-root_fs root_fs
 {% endhighlight %}
 
 You are now ready to start compiling the kernel and using UML.
