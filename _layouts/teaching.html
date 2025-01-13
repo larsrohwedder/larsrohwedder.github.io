@@ -61,9 +61,9 @@
   </div>
 
   <nav id="navbar" class="navbar sticky-top navbar-expand navbar-light bg-light mb-3 border">
-    <div class="container w-100 text-nowrap" style="overflow-x: auto;">
+    <div class="container d-flex w-100 text-nowrap" style="overflow-x: auto;">
       <a class="navbar-brand mb-0 h1">{{ course.title }}</a>
-      <ul class="navbar-nav nav-justified">
+      <ul class="navbar-nav nav-justified flex-grow-1">
       	{% for link in course.links %}
 	  {% if link.dropdown %}
           <li class="nav-item dropdown">
