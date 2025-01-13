@@ -1,3 +1,9 @@
+---
+title: DM510 Operating Systems
+layout: teaching
+course_id: dm510-25
+---
+
 ### User Mode Linux
 
 ## Introduction
