@@ -9,9 +9,7 @@ course_id: dm510-25
 ## Introduction
 In this assignment, your task is to add system calls to User-mode Linux (UML), that implement a message box in kernel space.
 
-{: .card .text-white .bg-warning .mb-3 }
-{: .card-body }
-Before staring working on this assignment, make sure you have a running user mode linux kernel, and that you followed the description of how to add a Linux system call. The system calls that you have to implement are more complex and useful.
+{% include class=".text-white .bg-warning" text="Before starting to work on this assignment, make sure you have a running user mode linux kernel, and that you followed the description of how to add a Linux system call. The system calls that you have to implement are more complex and useful." %}
 
 ## The System Calls
 Message passing is a method of interprocess communication. Basically, the idea is that processes send small messages / byte arrays to each other using either the operating system or in some other way (e.g., MPI). Often this way of communication is used in distributed systems or in general when shared memory is not possible. Message-passing systems in general is covered in Section 3.6 in the Operating System Concepts book.
@@ -24,7 +22,7 @@ To make things simple the message box should be implemented as a stack, i.e., in
 The code below is a simple user-space version of the message box system call.
 
 **dm510_msgbox.h**
-```C
+{% highlight C %}
 #ifndef __DM510_MSGBOX_H__
 #define __DM510_MSGBOX_H__
 
@@ -32,7 +30,7 @@ int dm510_msgbox_put( char*, int );
 int dm510_msgbox_get( char*, int );
 
 #endif
-```
+{% endhighlight %}
 
 **dm510_msgbox.c**
 {% highlight C %}

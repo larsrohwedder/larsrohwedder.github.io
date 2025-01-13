@@ -16,9 +16,8 @@ Students will work on several programming assignments (system call, kernel modul
 
 ### Teaching Team
 
-![Rohwedder](/assets/img/photo3.jpg)
-Your lecturer is [Lars Rohwedder](mailto:rohwedder@imada.sdu.dk).
+{% include box.html img="/assets/img/photo3.jpg" title="Your Lecturer" text="Associate Professor Lars Rohwedder ([rohwedder@sdu.dk](mailto:rohwedder@sdu.dk)) %}
 
-The tutor of both sections is Eva Agerbo Rindom.
+{% include box.html title="Your Tutor" text="Eva Agerbo Rindom" %}
 
 

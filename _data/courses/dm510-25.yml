@@ -1,6 +1,6 @@
 id: "dm510-25"
 title: "DM510"
-banner: "min-height: 225px; background: url(/assets/img/os-logo.jpg) left top repeat 95% 100%;"
+banner: "min-height: 225px; background: url(/assets/img/os-logo.jpg) left top repeat; background-size: 95% 100%;"
 links:
   - title: Overview
     href: index
