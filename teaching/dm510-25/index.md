@@ -27,4 +27,4 @@ room O17-602a-2
 
 {% include box.html title="Your Tutor" text="Eva Agerbo Rindom" %}
 
-
+Some of the materials in this course go back to previous lecturers, including Jakob Aae Mikkelsen and Daniel Merkle.
