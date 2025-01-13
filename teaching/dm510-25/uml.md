@@ -6,7 +6,7 @@ In the following we describe how to install and use User-mode Linux (UML) for DM
 Everything was tested on the virtual IMADA Computer Lab machines that run Ubuntu 20.04 LTS.
 
 **The version of the IMADA lab (as of January 13th. 2024)**
-{% highlight %}
+{% highlight terminal %}
 $ lsb_release -a
 No LSB modules are available.
 Distributor ID:	Ubuntu
@@ -19,13 +19,13 @@ You can login to the Computer Lab machines via the ssh command, see here how to 
 
 ## How to install User-mode Linux at IMADA
 Login at any IMADA machine and write
-{% highlight %}
+{% highlight terminal %}
 mkdir dm510
 cd dm510
 {% endhighlight %}
 
 Next, get the source code for the Linux kernel 6.6.9 and unpack it (specifically the tar command will take a while!)
-{% highlight %}
+{% highlight terminal %}
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.9.tar.xz
 unxz linux-6.6.9.tar.xz
 tar -xvf linux-6.6.9.tar
@@ -33,12 +33,12 @@ rm linux-6.6.9.tar
 {% endhighlight %}
 
 Enter the directory containing the kernel source files:
-{% highlight %}
+{% highlight terminal %}
 cd linux-6.6.9
 {% endhighlight %}
 
 To make this a working copy of UML you also need a root filesystem, that you can copy to your directory. The filesystem is based on a Debian 12 (bookworm) Note, that the root filesystem has a size of approx. 500MB, and that the uncompressed compiled kernel uses approx. 2.1GB.
-{% highlight %}
+{% highlight terminal %}
 wget https://dm510-24.grydeske.dk/material/root_fs
 {% endhighlight %}
 
@@ -46,13 +46,13 @@ You are now ready to start compiling the kernel and using UML.
 
 ## How to compile User-mode Linux
 We need a configuration file fore compiling the linux kernel. Create it with
-{% highlight %}
+{% highlight terminal %}
 make defconfig ARCH=um
 {% endhighlight %}
 
 Now we’re ready to compile the kernel. Do it with
 
-{% highlight %}
+{% highlight terminal %}
 make ARCH=um linux
 {% endhighlight %}
 
@@ -60,24 +60,24 @@ and have a cup of coffee or tea, because this will take a while. When the compil
 
 ## How to run User-mode Linux
 User mode linux is started with
-{% highlight %}
+{% highlight terminal %}
 ./linux
 {% endhighlight %}
 
 Note that the boot process ends with messages similar to
-{% highlight %}
+{% highlight terminal %}
 Virtual console 1 assigned device '/dev/pts/2'
 Virtual console 2 assigned device '/dev/pts/3'
 {% endhighlight %}
 
 This allows you to get additional interactive shells using the command
-{% highlight %}
+{% highlight terminal %}
 screen /dev/pts/2
 {% endhighlight %}
 (see FAQ below).
 
 When running UML, you can login using the user name root with no password. If you want to access data from your home directory inside UML, you have to mount the corresponding directory. This is done with
-{% highlight %}
+{% highlight terminal %}
 mkdir /mnt/tmp
 mount none /mnt/tmp -t hostfs -o /home/your_imada_login/dm510
 {% endhighlight %}
