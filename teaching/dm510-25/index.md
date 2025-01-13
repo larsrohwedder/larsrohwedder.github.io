@@ -23,7 +23,7 @@ Associate Professor
 
 room O17-602a-2
 
-([rohwedder@sdu.dk](mailto:rohwedder@sdu.dk))" %}
+[rohwedder@sdu.dk](mailto:rohwedder@sdu.dk)" %}
 
 {% include box.html title="Your Tutor" text="Eva Agerbo Rindom" %}
 

@@ -14,7 +14,7 @@ The information on this page may be subject to changes during the run of the sem
 | 06-02-2025 | Operating Systems Structures | Chapter 2             |
 
 ### Tutorials
-Please see your individual calendar for date.
+Please see your individual calendar for the exact date.
 
 ### Programming Projects
 
