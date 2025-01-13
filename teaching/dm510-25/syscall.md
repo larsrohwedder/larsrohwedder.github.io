@@ -4,7 +4,6 @@ layout: teaching
 course_id: dm510-25
 ---
 
-
 # Adding a System Call
 This document describes how to add a system call to User-mode Linux to the linux-6.6.9 kernel. Make sure you have a running UML kernel (see separate [instruction](uml)). Understanding this will be a prerequisite to solve the first mandatory assignment.
 

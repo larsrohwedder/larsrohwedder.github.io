@@ -4,21 +4,21 @@ layout: teaching
 course_id: dm510-25
 ---
 
-### Project 1: System Call
+# Project 1: System Call
 
-## Introduction
+### Introduction
 In this assignment, your task is to add system calls to User-mode Linux (UML), that implement a message box in kernel space.
 
 {% include box.html style=".text-white .bg-warning" text="Before starting to work on this assignment, make sure you have a running user mode linux kernel, and that you followed the description of how to add a Linux system call. The system calls that you have to implement are more complex and useful." %}
 
-## The System Calls
+### The System Calls
 Message passing is a method of interprocess communication. Basically, the idea is that processes send small messages / byte arrays to each other using either the operating system or in some other way (e.g., MPI). Often this way of communication is used in distributed systems or in general when shared memory is not possible. Message-passing systems in general is covered in Section 3.6 in the Operating System Concepts book.
 
 Your task is to make two system calls that give processes access to a small message box residing in kernel-space. The system calls must make it possible to retrieve messages from the message box into the address-space (user-space) of the calling process. Also, it must be possible to write a message from the calling process into the message box.
 
 To make things simple the message box should be implemented as a stack, i.e., incoming messages are put at the top of the stack, and outgoing messages are also read from the top of the stack. Messages are only to be read once, i.e., they are removed from the stack immediately after retrieval.
 
-## Simple user-space version
+### Simple user-space version
 The code below is a simple user-space version of the message box system call.
 
 **dm510_msgbox.h**
@@ -122,7 +122,7 @@ The return value of the two system calls has to be implemented as follows:
 * `dm510_msgbox_put`: If the message was appended to the queue without any problems, 0 should be returned. Otherwise some negative value should be returned (more about this later).
 * `dm510_msgbox_get`: If a message was retrieved from the message box without any problems, the length of this message should be returned (note: this could be 0 in case of an empty message). Otherwise some negative value should be returned (more about this later).
 
-## Approaching the Problem
+### Approaching the Problem
 You could try to insert the `dm510_msgbox_put` and `dm510_msgbox_get` function directly into the kernel, but this would not work. In order to make it work you must address the following issues.
 
 Note: all the functions mentioned below, can be used in your own kernel source file, if you include **linux/slab.h** and **linux/uaccess.h**.
@@ -167,7 +167,7 @@ local_irq_restore(flags);
 
 Later in the course you will learn how this could be done in a smarter way, e.g., by using semaphores. For more information, have a look at [Documentation/cli-sti-removal.txt](https://lwn.net/Articles/5512/).
 
-## Report / Submission
+### Report / Submission
 The report must be short and precise (maximum 10 pages, English language, without source code). Please follow the rules for Scientific Writing. Remember that you must prove that you have understood the problems and solutions.
 
 The clear and well-structured report must include the following:
@@ -195,5 +195,5 @@ Package and compress with the directory with zip -r assignment1 assignment1. Sub
 
 As this project is quite resource consuming, please take care, that you clean up your home directory and that you remove unneeded files as soon as possible.
 
-## Frequently Asked Questions (FAQ)
+### Frequently Asked Questions (FAQ)
 
