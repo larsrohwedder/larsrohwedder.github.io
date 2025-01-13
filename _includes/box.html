@@ -1,4 +1,4 @@
-<div class="card mb-3 {{ include.class }}">
+<div class="card mb-3 {{ include.style }}">
   <div class="row g-0">
   {% if include.img %}
     <div class="col-md-4">
@@ -10,7 +10,7 @@
   {% if include.title %}
   <h5 class="card-title">{{ include.title }}</h5>
   {% endif %}
-        <p class="card-text">{{ include.text }}</p>
+        <p class="card-text">{{ include.text | markdownify }}</p>
       </div>
     </div>
   </div>
