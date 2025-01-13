@@ -1,0 +1,18 @@
+<div class="card mb-3 {{ parameter.class }}">
+  <div class="row g-0">
+  {% if parameter.img %}
+    <div class="col-md-4">
+      <img src="{{ parameter.img }}" class="img-fluid rounded-start">
+    </div>
+  {% endif %}
+    <div class="col-md-8">
+      <div class="card-body">
+  {% if parameter.title %}
+  <h5 class="card-title">{{ parameter.title }}</h5>
+  {% endif %}
+        <p class="card-text">{{ parameter.text }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
