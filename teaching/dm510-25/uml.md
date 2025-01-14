@@ -40,11 +40,10 @@ Enter the directory containing the kernel source files:
 cd linux-6.6.9
 {% endhighlight %}
 
-To make this a working copy of UML you also need a root filesystem, that you can copy to your directory. The filesystem is based on a Fedora 21. Note, that the root filesystem has a size of approx. 200MB, and that the uncompressed compiled kernel uses approx. 2.1GB.
+To make this a working copy of UML you also need a root filesystem, that you can copy to your directory. The filesystem is based on Debian 12. Note, that the root filesystem has a size of approx. 200MB, and that the uncompressed compiled kernel uses approx. 2.1GB.
 {% highlight terminal %}
-wget https://fs.devloop.org.uk/filesystems/Fedora21/Fedora21-AMD64-root_fs.bz2
-bzip2 -d Fedora21-AMD64-root_fs.bz2
-mv Fedora21-AMD64-root_fs root_fs
+wget https://larsrohwedder.com/teaching/dm510-25/root_fs.bz2
+bunzip2 -d root_fs.bz2
 {% endhighlight %}
 
 You are now ready to start compiling the kernel and using UML.

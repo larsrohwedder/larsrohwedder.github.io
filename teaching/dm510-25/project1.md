@@ -46,7 +46,6 @@ struct _msg_t{
   char* message;
 };
 
-static msg_t *bottom = NULL;
 static msg_t *top = NULL;
 
 int dm510_msgbox_put( char *buffer, int length ) {
@@ -56,8 +55,7 @@ int dm510_msgbox_put( char *buffer, int length ) {
   msg->message = malloc(length);
   memcpy(msg->message, buffer, length);
 
-  if (bottom == NULL) {
-    bottom = msg;
+  if (top == NULL) {
     top = msg;
   } else {
     /* not empty stack */
@@ -72,6 +70,10 @@ int dm510_msgbox_get( char* buffer, int length ) {
     msg_t* msg = top;
     int mlength = msg->length;
     top = msg->previous;
+
+    if (length < mlength) {
+      return -2;
+    }
 
     /* copy message */
     memcpy(buffer, msg->message, mlength);
