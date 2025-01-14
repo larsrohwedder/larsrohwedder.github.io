@@ -33,7 +33,7 @@ The information on this page may be subject to changes during the run of the sem
 Please see your individual calendar for the exact date.
 
 {: .table .table-striped}
-Week  |              Topic           | Exercises        |
+| Week  |              Topic           | Exercises        |
 | ----- | ---------------------------- | ---------------- |
 | 7     | Chapter 1+2                  | TBD              |
 | 8     | Chapter 3+4                  | TBD              |
