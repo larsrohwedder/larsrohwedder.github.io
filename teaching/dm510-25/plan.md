@@ -33,18 +33,18 @@ Week |   Date     |              Topic              | Relevant Book Chapter(s) |
 ### Tutorials
 Please see your individual calendar for the exact date.
 {: .table .table-striped}
- Week  |              Topic           | Exercises        |
------- | ---------------------------- | ---------------- |
- 7     | Chapter 1+2                  | TBD              |
- 8     | Chapter 3+4                  | TBD              |
- 9     | Chapter 6+7                  | TBD              |
- 10    | Chapter 8                    | TBD              |
- 11    | Chapter 9+10                 | TBD              |
- 12    | Chapter 11                   | TBD              |
- 13    | Chapter 12                   | TBD              |
- 14    | Chapter 13+14+15             | TBD              |
- 15    | Chapter 16+17                | TBD              |
- 17    | Chapter 18+19                | TBD              |
+Week  |              Topic           | Exercises        |
+----- | ---------------------------- | ---------------- |
+7     | Chapter 1+2                  | TBD              |
+8     | Chapter 3+4                  | TBD              |
+9     | Chapter 6+7                  | TBD              |
+10    | Chapter 8                    | TBD              |
+11    | Chapter 9+10                 | TBD              |
+12    | Chapter 11                   | TBD              |
+13    | Chapter 12                   | TBD              |
+14    | Chapter 13+14+15             | TBD              |
+15    | Chapter 16+17                | TBD              |
+17    | Chapter 18+19                | TBD              |
 
 ### Programming Projects
 
