@@ -9,7 +9,7 @@ The information on this page may be subject to changes during the run of the sem
 
 {: .table .table-striped}
 Week |   Date     |              Topic              | Relevant Book Chapter(s) |
------| ---------- | ------------------------------- | ------------------------ |
+---- | ---------- | ------------------------------- | ------------------------ |
 6    | 03-02-2025 | Introduction, Overview          | Chapter 1                |
 6    | 06-02-2025 | Operating Systems Structures    | Chapter 2                |
 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3                |
@@ -34,6 +34,7 @@ Week |   Date     |              Topic              | Relevant Book Chapter(s) |
 Please see your individual calendar for the exact date.
 {: .table .table-striped}
  Week  |              Topic           | Exercises        |
+------ | ---------------------------- | ---------------- |
  7     | Chapter 1+2                  | TBD              |
  8     | Chapter 3+4                  | TBD              |
  9     | Chapter 6+7                  | TBD              |
@@ -50,9 +51,9 @@ Please see your individual calendar for the exact date.
 {: .table .table-striped}
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
-| 04-02-2025 | 06-02-2025 |  [System Call](project1)    |                |
-| 06-02-2025 |            |  [Kernel Module](project2)  |                |
-| 06-02-2025 |            |  [File System](project3)  |                |
+| 06-02-2025 | 04-03-2025 |  System Call                |                |
+| 04-03-2025 | 01-04-2025 |  Device Driver              |                |
+| 01-04-2025 | 05-05-2025 |  File System                |                |
 
 ### Exam and Assessment
 
