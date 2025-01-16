@@ -21,6 +21,10 @@
   conference: "SODA'25"
   preprint: "https://arxiv.org/abs/2407.04824"
 
+- authors: "Lars Rohwedder, Ashkan Safari, Tjark Vredeveld
+  title: "Smoothed analysis of the k-swap neighborhood for makespan scheduling"
+  conference: "OR Letters'25"
+
 - authors: "Friedrich Eisenbrand, Lars Rohwedder, Karol Wegrzycki"
   title: "Sensitivity, Proximity and FPT Algorithms for Exact Matroid Problems"
   conference: "FOCS'24"
