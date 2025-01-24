@@ -62,5 +62,5 @@ the remaining 20% coming from the the programming projects. Both parts have to b
 
 The topics of the exam are the following:
 - The book chapters mentioned in the lecture list restricted to content discussed in lectures and exercise sessions (see slides and exercise sheets).
-- Exam exercise comparable to those on exercise sheets
+- Exam exercises comparable to those on exercise sheets
 - One exercise to test rudimentary knowledge of topics from programming projects
