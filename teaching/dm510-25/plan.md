@@ -8,7 +8,7 @@ The information on this page may be subject to changes during the run of the sem
 ### Lectures
 
 {: .table .table-striped}
-| Week |   Date     |              Topic              | Relevant Book Chapter(s) |
+| Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 03-02-2025 | Introduction, Overview          | Chapter 1                |
 | 6    | 06-02-2025 | Operating Systems Structures    | Chapter 2                |
@@ -51,9 +51,9 @@ Please see your individual calendar for the exact date.
 {: .table .table-striped}
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
-| 06-02-2025 | 04-03-2025 |  System Call                |                |
-| 04-03-2025 | 01-04-2025 |  Device Driver              |                |
-| 01-04-2025 | 05-05-2025 |  File System                |                |
+| 06-02-2025 | 04-03-2025 |  System Call                | TBD            |
+| 04-03-2025 | 08-04-2025 |  Kernel Module              | TBD            |
+| 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 
 ### Exam and Assessment
 
@@ -61,4 +61,6 @@ There is a written exam at the end of the course. It counts as 80% of the grade 
 the remaining 20% coming from the the programming projects. Both parts have to be passed.
 
 The topics of the exam are the following:
-- Chapter 1+2 
+- The book chapters mentioned in the lecture list restricted to content discussed in lectures and exercise sessions (see slides and exercise sheets).
+- Exam exercise comparable to those on exercise sheets
+- One exercise to test rudimentary knowledge of topics from programming projects

@@ -12,4 +12,9 @@ Note, that there is an International and a US version of the book. It should not
 
 ### Course-Specific Instructions
 
-- [User-Mode Linux](uml)
+TBD
+[//]: <> - [User-Mode Linux](uml)
+
+### Command-line Tools used in course
+
+TBD
