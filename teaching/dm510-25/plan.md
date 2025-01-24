@@ -7,6 +7,7 @@ course_id: dm510-25
 The information on this page may be subject to changes during the run of the semester.
 ### Lectures
 
+{: .table-responsive}
 {: .table .table-striped}
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
@@ -32,6 +33,7 @@ The information on this page may be subject to changes during the run of the sem
 ### Tutorials
 Please see your individual calendar for the exact date.
 
+{: .table-responsive}
 {: .table .table-striped}
 | Week  |              Topic           | Exercises        |
 | ----- | ---------------------------- | ---------------- |
@@ -48,6 +50,7 @@ Please see your individual calendar for the exact date.
 
 ### Programming Projects
 
+{: .table-responsive}
 {: .table .table-striped}
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
