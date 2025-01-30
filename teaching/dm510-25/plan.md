@@ -59,13 +59,23 @@ Please see your individual calendar for the exact date.
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 " %}
 
-The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**.
-- source code: 
-- report: 
-- screen recording:
+The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**. The submission should be a zip-archive with the following structure:
+{% highlight terminal %}
+assignment1/
+assignment1/report/
+assignment1/sources/
+assignment1/video/
+{% endhighlight %}
+
+- source code: submit the source code of the project. If the project requires you to start with a codebase, for example the linux kernel, then only include the files you have changed (in the original directory structure)
+- report: submit a pdf (5-10 pages) describing your solution and decisions. Should not contain full source code. Can be written for example in LaTeX, OpenOffice, or Microsoft Word
+- screen recording: in this recording you show that your implementation is working correctly. During the session you should also perform all or some of the tests that you described in your report. In your report you should refer to the tests you performed by giving the precise time in the video file. The recorded session should be maximally 5 minutes long and have a maximal size of 50MB. 
+For recording the desktop session you can e.g. use Zoom (which is probably easiest) or the tool gtk-recordmydesktop. The video does not need to include any audio, and if the text in the shell(s) you are using is readable, the quality is good enough. Just make sure that the video format is a standard video format (such that mplayer or VLC can play it).
+
+If the submission deviates significantly from these requirements, it will be considered as not submitted.
 
 Grading is done according to the following rubric. Different criteria are weighted differently. If one or more criteria are graded with *needs improvement*, a resit (second try) has to be done for the project. 
-{% include table.html collapse="Show rubric" content="
+{% include table.html collapse="show rubric" content="
 | Criterion     | Excellent         |  Good                | Satisfactory        | Needs improvement        |
 | ------------- | ----------------- | -------------------- | ------------------- | ------------------------ |
 | **Functionality**: Are the required features implemented, correct, and presented in screen recording? | All features implemented correctly, if applicable optional/additional features | Major features implemented, no bugs or only minor bugs | Project can be run and some functionality visible | Project does not compile or does not run or does not behave in a sensible way |
