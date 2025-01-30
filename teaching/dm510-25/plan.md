@@ -7,9 +7,7 @@ course_id: dm510-25
 The information on this page may be subject to changes during the run of the semester.
 ### Lectures
 
-{: .table-responsive}
-
-{: .table .table-striped}
+{% include table.html content="
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 03-02-2025 | Introduction, Overview          | Chapter 1                |
@@ -29,14 +27,14 @@ The information on this page may be subject to changes during the run of the sem
 | 15   | 10-04-2025 | Virtual Machines                | Chapter 18               |
 | 17   | 22-04-2025 | Networks                        | Chapter 19               |
 | 19   | 05-05-2025 | Exam Preparation                |                          |
+" %}
 
 
 ### Tutorials
 Please see your individual calendar for the exact date.
 
-{: .table-responsive}
 
-{: .table .table-striped}
+{% include table.html content="
 | Week  |              Topic           | Exercises        |
 | ----- | ---------------------------- | ---------------- |
 | 7     | Chapter 1+2                  | TBD              |
@@ -49,6 +47,7 @@ Please see your individual calendar for the exact date.
 | 14    | Chapter 13+14+15             | TBD              |
 | 15    | Chapter 16+17                | TBD              |
 | 17    | Chapter 18+19                | TBD              |
+" %}
 
 ### Programming Projects
 
@@ -58,13 +57,18 @@ Please see your individual calendar for the exact date.
 | 06-02-2025 | 04-03-2025 |  System Call                | TBD            |
 | 04-03-2025 | 08-04-2025 |  Kernel Module              | TBD            |
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
-"%}
+" %}
 
 The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code** and **screen recording**.
 - source code: 
 - screen recording:
 
 Grading is done according to the following rubric.
+{% include table.html content="
+| Criterion     | Excellent         |  Good                | Satisfactory        | Needs improvement        |
+| ------------- | ----------------- | -------------------- | ------------------- | ------------------------ |
+| Functionality: Are the required features implemented, correct, and presented in screen recording? | All features implemented correctly, possibly optional/additional features | Major features implemented, only minor bugs | Project can be run and some functionality visible | Project does not compile or does not run or |
+" %}
 ### Exam and Assessment
 
 There is a written exam at the end of the course. It counts as 80% of the grade with
