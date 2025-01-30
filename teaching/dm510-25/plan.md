@@ -60,6 +60,11 @@ Please see your individual calendar for the exact date.
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 "%}
 
+The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code** and **screen recording**.
+- source code: 
+- screen recording:
+
+Grading is done according to the following rubric.
 ### Exam and Assessment
 
 There is a written exam at the end of the course. It counts as 80% of the grade with
