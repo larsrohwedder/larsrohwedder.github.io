@@ -1,3 +1,4 @@
 <div class="table-responsive">
-  {{ "{: .table .table-striped} " | append: include.content | markdownify }}
+  {% assign table = "{: .table .table-striped} " | append: include.content %}
+  {{ table | markdownify }}
 </div>
