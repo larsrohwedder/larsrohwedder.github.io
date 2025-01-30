@@ -61,10 +61,10 @@ Please see your individual calendar for the exact date.
 
 The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**. A zip-archive with the following structure should be submitted to itslearning:
 {% highlight terminal %}
-assignment1/
-assignment1/report/
-assignment1/sources/
-assignment1/video/
+project<number>/
+project<number>/report/
+project<number>/sources/
+project<number>/video/
 {% endhighlight %}
 
 - source code: submit the source code of the project. If the project requires you to start with a codebase, for example the linux kernel, then only include the files you have changed (using the original directory structure).
@@ -86,12 +86,16 @@ Grading is done according to the following rubric. Different criteria are weight
 " %}
 
 
-### Exam and Assessment
+### Exam, grading, and repeat students
 
-There is a written exam at the end of the course. It counts as 80% of the grade with
+There is a written exam at the end of the course (June 13th for first try and August 6th for second try).
+The exam counts as 80% of the final grade with
 the remaining 20% coming from the the programming projects. Both parts have to be passed.
 
 The topics of the exam are the following:
 - The book chapters mentioned in the lecture list restricted to content discussed in lectures and exercise sessions (see slides and exercise sheets).
 - Exam exercises comparable to those on exercise sheets
 - One exercise to test rudimentary knowledge of topics from programming projects
+
+Repeat students who have participated in the course in previous years will need to submit the projects again.
+In case they want to reuse their own submissions from the previous year (adapted to the changes if necessary), they should submit it alone.
