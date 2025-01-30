@@ -68,7 +68,7 @@ assignment1/video/
 {% endhighlight %}
 
 - source code: submit the source code of the project. If the project requires you to start with a codebase, for example the linux kernel, then only include the files you have changed (in the original directory structure)
-- report: submit a pdf (5-10 pages) describing your solution and decisions. Should not contain full source code. Can be written for example in LaTeX, OpenOffice, or Microsoft Word
+- report: submit a pdf (5-10 pages) describing your solution and decisions. Should not contain full source code. Can be written for example in LaTeX, OpenOffice, or Microsoft Word. The report must include at least: A small introduction; a description of the design decisions you have made; A description of your implementation (here, it is fine to use snippets of interesting code, where you explain what you have done); a description and motivation of the tests you have made to verify that your solution works in both valid and invalid usage; a small conclusion.
 - screen recording: in this recording you show that your implementation is working correctly. During the session you should also perform all or some of the tests that you described in your report. In your report you should refer to the tests you performed by giving the precise time in the video file. The recorded session should be maximally 5 minutes long and have a maximal size of 50MB. 
 For recording the desktop session you can e.g. use Zoom (which is probably easiest) or the tool gtk-recordmydesktop. The video does not need to include any audio, and if the text in the shell(s) you are using is readable, the quality is good enough. Just make sure that the video format is a standard video format (such that mplayer or VLC can play it).
 
