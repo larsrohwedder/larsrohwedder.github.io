@@ -59,15 +59,20 @@ Please see your individual calendar for the exact date.
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 " %}
 
-The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code** and **screen recording**.
+The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**.
 - source code: 
+- report: 
 - screen recording:
 
-Grading is done according to the following rubric.
+Grading is done according to the following rubric. Different criteria are weighted differently. If one or more criteria are graded with "needs improvement", a resit has to be done for the project. 
 {% include table.html content="
-| Criterion     | Excellent         |  Good                | Satisfactory        | Needs improvement        |
-| ------------- | ----------------- | -------------------- | ------------------- | ------------------------ |
-| Functionality: Are the required features implemented, correct, and presented in screen recording? | All features implemented correctly, possibly optional/additional features | Major features implemented, only minor bugs | Project can be run and some functionality visible | Project does not compile or does not run or |
+| Criterion     || Excellent         |  Good                | Satisfactory        | Needs improvement        |
+| ------------- || ----------------- | -------------------- | ------------------- | ------------------------ |
+| Functionality: Are the required features implemented, correct, and presented in screen recording? || All features implemented correctly, if applicable optional/additional features | Major features implemented, no bugs or only minor bugs | Project can be run and some functionality visible | Project does not compile or does not run or does not behave in a sensible way |
+| Source code documentation and style || Naming, indentation, comments consistent and accordingly to industry standards | Code is easy to understand and contains solid documentation | Not enough documentation, but with some effort code is understandable | Code is very hard/impossible to understand
+| Structure of report: || | | | |
+| Language of report || | | | |
+| Contents of report: Explain what was done and why, if applicable explain what problems have occurred and possible limitations of solution || Challenges are identified and explained, several possible options are stated, design decisions are justified properly, results are discussed | Understanding of challenges is visible, design decisions clearly documented, some amount of justification and analysis | It is clear what was done in the project | It is not understandable how the goals of the project were addressed |   
 " %}
 ### Exam and Assessment
 
