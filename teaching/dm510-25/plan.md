@@ -65,8 +65,7 @@ The projects are submitted in teams of two students (in exceptions: three). Each
 - screen recording:
 
 Grading is done according to the following rubric. Different criteria are weighted differently. If one or more criteria are graded with *needs improvement*, a resit (second try) has to be done for the project. 
-{% include collapse.html title="Show rubric" content='
-{% include table.html content="
+{% include table.html collapse="Show rubric" content="
 | Criterion     | Excellent         |  Good                | Satisfactory        | Needs improvement        |
 | ------------- | ----------------- | -------------------- | ------------------- | ------------------------ |
 | **Functionality**: Are the required features implemented, correct, and presented in screen recording? | All features implemented correctly, if applicable optional/additional features | Major features implemented, no bugs or only minor bugs | Project can be run and some functionality visible | Project does not compile or does not run or does not behave in a sensible way |
@@ -75,7 +74,6 @@ Grading is done according to the following rubric. Different criteria are weight
 | **Language, typesetting, and formatting of report** | Typesetting and formatting comparable to scientific papers, little or no typos and grammar mistakes, writing is compact and precise | Careful writing, solid formatting and typesetting | Understandable, but contains many typos and grammar mistakes | Not understandable or AI generated |
 | **Contents of report**: Explain what was done and why, if applicable explain what problems have occurred and possible limitations of solution | Challenges are identified and explained, several possible options are stated, design decisions are justified properly, results are discussed | Design decisions clearly documented, some amount of justification and analysis | It is understandable what was done in the project | It is not understandable how the goals of the project were addressed |   
 " %}
-' %}
 ### Exam and Assessment
 
 There is a written exam at the end of the course. It counts as 80% of the grade with
