@@ -84,6 +84,8 @@ Grading is done according to the following rubric. Different criteria are weight
 | **Language, typesetting, and formatting of report** | Typesetting and formatting comparable to scientific papers, little or no typos and grammar mistakes, writing is compact and precise | Careful writing, solid formatting and typesetting | Understandable, but contains many typos and grammar mistakes | Not understandable or AI generated |
 | **Contents of report** | Several possible design options are stated, design decisions are justified properly, results and tests are discussed carefully | Design decisions clearly documented, some amount of justification and discussion | It is understandable what was done in the project | It is not understandable how the goals of the project were addressed |   
 " %}
+
+
 ### Exam and Assessment
 
 There is a written exam at the end of the course. It counts as 80% of the grade with
