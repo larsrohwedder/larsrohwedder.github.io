@@ -59,7 +59,7 @@ Please see your individual calendar for the exact date.
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 " %}
 
-The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**. The submission should be a zip-archive with the following structure:
+The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**. A zip-archive with the following structure should be submitted to itslearning:
 {% highlight terminal %}
 assignment1/
 assignment1/report/
