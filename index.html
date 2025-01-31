@@ -145,7 +145,11 @@
         {% if teaching.hideonweb %}
         {% else %}
         <tr>
+	{% if teaching.link %}
+	  <th scope="row"><a href="{{ teaching.link }}">{{ teaching.translation }}</a></th>
+	{% else %}
           <th scope="row">{{ teaching.translation }}</th>
+	{% endif %}
           <td>{{ teaching.time }}</td>
           <td>{{ teaching.role }}</td>
         </tr>

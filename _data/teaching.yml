@@ -1,3 +1,9 @@
+- time: "Spring'25"
+  role: "Lecturer"
+  lecture: "Operating Systems (SDU)"
+  translation: "Operating Systems (SDU)"
+  link: "teaching/dm510-25/index"
+
 - time: "Spring'24"
   role: "Coordinator / Tutor"
   lecture: "Advanced Algorithms (Maastricht)"
