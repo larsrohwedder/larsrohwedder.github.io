@@ -7,12 +7,15 @@ course_id: dm510-25
 # Project 1: System Call
 
 ### Introduction
-In this assignment, your task is to add system calls to User-mode Linux (UML), that implement a message box in kernel space.
+In this assignment, your task is to add system calls to the linux kernel that implement a message box in kernel space.
+For convenience, you will work with *User-mode Linux (UML)*, which is a target architecture of Linux that let's you compile
+the kernel into an executable that can be run in user-mode within another Linux host environment (similar to being run
+inside a virtual machine, but simpler).
 
-{% include box.html style="text-white bg-warning" text="Before starting to work on this assignment, make sure you have a running [user mode linux](uml) kernel, and that you followed the description of how to add a [Linux system call](syscall). The system calls that you have to implement are more complex and useful." %}
+{% include box.html style="bg-warning" text="Before starting to work on this assignment, make sure you have a running [user mode linux](uml) kernel, and that you followed the description of how to add a [Linux system call](syscall). The system calls that you have to implement are more complex and useful." %}
 
 ### The System Calls
-Message passing is a method of interprocess communication. Basically, the idea is that processes send small messages / byte arrays to each other using either the operating system or in some other way (e.g., MPI). Often this way of communication is used in distributed systems or in general when shared memory is not possible. Message-passing systems in general is covered in Section 3.6 in the Operating System Concepts book.
+Message passing is a method of interprocess communication. Basically, the idea is that processes send small messages / byte arrays to each other using either the operating system or in some other way (e.g., MPI). Often this way of communication is used in distributed systems or in general when shared memory is not possible. Message-passing systems in general are covered in Section 3.6 in the Operating System Concepts book.
 
 Your task is to make two system calls that give processes access to a small message box residing in kernel-space. The system calls must make it possible to retrieve messages from the message box into the address-space (user-space) of the calling process. Also, it must be possible to write a message from the calling process into the message box.
 
@@ -88,11 +91,6 @@ int dm510_msgbox_get( char* buffer, int length ) {
 
 
 }
-
-int main ( void ) {
-  /* test code here */
-  return 0;
-}
 {% endhighlight %}
 
 Below is an example to illustrate the use of the function.
@@ -100,7 +98,7 @@ Below is an example to illustrate the use of the function.
 **example.c**
 {% highlight C %}
 int main(int argc, char** argv) {
-  char *in = "This is a stupid message.";
+  char *in = "This is an example message.";
   char msg[50];
   int msglen;
 
@@ -141,7 +139,7 @@ An address from user-space does not map to the same physical address in kernel-s
 * `copy_to_user(char* to, char* from, int n)`: Copies n bytes from the kernel address from to the user address to.
 * `copy_from_user(char* to, char* from, int n)`: Copies n bytes from the user address from to the kernel address to.
 
-( For further information, have a look at the kernel API, for even more details look in Chapter 3 of the [Linux Device Driver book](https://lwn.net/Kernel/LDD3/) (page 64,65). )
+For further information, have a look at the kernel API, for even more details look in Chapter 3 of the [Linux Device Driver book](https://lwn.net/Kernel/LDD3/) (pages 64-65).
 
 # Parameter checking and error handling
 The simple version above is not checking its parameters at all. This means that if you call the function with invalid parameters, e.g. a wrong `length < 0`, the function would fail or cause unpredictable results. A system call must not be able to fail uncontrolled, because it could bring the kernel down.
@@ -165,37 +163,6 @@ local_irq_save(flags);
 
 local_irq_restore(flags);
 {% endhighlight %}
-`local_irq_save` saves the current processor state and disables interrupts, `local_irq_restore` restores the processor state, including enabling interrupts. You can find the definition of these two macro’s (that is why it works with the flags parameter directly) in the file **include/linux/irqflags.h** and you can read a bit more here: [https://litux.nl/mirror/kerneldevelopment/0672327201/ch06lev1sec7.html]
+`local_irq_save` saves the current processor state and disables interrupts, `local_irq_restore` restores the processor state, including enabling interrupts. You can find the definition of these two macro’s (that is why it works with the flags parameter directly) in the file **include/linux/irqflags.h** and you can read a bit more (here)[https://litux.nl/mirror/kerneldevelopment/0672327201/ch06lev1sec7.html].
 
 Later in the course you will learn how this could be done in a smarter way, e.g., by using semaphores. For more information, have a look at [Documentation/cli-sti-removal.txt](https://lwn.net/Articles/5512/).
-
-### Report / Submission
-The report must be short and precise (maximum 10 pages, English language, without source code). Please follow the rules for Scientific Writing. Remember that you must prove that you have understood the problems and solutions.
-
-The clear and well-structured report must include the following:
-
-* A small introduction.
-* A description of the design decisions you have made.
-    - This section should also answer what would happen if multiple processes simultaneously want to access the message box.
-* A description of your implementation. Here, it is fine to use snippets of interesting code, where you explain what you have done.
-* A description of the tests you have made and the motivation for these. The tests must be able to verify that your solution works correctly with both valid and invalid call parameters.
-* A small conclusion.
-
-The source code (files you have edited), you should put in the appendix (and that does not count as the 10 pages).
-
-For submitting the report, the sources, and the desktop session, proceed as follows: Create the following directory structure
-
-{% highlight C %}
-assignment1/
-assignment1/report/
-assignment1/sources/
-{% endhighlight %}
-
-Put your report, sources, and video in the corresponding directory. The sources should not include the source code of the complete Linux kernel, but only the files you changed and those files you added. The report direcory and the sources directory should not contain more than 10MB of data. If this constraint is not fulfilled the submission will be not considered.
-
-Package and compress with the directory with zip -r assignment1 assignment1. Submit the created zip file in itslearning.
-
-As this project is quite resource consuming, please take care, that you clean up your home directory and that you remove unneeded files as soon as possible.
-
-### Frequently Asked Questions (FAQ)
-

@@ -18,7 +18,7 @@ Release:	20.04
 Codename:	focal
 {% endhighlight %}
 
-You can login to the Computer Lab machines via the ssh command, see here how to access the Computer Lab machines, please choose randomly one of the four machines (the only directory shared among the machines is the directory /shared/ (which is slower). Note, that your home directory is not shared among the four different machines. You are of course welcome to use any other solution (e.g., running UML on your own Linux system, running it in a virtual environment like VirtualBox or vmware, using SDU’s ucloud, etc) but we might, in that case, just not be able to help you if you run into technical issues. There are instructions for installing a Virtual Machine in VirtualBox that can be used for the assignment.
+You can login to the Computer Lab machines via the ssh command, see here how to access the Computer Lab machines, please choose randomly one of the four machines (the only directory shared among the machines is the directory /shared/ (which is slower). Note, that your home directory is not shared among the four different machines. You are of course welcome to use any other solution (e.g., running UML on your own Linux system, running it in a virtual environment like VirtualBox or VMWare, using SDU’s ucloud, etc) but we might, in that case, just not be able to help you if you run into technical issues. There are instructions for installing a Virtual Machine in VirtualBox that can be used for the assignment.
 
 ### How to install User-mode Linux at IMADA
 Login at any IMADA machine and write
