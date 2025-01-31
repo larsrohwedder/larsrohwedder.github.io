@@ -22,7 +22,7 @@ If you have a student account, your username is simply your ordinary username, e
 {% include box.html style="bg-warning" text="If you need to prefix with domain, and type the username on the command line, then the backslash needs to be escaped. For example `ssh nat-sdu\\john@imada0.stud-srv.sdu.dk`" %}
 
 Instead of typing your password each time you establish an ssh connection, you can also authenticate
-more conveniently by installing ssh keys on the server and your computer, see 
+more conveniently by installing ssh keys on the server and your computer, see for example
 [Ubuntu documentation](https://help.ubuntu.com/community/SSH/OpenSSH/Keys).
 
 ### Graphical Interface

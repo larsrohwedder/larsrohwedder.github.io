@@ -12,7 +12,7 @@ For convenience, you will work with *User-mode Linux (UML)*, which is a target a
 the kernel into an executable that can be run in user-mode within another Linux host environment (similar to being run
 inside a virtual machine, but simpler).
 
-{% include box.html style="bg-warning" text="Before starting to work on this assignment, make sure you have a running [user mode linux](uml) kernel, and that you followed the description of how to add a [Linux system call](syscall). The system calls that you have to implement are more complex and useful." %}
+{% include box.html style="bg-warning" text="Before starting to work on this assignment, make sure you have access to a Linux system, in which you are running user-mode linux, and that you followed the description of how to add a simple system call. All of these requirements can be found on the [Resources page](resources)." %}
 
 ### The System Calls
 Message passing is a method of interprocess communication. Basically, the idea is that processes send small messages / byte arrays to each other using either the operating system or in some other way (e.g., MPI). Often this way of communication is used in distributed systems or in general when shared memory is not possible. Message-passing systems in general are covered in Section 3.6 in the Operating System Concepts book.

@@ -10,7 +10,7 @@ This is a short guide on how to create a Virtual Machine using VirtualBox, capab
 You can also user the IMADA lab or run it on your own Linux machine.
 
 ### VirtualBox
-First you must have Virtual Box installed on your computer. The guide here might be of help: https://www.virtualbox.org/manual/ch02.html
+First you must have Virtual Box installed on your computer. [This guide](https://www.virtualbox.org/manual/ch02.html) might be of help. 
 
 Once you start up Virtual Box, you should see a screen similar to this:
 
@@ -19,9 +19,9 @@ Once you start up Virtual Box, you should see a screen similar to this:
 ### Creating a Virtual Linux Machine
 You can choose any operating system you wish, but from a resource point of view, I have selected a Plain Debian system. This is the underlying system of Ubuntu and many other Linux flavours, but its requirements are significantly smaller than for example Ubuntu.
 
-You can download the debian installation image from: https://www.debian.org/distrib/netinst.en.html. I use the amd64 image, but this is dependant on the architecture of your computer.
+You can download the debian installation image from [here](https://www.debian.org/distrib/netinst.en.html). I use the amd64 image, but this is dependant on the architecture of your computer.
 
-Once you have this downloaded, click the "New" button, and you will see this:
+Once you have this downloaded, click the *New* button, and you will see this:
 
 ![New Virtual Machine](/assets/img/dm510/vm-new-vm.png)
 
