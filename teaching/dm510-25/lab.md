@@ -28,6 +28,5 @@ https://help.ubuntu.com/community/SSH/OpenSSH/Keys.
 ### Graphical Interface
 While the servers are only remotely accessible it is possible to forward GUIs to your computer. This can be done either using classical X-forwarding, i.e., passing `-X` to `ssh`, or using (X2Go)[https://wiki.x2go.org/doku.php/start] to get a remote desktop experience. An X2Go client is available for both Windows, macOS, and Linux.
 
-{% include box.html style="bg-warning" text="When creating an X2Go session, it is important that you change the session type to `XFCE`, which is the desktop environment installed on the servers.
-%}
+{% include box.html style="bg-warning" text="When creating an X2Go session, it is important that you change the session type to `XFCE`, which is the desktop environment installed on the servers." %}
 
