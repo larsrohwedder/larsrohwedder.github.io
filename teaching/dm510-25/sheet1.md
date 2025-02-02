@@ -86,99 +86,99 @@ course_id: dm510-25
     - `remove`
 30. Repeat the discussion of the four following examples to swap the content of two variables. Which of the examples are correct, which are wrong?
     - version 1
-    {% highlight C %}
-    static inline void swap(int *m, int *n)
-    {
-      int temp = *m;
-      *m = *n;
-      *n = temp;
-    }
+        {% highlight C %}
+        static inline void swap(int *m, int *n)
+        {
+          int temp = *m;
+          *m = *n;
+          *n = temp;
+        }
 
-    int main(int argc, char **argv)
-    {
-      int x,y;
+        int main(int argc, char **argv)
+        {
+          int x,y;
 
-      x=42;
-      y=100;
+          x=42;
+          y=100;
 
-      swap(&x, &y);
-    }
-    {% endhighlight %}
+          swap(&x, &y);
+        }
+        {% endhighlight %}
     - version 2
-    {% highlight C %}
-    #include <stdlib.h>
+        {% highlight C %}
+        #include <stdlib.h>
 
-    static inline void swap(int *m, int *n)
-    {
-      int temp = *m;
-      *m = *n;
-      *n = temp;
-    }
+        static inline void swap(int *m, int *n)
+        {
+          int temp = *m;
+          *m = *n;
+          *n = temp;
+        }
 
-    int main(int argc, char **argv)
-    {
-      int * x;
-      int * y;
+        int main(int argc, char **argv)
+        {
+          int * x;
+          int * y;
 
-      x = calloc(1,sizeof(int));
-      y = calloc(1,sizeof(int));
+          x = calloc(1,sizeof(int));
+          y = calloc(1,sizeof(int));
 
-      *x = 42;
-      *y = 100;
+          *x = 42;
+          *y = 100;
 
-      swap(x, y);
-    }
-    {% endhighlight %}
+          swap(x, y);
+        }
+        {% endhighlight %}
     - version 3
-    {% highlight C %}
-    #include <stdlib.h>
+        {% highlight C %}
+        #include <stdlib.h>
 
-    static inline void swap(int *m, int *n)
-    {
-      int * temp = m;
-      m = n;
-      n = temp;
-    }
+        static inline void swap(int *m, int *n)
+        {
+          int * temp = m;
+          m = n;
+          n = temp;
+        }
 
-    int main(int argc, char **argv)
-    {
-      int * x;
-      int * y;
+        int main(int argc, char **argv)
+        {
+          int * x;
+          int * y;
 
-      x = calloc(1,sizeof(int));
-      y = calloc(1,sizeof(int));
+          x = calloc(1,sizeof(int));
+          y = calloc(1,sizeof(int));
 
-      *x = 42;
-      *y = 100;
+          *x = 42;
+          *y = 100;
 
-      swap(x, y);
-    }
-    {% endhighlight %}
+          swap(x, y);
+        }
+        {% endhighlight %}
     - version 4
-    {% highlight C %}
-    #include <stdlib.h>
+        {% highlight C %}
+        #include <stdlib.h>
 
-    static inline void swap(int **m, int **n)
-    {
-      int * temp = *m;
-      *m = *n;
-      *n = temp;
-    }
+        static inline void swap(int **m, int **n)
+        {
+          int * temp = *m;
+          *m = *n;
+          *n = temp;
+        }
 
-    int main(int argc, char **argv)
-    {
-      int * x;
-      int * y;
+        int main(int argc, char **argv)
+        {
+          int * x;
+          int * y;
 
-      x = calloc(1,sizeof(int));
-      y = calloc(1,sizeof(int));
+          x = calloc(1,sizeof(int));
+          y = calloc(1,sizeof(int));
 
-      *x = 42;
-      *y = 100;
+          *x = 42;
+          *y = 100;
 
-      swap(&x, &y);
-    }
-    {% endhighlight %}
+          swap(&x, &y);
+        }
+        {% endhighlight %}
 31. Analyze the following C source code. Discuss what it does (this prepares you for the 1st programming projecct).
 
 **dm510_msgbox.c**
