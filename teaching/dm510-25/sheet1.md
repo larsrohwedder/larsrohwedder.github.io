@@ -25,7 +25,7 @@ int main(int argc, char **argv)
   swap(&x, &y);
 }
 {{ open }} endhighlight {{ close }}
-" %}
+" | markdownify %}
 
 # Exercise Sheet for Tutorial 1
 
