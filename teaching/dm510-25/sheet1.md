@@ -4,29 +4,6 @@ layout: teaching
 course_id: dm510-25
 ---
 
-{% assign open="{%" %}
-{% assign close="%}" %}
-{% assign swap1="
-{{ open }} highlight C {{ close }}
-static inline void swap(int *m, int *n)
-{
-  int temp = *m;
-  *m = *n;
-  *n = temp;
-}
-
-int main(int argc, char **argv)
-{
-  int x,y;
-
-  x=42;
-  y=100;
-
-  swap(&x, &y);
-}
-{{ open }} endhighlight {{ close }}
-" | markdownify %}
-
 # Exercise Sheet for Tutorial 1
 
 **Before** the tutorial session, try your best to solve problems below and be prepared to discuss them at the tutorial session.
@@ -109,11 +86,26 @@ int main(int argc, char **argv)
     - `remove`
 30. Repeat the discussion of the four following examples to swap the content of two variables. Which of the examples are correct, which are wrong?
     - version 1
-        {{ swap1 }}
+        ```
+        static inline void swap(int *m, int *n)
+        {
+          int temp = *m;
+          *m = *n;
+          *n = temp;
+        }
+
+        int main(int argc, char **argv)
+        {
+          int x,y;
+
+          x=42;
+          y=100;
+
+          swap(&x, &y);
+        }
+        ```
     - version 2
-        {{ swap1 }}
-    - version 2
-        {% highlight C %}
+        ```
         #include <stdlib.h>
 
         static inline void swap(int *m, int *n)
@@ -136,7 +128,7 @@ int main(int argc, char **argv)
 
           swap(x, y);
         }
-        {% endhighlight %}
+        ```
     - version 3
         ```
         #include <stdlib.h>
@@ -188,189 +180,178 @@ int main(int argc, char **argv)
         }
         ```
 31. Analyze the following C source code. Discuss what it does (this prepares you for the 1st programming projecct).
+    **dm510_msgbox.c**
+    ```
+    #include "dm510_msgbox.h"
+    #include <stdlib.h>
+    #include <string.h>
 
-**dm510_msgbox.c**
-{% highlight C %}
-#include "dm510_msgbox.h"
-#include <stdlib.h>
-#include <string.h>
+    typedef struct _msg_t msg_t;
 
-typedef struct _msg_t msg_t;
+    struct _msg_t{
+      msg_t* previous;
+      int length;
+      char* message;
+    };
 
-struct _msg_t{
-  msg_t* previous;
-  int length;
-  char* message;
-};
+    static msg_t *bottom = NULL;
+    static msg_t *top = NULL;
 
-static msg_t *bottom = NULL;
-static msg_t *top = NULL;
+    int dm510_msgbox_put( char *buffer, int length ) {
+      msg_t* msg = malloc(sizeof(msg_t));
+      msg->previous = NULL;
+      msg->length = length;
+      msg->message = malloc(length);
+      memcpy(msg->message, buffer, length);
 
-int dm510_msgbox_put( char *buffer, int length ) {
-  msg_t* msg = malloc(sizeof(msg_t));
-  msg->previous = NULL;
-  msg->length = length;
-  msg->message = malloc(length);
-  memcpy(msg->message, buffer, length);
-
-  if (bottom == NULL) {
-    bottom = msg;
-    top = msg;
-  } else {
-    /* not empty stack */
-    msg->previous = top;
-    top = msg;
-  }
-  return 0;
-}
-
-int dm510_msgbox_get( char* buffer, int length ) {
-  if (top != NULL) {
-    msg_t* msg = top;
-    int mlength = msg->length;
-    top = msg->previous;
-
-    /* copy message */
-    memcpy(buffer, msg->message, mlength);
-
-    /* free memory */
-    free(msg->message);
-    free(msg);
-
-    return mlength;
-  }
-  return -1;
-}
-
-int main(int argc, char** argv) {
-  char *in = "This is a stupid message.";
-  char msg[50];
-  int msglen;
-
-  /* Send a message containing 'in' */
-  dm510_msgbox_put(in, strlen(in)+1);
-
-  /* Read a message */
-  msglen = dm510_msgbox_get(msg, 50);
-
-  return 0;
-}
-{% endhighlight %}
-
-32. The following is the code to allocate memory for a 2-dimensional array of fixed size 8×8.
-
-{% highlight C %}
-#include <stdio.h>
-int main() {
-  int x;
-  int y;
-  int array[8][8];
-  for ( x = 0; x < 8; x++ ) {
-    for ( y = 0; y < 8; y++ ) {
-      array[x][y] = x * y;
+      if (bottom == NULL) {
+        bottom = msg;
+        top = msg;
+      } else {
+        /* not empty stack */
+        msg->previous = top;
+        top = msg;
+      }
+      return 0;
     }
-  }
-}
-{% endhighlight %}
 
+    int dm510_msgbox_get( char* buffer, int length ) {
+      if (top != NULL) {
+        msg_t* msg = top;
+        int mlength = msg->length;
+        top = msg->previous;
+
+        /* copy message */
+        memcpy(buffer, msg->message, mlength);
+
+        /* free memory */
+        free(msg->message);
+        free(msg);
+
+        return mlength;
+      }
+      return -1;
+    }
+
+    int main(int argc, char** argv) {
+      char *in = "This is a stupid message.";
+      char msg[50];
+      int msglen;
+
+      /* Send a message containing 'in' */
+      dm510_msgbox_put(in, strlen(in)+1);
+
+      /* Read a message */
+      msglen = dm510_msgbox_get(msg, 50);
+
+      return 0;
+    }
+    ```
+32. The following is the code to allocate memory for a 2-dimensional array of fixed size 8x8.
+    ```
+    #include <stdio.h>
+    int main() {
+      int x;
+      int y;
+      int array[8][8];
+      for ( x = 0; x < 8; x++ ) {
+        for ( y = 0; y < 8; y++ ) {
+          array[x][y] = x * y;
+        }
+      }
+    }
+    ```
     - Where in the memory is the matrix stored?
     - Provide the code for a variant of the code that allocated the memory dynamically.
     - Where is your dynamically allocated memory stored?
-
 33. What is the output of the following C program?
+    ```
+    #include <stdio.h>
 
-{% highlight C %}
-#include <stdio.h>
+    int main(int argc, char** argv)
+    {
+      stupid();
+      stupid();
+      return 0;
+    }
 
-int main(int argc, char** argv)
-{
-  stupid();
-  stupid();
-  return 0;
-}
-
-int stupid()
-{
-  static int i=17;
-  printf("i is %d\n", i);
-  i++;
-}
-{% endhighlight %}
-
+    int stupid()
+    {
+      static int i=17;
+      printf("i is %d\n", i);
+      i++;
+    }
+    ```
 35. Discuss the following C program, and put it in relation to the function declaration as found by the man page of the library function for sorting an array: `void qsort(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *));`
+    ```
+    #include <stdio.h>
+    #include <stdlib.h>
 
-{% highlight C %}
-#include <stdio.h>
-#include <stdlib.h>
+    static int comp(const void * x, const void * y)
+    {
+      int a = (int)(*(int*)x);
+      int b = (int)(*(int*)y);
 
-static int comp(const void * x, const void * y)
-{
-  int a = (int)(*(int*)x);
-  int b = (int)(*(int*)y);
+      if (a==b)
+        return 0;
+      else
+        if (a < b)
+            return -1;
+        else
+            return 1;
+    }
 
-  if (a==b)
-    return 0;
-  else
-    if (a < b)
-        return -1;
-    else
-        return 1;
-}
+    int main(int argc, char* argv[])
+    {
+       int numbers[10]={1892,45,200,-98,4087,5,-12345,1087,88,-100000};
+       int i;
 
-int main(int argc, char* argv[])
-{
-   int numbers[10]={1892,45,200,-98,4087,5,-12345,1087,88,-100000};
-   int i;
-
-  /* Sort the array */
-  qsort(numbers,10,sizeof(int),comp) ;
-  for (i=0;i<9;i++)
-    printf("Number = %d\n",numbers[ i ]) ;
-  return 0;
-}
-{% endhighlight %}
+      /* Sort the array */
+      qsort(numbers,10,sizeof(int),comp) ;
+      for (i=0;i<9;i++)
+        printf("Number = %d\n",numbers[ i ]) ;
+      return 0;
+    }
+    ```
 
 36. Discuss the result of the following C program. If possible, try it on different machines. In order to understand the results, find out what a sequence point is.
+    ```
+    #include <stdio.h>
 
-{% highlight C %}
-#include <stdio.h>
-
-#define SQR(a)((a)*(a))
-#define CUB(a)((a)*(a)*(a))
+    #define SQR(a)((a)*(a))
+    #define CUB(a)((a)*(a)*(a))
 
 
-inline static int cub(int x) { return x*x*x; }
+    inline static int cub(int x) { return x*x*x; }
 
-int main()
-{
-    int x;
+    int main()
+    {
+        int x;
 
-    x=3;
-    printf("square? :%d\n",SQR(x));
-    printf("x:       %d\n",x);
+        x=3;
+        printf("square? :%d\n",SQR(x));
+        printf("x:       %d\n",x);
 
-    x=3;
-    printf("square? :%d\n",SQR(++x));
-    printf("x:       %d\n",x);
+        x=3;
+        printf("square? :%d\n",SQR(++x));
+        printf("x:       %d\n",x);
 
-    x=3;
-    printf("cub?    :%d\n",CUB(x++));
-    printf("x:       %d\n",x);
+        x=3;
+        printf("cub?    :%d\n",CUB(x++));
+        printf("x:       %d\n",x);
 
-    x=3;
-    printf("cub?    :%d\n",CUB(++x));
-    printf("x:       %d\n",x);
+        x=3;
+        printf("cub?    :%d\n",CUB(++x));
+        printf("x:       %d\n",x);
 
-    x=3;
-    printf("cub?    :%d\n",cub(++x));
-    printf("x:       %d\n",x);
+        x=3;
+        printf("cub?    :%d\n",cub(++x));
+        printf("x:       %d\n",x);
 
-    return 0;
-}
-{% endhighlight %}
-
+        return 0;
+    }
+    ```
 36. Follow the C-tutorial for FILE I/O on [cprogramming](https://www.cprogramming.com/tutorial/cfileio.html) and answer the quiz questions.
 
 ### In class
 Discuss the exercises prepared at home, form teams (2 students) for programming projects.
-
