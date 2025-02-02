@@ -10,7 +10,7 @@ The information on this page may be subject to changes during the run of the sem
 {% include table.html content="
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
-| 6    | 03-02-2025 | Introduction, Overview          | Chapter 1, [slides](lecture1) |
+| 6    | 03-02-2025 | Introduction, Overview          | Chapter 1, [slides](lecture1.pdf) |
 | 6    | 06-02-2025 | Operating Systems Services      | Chapter 2                |
 | 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3                |
 | 8    | 18-02-2025 | Processes, Threads, Concurrency | Chapter 4                |
