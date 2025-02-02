@@ -86,7 +86,7 @@ course_id: dm510-25
     - `remove`
 30. Repeat the discussion of the four following examples to swap the content of two variables. Which of the examples are correct, which are wrong?
     - version 1
-        ```
+        {% include box.html style="bg-warning" text="
         {% highlight C %}
         static inline void swap(int *m, int *n)
         {
@@ -105,9 +105,10 @@ course_id: dm510-25
           swap(&x, &y);
         }
         {% endhighlight %}
-        ```
+        " %}
     - version 2
-        ```
+        {% include box.html style="bg-warning" text="
+        {% highlight C %}
         #include <stdlib.h>
 
         static inline void swap(int *m, int *n)
@@ -130,7 +131,8 @@ course_id: dm510-25
 
           swap(x, y);
         }
-        ```
+        {% endhighlight %}
+        " %}
     - version 3
         ```
         #include <stdlib.h>
