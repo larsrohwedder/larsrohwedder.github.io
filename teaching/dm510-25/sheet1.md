@@ -4,7 +4,10 @@ layout: teaching
 course_id: dm510-25
 ---
 
+{% assign open="{%" %}
+{% assign close="%}" %}
 {% assign swap1="
+{{ open }} highlight C {{ close }}
 static inline void swap(int *m, int *n)
 {
   int temp = *m;
@@ -21,6 +24,7 @@ int main(int argc, char **argv)
 
   swap(&x, &y);
 }
+{{ open }} endhighlight {{ close }}
 " %}
 
 # Exercise Sheet for Tutorial 1
