@@ -86,6 +86,7 @@ course_id: dm510-25
     - `remove`
 30. Repeat the discussion of the four following examples to swap the content of two variables. Which of the examples are correct, which are wrong?
     - version 1
+
 {% highlight C %}
 static inline void swap(int *m, int *n)
 {
@@ -104,7 +105,9 @@ int main(int argc, char **argv)
   swap(&x, &y);
 }
 {% endhighlight %}
+
     - version 2
+
 {% highlight C %}
 #include <stdlib.h>
 
@@ -129,7 +132,9 @@ int main(int argc, char **argv)
   swap(x, y);
 }
 {% endhighlight %}
+
     - version 3
+
 {% highlight C %}
 #include <stdlib.h>
 
@@ -154,7 +159,9 @@ int main(int argc, char **argv)
   swap(x, y);
 }
 {% endhighlight %}
+
     - version 4
+
 {% highlight C %}
 #include <stdlib.h>
 
@@ -179,6 +186,7 @@ int main(int argc, char **argv)
   swap(&x, &y);
 }
 {% endhighlight %}
+
 31. Analyse the following C source code. Discuss what it does (this prepares you for the 1st mandatory assignment).
 
 **dm510_msgbox.c**
@@ -248,7 +256,9 @@ int main(int argc, char** argv) {
   return 0;
 }
 {% endhighlight %}
+
 32. The following is the code to allocate memory for a 2-dimensional array of fixed size 8×8.
+
 {% highlight C %}
 #include <stdio.h>
 int main() {
@@ -262,10 +272,13 @@ int main() {
   }
 }
 {% endhighlight %}
+
     - Where in the memory is the matrix stored?
     - Provide the code for a variant of the code that allocated the memory dynamically.
     - Where is your dynamically allocated memory stored?
+
 33. What is the output of the following C program?
+
 {% highlight C %}
 #include <stdio.h>
 
@@ -283,7 +296,9 @@ int stupid()
   i++;
 }
 {% endhighlight %}
+
 35. Discuss the following C program, and put it in relation to the function declaration as found by the man page of the library function for sorting an array: `void qsort(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *));`
+
 {% highlight C %}
 #include <stdio.h>
 #include <stdlib.h>
@@ -314,7 +329,9 @@ int main(int argc, char* argv[])
   return 0;
 }
 {% endhighlight %}
+
 36. Discuss the result of the following C program. If possible, try it on different machines. In order to understand the results, find out what a sequence point is.
+
 {% highlight C %}
 #include <stdio.h>
 
@@ -351,6 +368,7 @@ int main()
     return 0;
 }
 {% endhighlight %}
+
 36. Follow the C-tutorial for FILE I/O on [cprogramming](https://www.cprogramming.com/tutorial/cfileio.html) and answer the quiz questions.
 
 ### In class
