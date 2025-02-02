@@ -86,7 +86,7 @@ course_id: dm510-25
     - `remove`
 30. Repeat the discussion of the four following examples to swap the content of two variables. Which of the examples are correct, which are wrong?
     - version 1
-        {% highlight C %}
+        ```
         static inline void swap(int *m, int *n)
         {
           int temp = *m;
@@ -103,9 +103,9 @@ course_id: dm510-25
 
           swap(&x, &y);
         }
-        {% endhighlight %}
+        ```
     - version 2
-        {% highlight C %}
+        ```
         #include <stdlib.h>
 
         static inline void swap(int *m, int *n)
@@ -128,9 +128,9 @@ course_id: dm510-25
 
           swap(x, y);
         }
-        {% endhighlight %}
+        ```
     - version 3
-        {% highlight C %}
+        ```
         #include <stdlib.h>
 
         static inline void swap(int *m, int *n)
@@ -153,9 +153,9 @@ course_id: dm510-25
 
           swap(x, y);
         }
-        {% endhighlight %}
+        ```
     - version 4
-        {% highlight C %}
+        ```
         #include <stdlib.h>
 
         static inline void swap(int **m, int **n)
@@ -178,7 +178,7 @@ course_id: dm510-25
 
           swap(&x, &y);
         }
-        {% endhighlight %}
+        ```
 31. Analyze the following C source code. Discuss what it does (this prepares you for the 1st programming projecct).
 
 **dm510_msgbox.c**
