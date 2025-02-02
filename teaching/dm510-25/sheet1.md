@@ -5,8 +5,6 @@ course_id: dm510-25
 ---
 
 {% assign swap1="
-{% raw %}
-{% highlight C %}
 static inline void swap(int *m, int *n)
 {
   int temp = *m;
@@ -23,9 +21,7 @@ int main(int argc, char **argv)
 
   swap(&x, &y);
 }
-{% endhighlight %}
-{% endraw %}
-" | markdownify %}
+" %}
 
 # Exercise Sheet for Tutorial 1
 
