@@ -4,6 +4,27 @@ layout: teaching
 course_id: dm510-25
 ---
 
+{% assign swap1="
+{% highlight C %}
+static inline void swap(int *m, int *n)
+{
+  int temp = *m;
+  *m = *n;
+  *n = temp;
+}
+
+int main(int argc, char **argv)
+{
+  int x,y;
+
+  x=42;
+  y=100;
+
+  swap(&x, &y);
+}
+{% endhighlight %}
+" | markdownify %}
+
 # Exercise Sheet for Tutorial 1
 
 **Before** the tutorial session, try your best to solve problems below and be prepared to discuss them at the tutorial session.
@@ -86,28 +107,10 @@ course_id: dm510-25
     - `remove`
 30. Repeat the discussion of the four following examples to swap the content of two variables. Which of the examples are correct, which are wrong?
     - version 1
-        {% include box.html style="bg-warning" text="
-        {% highlight C %}
-        static inline void swap(int *m, int *n)
-        {
-          int temp = *m;
-          *m = *n;
-          *n = temp;
-        }
-
-        int main(int argc, char **argv)
-        {
-          int x,y;
-
-          x=42;
-          y=100;
-
-          swap(&x, &y);
-        }
-        {% endhighlight %}
-        " %}
+        {{ swap1 }}
     - version 2
-        {% include box.html style="bg-warning" text="
+        {{ swap1 }}
+    - version 2
         {% highlight C %}
         #include <stdlib.h>
 
@@ -132,7 +135,6 @@ course_id: dm510-25
           swap(x, y);
         }
         {% endhighlight %}
-        " %}
     - version 3
         ```
         #include <stdlib.h>
