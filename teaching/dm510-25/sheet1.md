@@ -1,3 +1,9 @@
+---
+title: DM510 Operating Systems
+layout: teaching
+course_id: dm510-25
+---
+
 # Exercise Sheet for Tutorial 1
 
 **Before** the tutorial session, try your best to solve problems below and be prepared to discuss them at the tutorial session.
