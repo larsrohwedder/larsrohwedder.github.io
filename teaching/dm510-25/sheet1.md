@@ -87,6 +87,7 @@ course_id: dm510-25
 30. Repeat the discussion of the four following examples to swap the content of two variables. Which of the examples are correct, which are wrong?
     - version 1
         ```
+        {% highlight C %}
         static inline void swap(int *m, int *n)
         {
           int temp = *m;
@@ -103,6 +104,7 @@ course_id: dm510-25
 
           swap(&x, &y);
         }
+        {% endhighlight %}
         ```
     - version 2
         ```
