@@ -180,6 +180,7 @@ course_id: dm510-25
         }
         ```
 31. Analyze the following C source code. Discuss what it does (this prepares you for the 1st programming projecct).
+
     **dm510_msgbox.c**
     ```
     #include "dm510_msgbox.h"
