@@ -39,7 +39,7 @@ The following examples can be executed with `sudo bpftrace <scriptname>`. A scri
 
 The following script counts the number of system calls per process.
 **syscalls.bt**
-{% highlight bpftrace %}
+{% highlight C %}
 tracepoint:raw_syscalls:sys_enter {
 	@[comm] = count(); 
 }
@@ -47,7 +47,7 @@ tracepoint:raw_syscalls:sys_enter {
 The following script outputs the number of context switches every second
 
 **switches.bt**
-{% highlight bpftrace %}
+{% highlight C %}
 tracepoint:sched:sched_switch {
 	 @ = count();
 } 
@@ -59,7 +59,7 @@ interval:s:1 {
 {% endhighlight %}
 
 Larger example demonstrating how to interact with a kernel structure. This replicates the output of `uptime` every second.
-{% highlight bpftrace %}
+{% highlight C %}
 #!/usr/bin/env bpftrace
 /*
  * loads	Prints load averages.
