@@ -23,7 +23,7 @@ For the projects you also need to get familiar with system calls in linux. Below
 - [System call in linux](syscall)
 
 ### Command-line Tools used in course
-Below is an overview of (Linux) tools used throughout the lectures.
+Below is a (growing) overview of Linux tools (mostly command-line) used throughout the lectures.
 
 - file tree navigation and modification in command line: `cd` to change the current directory, `ls` to list contents of current directory, `mv` to move a file, `mkdir` to create a new directory, `rm` to remove a file or directory.
 - file access and modification: `cat` prints out contents of file, `vi` (advanced) and `nano` (simple) are useful command line text editors.
