@@ -163,6 +163,6 @@ local_irq_save(flags);
 
 local_irq_restore(flags);
 {% endhighlight %}
-`local_irq_save` saves the current processor state and disables interrupts, `local_irq_restore` restores the processor state, including enabling interrupts. You can find the definition of these two macro’s (that is why it works with the flags parameter directly) in the file **include/linux/irqflags.h** and you can read a bit more (here)[https://litux.nl/mirror/kerneldevelopment/0672327201/ch06lev1sec7.html].
+`local_irq_save` saves the current processor state and disables interrupts, `local_irq_restore` restores the processor state, including enabling interrupts. You can find the definition of these two macro’s (that is why it works with the flags parameter directly) in the file **include/linux/irqflags.h** and you can read a bit more [here](https://litux.nl/mirror/kerneldevelopment/0672327201/ch06lev1sec7.html).
 
 Later in the course you will learn how this could be done in a smarter way, e.g., by using semaphores. For more information, have a look at [Documentation/cli-sti-removal.txt](https://lwn.net/Articles/5512/).

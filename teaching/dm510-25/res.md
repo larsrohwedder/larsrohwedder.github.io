@@ -25,4 +25,9 @@ For the projects you also need to get familiar with system calls in linux. Below
 ### Command-line Tools used in course
 Below is an overview of (Linux) tools used throughout the lectures.
 
-TBD
+- file tree navigation and modification in command line: `cd` to change the current directory, `ls` to list contents of current directory, `mv` to move a file, `mkdir` to create a new directory, `rm` to remove a file or directory.
+- file access and modification: `cat` prints out contents of file, `vi` (advanced) and `nano` (simple) are useful command line text editors.
+- system status: `top` monitors resource usage of various processes (CPU, memory, etc.)
+- pipes: using the `|` symbol we can forward the output of one process to the input of the other. For example, `cat test.txt | grep "42"` prints all lines of the file test.txt that contain 42.
+- [bpftrace](bpftrace): tracing tool for Unix/Linux systems
+- 
