@@ -1,3 +1,9 @@
+---
+title: DM510 Operating Systems
+layout: teaching
+course_id: dm510-25
+---
+
 # BPFTrace
 
 [bpftrace](https://github.com/bpftrace/bpftrace/) is a high-level tracing language for Linux enhanced Berkeley Packet Filter (eBPF) available in recent Linux kernels (4.x). bpftrace uses LLVM as a backend to compile scripts to BPF-bytecode and makes use of BCC for interacting with the Linux BPF system, as well as existing Linux tracing capabilities: kernel dynamic tracing (kprobes), user-level dynamic tracing (uprobes), and tracepoints.

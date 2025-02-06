@@ -30,4 +30,3 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
 - system status: `top` monitors resource usage of various processes (CPU, memory, etc.)
 - pipes: using the `|` symbol we can forward the output of one process to the input of the other. For example, `cat test.txt | grep "42"` prints all lines of the file test.txt that contain 42.
 - [bpftrace](bpftrace): tracing tool for Unix/Linux systems
-- 
