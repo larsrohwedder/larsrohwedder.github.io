@@ -11,7 +11,7 @@ The information on this page may be subject to changes during the run of the sem
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 03-02-2025 | Introduction, Overview          | Chapter 1, [slides](lecture1.pdf) |
-| 6    | 06-02-2025 | Operating Systems Services      | Chapter 2                |
+| 6    | 06-02-2025 | Operating Systems Structures    | Chapter 2, [slides](lecture2.pdf) |
 | 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3                |
 | 8    | 18-02-2025 | Processes, Threads, Concurrency | Chapter 4                |
 | 8    | 19-02-2025 | CPU Scheduling                  | Chapter 5                |
@@ -54,7 +54,7 @@ Please see your individual calendar for the exact date.
 {% include table.html content="
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
-| 06-02-2025 | 04-03-2025 |  System Call                | TBD            |
+| 06-02-2025 | 04-03-2025 |  [System Call](project1)    | TBD            |
 | 04-03-2025 | 08-04-2025 |  Kernel Module              | TBD            |
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 " %}
