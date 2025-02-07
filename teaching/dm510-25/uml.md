@@ -92,7 +92,7 @@ Of course your_imada_login has to be replaced by your IMADA login. The correspon
 - My kernel panics, if I start User Mode Linux. What is the reason?
 > There can be many reasons for that. But if you stopped UML by just closing the window where UML was running in, there will be still two processes named linux left, and UML will start with a kernel panic next time. You have to kill these processes, for example with killall -9 linux. After that, UML should start again. It is a good idea to stop UML always with the command halt.`
 - Where can I get more information on UML?
-> The (rather outdated) User-mode Linux Kernel Home Page can be found here.
+> The (rather outdated) User-mode Linux Kernel Home Page can be found [here](https://www.kernel.org/doc/html/v5.9/virt/uml/user_mode_linux.html).
 - How do I get another window for login to this UML?
 > UML supports two extra virtual consoles that you can login (in addition to the main console). The system informs you when booted (Virtual console 2 assigned device `/dev/pts/2`). You can see this information as well can be found using `dmesg`
 ```
