@@ -42,7 +42,7 @@ cd linux-6.6.9
 
 To make this a working copy of UML you also need a root filesystem, that you can copy to your directory. The filesystem is based on Debian 12. Note, that the root filesystem has a size of approx. 200MB, and that the uncompressed compiled kernel uses approx. 2.1GB.
 {% highlight terminal %}
-wget https://larsrohwedder.com/teaching/dm510-25/root_fs.bz2
+wget https://github.com/larsrohwedder/larsrohwedder.github.io/raw/refs/heads/master/teaching/dm510-25/root_fs.bz2
 bunzip2 -d root_fs.bz2
 {% endhighlight %}
 
