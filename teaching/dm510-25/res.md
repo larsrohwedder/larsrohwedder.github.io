@@ -28,8 +28,8 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
 - file tree navigation and modification in command line: `cd` to change the current directory, `ls` to list contents of current directory, `mv` to move a file, `mkdir` to create a new directory, `rm` to remove a file or directory.
 - file access and modification: `cat` prints out contents of file, `vi` (advanced) and `nano` (simple) are useful command line text editors. `>` can be used to write into a file, e.g. `echo "hello" > samplefile`. 
 - system status: `top` monitors resource usage of various processes (CPU, memory, etc.)
-- processes: `ps -e` lists current processes. `pstree` displays the parent-child relationships of processes as a tree. The file `/proc/<pid>/status` contains status information about a process (for example, number of context swithes)
-- pipes: using the `|` symbol we can forward the output of one process to the input of the other. For example, `cat test.txt | grep "42"` prints all lines of the file test.txt that contain 42. `mkfifo` creates a named pipe in the filesystem into which processes can read and write
+- processes: `ps -e` lists current processes. `pstree` displays the parent-child relationships of processes as a tree. `cat /proc/<pid>/status` displays status information about a process (for example, number of context swithes)
+- pipes: using the `|` symbol we can forward the output of one process to the input of the other. For example, `cat test.txt | grep "42"` prints all lines of the file test.txt that contain 42. `mkfifo <name>` creates a named pipe in the filesystem into which processes can read and write
 - [bpftrace](bpftrace): tracing tool for Unix/Linux systems
 - Producer-consumer with shared memory: [shm-producer.c](shm-producer.c), [shm-consumer.c](shm-consumer.c)
 - Producer-consumer with named pipe (create pipe first with `mkfifo dm510_fifo`): [np-producer.c](np-producer.c), [np-consumer.c](np-consumer.c)
