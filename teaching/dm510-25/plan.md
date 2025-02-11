@@ -12,7 +12,7 @@ The information on this page may be subject to changes during the run of the sem
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 03-02-2025 | Introduction, Overview          | Chapter 1, [slides](lecture1.pdf) |
 | 6    | 06-02-2025 | Operating Systems Structures    | Chapter 2, [slides](lecture2.pdf) |
-| 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3                |
+| 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3, [slides](lecture3.pdf) |
 | 8    | 18-02-2025 | Processes, Threads, Concurrency | Chapter 4                |
 | 8    | 19-02-2025 | CPU Scheduling                  | Chapter 5                |
 | 9    | 25-02-2025 | Synchronization                 | Chapter 6+7              |
@@ -38,7 +38,7 @@ Please see your individual calendar for the exact date.
 | Week  |              Topic           | Exercises        |
 | ----- | ---------------------------- | ---------------- |
 | 7     | Chapter 1+2                  | [Sheet1](sheet1) |
-| 8     | Chapter 3+4                  | TBD              |
+| 8     | Chapter 3+4                  | [Sheet2](sheet2) |
 | 9     | Chapter 6+7                  | TBD              |
 | 10    | Chapter 8                    | TBD              |
 | 11    | Chapter 9+10                 | TBD              |
