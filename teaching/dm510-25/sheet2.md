@@ -39,13 +39,13 @@ int main()
 #include <unistd.h>
 int main()
 {
-  /* fork a child process */
-  fork();
-  /* fork another child process */
-  fork();
-  /* and fork another */
-  fork();
-  return 0;
+    /* fork a child process */
+    fork();
+    /* fork another child process */
+    fork();
+    /* and fork another */
+    fork();
+    return 0;
 }
     ```
 3. Using the program below, identify the values of pid at lines `A` , `B` , `C` , and `D`. (Assume that the actual pids of the parent and child are `2600` and `2603`, respectively.)
@@ -55,28 +55,28 @@ int main()
 #include <unistd.h>
 int main()
 {
-  pid_t pid, pid1;
-  /* fork a child process */
-  pid = fork();
-  if (pid < 0) {
-     /* error occurred */
-     fprintf(stderr, "Fork Failed\n");
-     return 1;
-  }
-  else if (pid == 0) {
-     /* child process */
-     pid1 = getpid();
-     printf("child: pid = %d\n",pid);   /* A */
-     printf("child: pid1 = %d\n",pid1); /* B */
-  }
-  else {
-     /* parent process */
-     pid1 = getpid();
-     printf("parent: pid = %d\n",pid);   /* C */
-     printf("parent: pid1 = %d\n",pid1); /* D */
-     wait(NULL);
-  }
-  return 0;
+    pid_t pid, pid1;
+    /* fork a child process */
+    pid = fork();
+    if (pid < 0) {
+        /* error occurred */
+        fprintf(stderr, "Fork Failed\n");
+        return 1;
+    }
+    else if (pid == 0) {
+        /* child process */
+        pid1 = getpid();
+        printf("child: pid = %d\n",pid);   /* A */
+        printf("child: pid1 = %d\n",pid1); /* B */
+    }
+    else {
+        /* parent process */
+        pid1 = getpid();
+        printf("parent: pid = %d\n",pid);   /* C */
+        printf("parent: pid1 = %d\n",pid1); /* D */
+        wait(NULL);
+    }
+    return 0;
 }
     ```
 4. Using the program shown below, explain what the output will be at lines `X` and `Y`.
@@ -88,20 +88,21 @@ int main()
 int nums[SIZE] = {0,1,2,3,4};
 int main()
 {
-  int i;
-  pid_t pid;
-  pid = fork();
-  if (pid == 0) {
-     for (i = 0; i < SIZE; i++) {
-       nums[i] *= -i;
-       printf("CHILD: %d \n",nums[i]); /* LINE X */
-     }
-  }
-  else if (pid > 0) { wait(NULL);
-     for (i = 0; i < SIZE; i++)
-       printf("PARENT: %d \n",nums[i]); /* LINE Y */
-  }
-  return 0;
+    int i;
+    pid_t pid;
+    pid = fork();
+    if (pid == 0) {
+        for (i = 0; i < SIZE; i++) {
+            nums[i] *= -i;
+            printf("CHILD: %d \n",nums[i]); /* LINE X */
+        }
+    }
+    else if (pid > 0) {
+        wait(NULL);
+        for (i = 0; i < SIZE; i++)
+            printf("PARENT: %d \n",nums[i]); /* LINE Y */
+    }
+    return 0;
 }
 
     ```
@@ -186,8 +187,8 @@ void *runner(void *param) {
 
 ### C Programming
 1. Analyze the following C program(s), and discuss the code given below wrt. correctness, readability and efficiency of the code. Is the first version more efficient than the naïve recursive approach (2nd version) to compute the power of a number?
+    ** Version 1 **
     ```
-/* Version 1 */
 #include <stdio.h>
 #include <inttypes.h>
 float power(float x, uint32_t exp);
@@ -215,9 +216,8 @@ int main(int argc, char **argv)
   return 0;
 }
     ```
-
+    ** Version 2 **
     ```
-/* Version 2 */
 #include <stdio.h>
 #include <inttypes.h>
 
@@ -240,15 +240,5 @@ int main(int argc, char **argv)
   return 0;
 }
     ```
-
-
-
-
-
-
-
-
-
-
 ### In class
 Discuss the exercises prepared at home
