@@ -142,43 +142,44 @@ int main()
     * How many unique processes are created?
     * How many unique threads are created?
     ```
-pid_t pid;
-pid = fork();
-if (pid == 0) { /* child process */
+    pid_t pid;
+    pid = fork();
+    if (pid == 0) { /* child process */
+        fork();
+        thread create( . . .);
+    }
     fork();
-    thread create( . . .);
-}
-fork();
     ```
 11. The following program uses the Pthreads API. What would be the output from the program at `LINE C` and `LINE P`?
+
     ```
-#include <pthread.h>
-#include <stdio.h>
-int value = 0;
-void *runner(void *param); /* the thread */
-int main(int argc, char *argv[])
-{
-    pid_t pid;
-    pthread_t tid;
-    pthread_attr_t attr;
+    #include <pthread.h>
+    #include <stdio.h>
+    int value = 0;
+    void *runner(void *param); /* the thread */
+    int main(int argc, char *argv[])
+    {
+        pid_t pid;
+        pthread_t tid;
+        pthread_attr_t attr;
 
-    pid = fork();
+        pid = fork();
 
-    if (pid == 0) { /* child process */
-        pthread_attr_init(&attr);
-        pthread_create(&tid,&attr,runner,NULL);
-        pthread_join(tid,NULL);
-        printf("CHILD: value = %d \n",value); /* LINE C */
-    } else if (pid > 0) { /* parent process */
-        wait(NULL);
-        printf("PARENT: value = %d \n",value); /* LINE P */
+        if (pid == 0) { /* child process */
+            pthread_attr_init(&attr);
+            pthread_create(&tid,&attr,runner,NULL);
+            pthread_join(tid,NULL);
+            printf("CHILD: value = %d \n",value); /* LINE C */
+        } else if (pid > 0) { /* parent process */
+            wait(NULL);
+            printf("PARENT: value = %d \n",value); /* LINE P */
+        }
     }
-}
 
-void *runner(void *param) {
-    value = 5;
-    pthread_exit(0);
-}
+    void *runner(void *param) {
+        value = 5;
+        pthread_exit(0);
+    }
     ```
 12. Consider a multicore system and a multithreaded program written using the many-to-many threading model. Let the number of user-level threads in the program be greater than the number of processing cores in the system. Discuss the performance implications of the following scenarios.
     * The number of kernel threads allocated to the program is less than the number of processing cores.
