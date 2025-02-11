@@ -32,5 +32,5 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
 - pipes: using the `|` symbol we can forward the output of one process to the input of the other. For example, `cat test.txt | grep "42"` prints all lines of the file test.txt that contain 42. `mkfifo` creates a named pipe in the filesystem into which processes can read and write
 - [bpftrace](bpftrace): tracing tool for Unix/Linux systems
 - Producer-consumer with shared memory: [shm-producer.c](shm-producer.c), [shm-consumer.c](shm-consumer.c)
-- Producer-consumer with named pipe (create pipe first with `mkfifo dm510_pipe`): [np-producer.c](np-producer.c), [np-consumer.c](np-consumer.c)
+- Producer-consumer with named pipe (create pipe first with `mkfifo dm510_fifo`): [np-producer.c](np-producer.c), [np-consumer.c](np-consumer.c)
 - Producer-consumer with ordinary pipe: [op-producer-consumer.c](op-producer-consumer.c)
