@@ -17,19 +17,19 @@ course_id: dm510-25
 int value = 5;
 int main()
 {
-  pid_t pid;
-  pid = fork();
-  if (pid == 0) {
-    /* child process */
-    value += 15;
-    return 0;
-  }
-  else if (pid > 0) {
-    /* parent process */
-    wait(NULL);
-    printf("PARENT: value = %d",value); /* LINE A */
-    return 0;
-  }
+    pid_t pid;
+    pid = fork();
+    if (pid == 0) {
+        /* child process */
+        value += 15;
+        return 0;
+    }
+    else if (pid > 0) {
+        /* parent process */
+        wait(NULL);
+        printf("PARENT: value = %d",value); /* LINE A */
+        return 0;
+    }
 }
 
     ```
@@ -138,7 +138,9 @@ int main()
     * Heap memory
     * Global variables
     * Stack memory
-10. Consider the following code segment
+10. Consider the following code segment.
+    * How many unique processes are created?
+    * How many unique threads are created?
     ```
 pid_t pid;
 pid = fork();
@@ -148,8 +150,6 @@ if (pid == 0) { /* child process */
 }
 fork();
     ```
-    * How many unique processes are created?
-    * How many unique threads are created?
 11. The following program uses the Pthreads API. What would be the output from the program at `LINE C` and `LINE P`?
     ```
 #include <pthread.h>
