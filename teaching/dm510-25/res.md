@@ -30,7 +30,15 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
 - system status: `top` monitors resource usage of various processes (CPU, memory, etc.)
 - processes: `ps -e` lists current processes. `pstree` displays the parent-child relationships of processes as a tree. `cat /proc/<pid>/status` displays status information about a process (for example, number of context swithes)
 - pipes: using the `|` symbol we can forward the output of one process to the input of the other. For example, `cat test.txt | grep "42"` prints all lines of the file test.txt that contain 42. `mkfifo <name>` creates a named pipe in the filesystem into which processes can read and write
+- `time <command>`: executes command and outputs time used for it
+- processor information: `cat /proc/cpuinfo` outputs various information about CPU architecture
 - [bpftrace](bpftrace): tracing tool for Unix/Linux systems
-- Producer-consumer with shared memory: [shm-producer.c](shm-producer.c), [shm-consumer.c](shm-consumer.c)
-- Producer-consumer with named pipe (create pipe first with `mkfifo dm510_fifo`): [np-producer.c](np-producer.c), [np-consumer.c](np-consumer.c)
-- Producer-consumer with ordinary pipe: [op-producer-consumer.c](op-producer-consumer.c)
+- communication:
+    - Producer-consumer with shared memory: [shm-producer.c](shm-producer.c), [shm-consumer.c](shm-consumer.c)
+    - Producer-consumer with named pipe (create pipe first with `mkfifo dm510_fifo`): [np-producer.c](np-producer.c), [np-consumer.c](np-consumer.c)
+    - Producer-consumer with ordinary pipe: [op-producer-consumer.c](op-producer-consumer.c)
+- parallelization:
+    - sequential matrix multiplication: [mat-mult.c](mat-mult.c)
+    - two separate matrix multiplications in two separate threads [pthread.c](pthread.c)
+    - OpenMP parallelization of matrix multiplication (compile with `gcc -fopenmp`) [openmp.c](openmp.c)
+    - Using SIMD instructions for matrix multiplication [sse.c](sse.c)
