@@ -13,7 +13,7 @@ The information on this page may be subject to changes during the run of the sem
 | 6    | 03-02-2025 | Introduction, Overview          | Chapter 1, [slides](lecture1.pdf) |
 | 6    | 06-02-2025 | Operating Systems Structures    | Chapter 2, [slides](lecture2.pdf) |
 | 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3, [slides](lecture3.pdf) |
-| 8    | 18-02-2025 | Processes, Threads, Concurrency | Chapter 4                |
+| 8    | 18-02-2025 | Processes, Threads, Concurrency | Chapter 4, [slides](lecture4.pdf) |
 | 8    | 19-02-2025 | CPU Scheduling                  | Chapter 5                |
 | 9    | 25-02-2025 | Synchronization                 | Chapter 6+7              |
 | 10   | 04-03-2025 | Deadlocks                       | Chapter 8                |
@@ -39,11 +39,11 @@ Please see your individual calendar for the exact date.
 | ----- | ---------------------------- | ---------------- |
 | 7     | Chapter 1+2                  | [Sheet1](sheet1) |
 | 8     | Chapter 3+4                  | [Sheet2](sheet2) |
-| 9     | Chapter 6+7                  | TBD              |
-| 10    | Chapter 8                    | TBD              |
-| 11    | Chapter 9+10                 | TBD              |
-| 12    | Chapter 11                   | TBD              |
-| 13    | Chapter 12                   | TBD              |
+| 9     | Chapter 5                    | TBD              |
+| 10    | Chapter 6+7                  | TBD              |
+| 11    | Chapter 8                    | TBD              |
+| 12    | Chapter 9+10                 | TBD              |
+| 13    | Chapter 11+12                | TBD              |
 | 14    | Chapter 13+14+15             | TBD              |
 | 15    | Chapter 16+17                | TBD              |
 | 17    | Chapter 18+19                | TBD              |
