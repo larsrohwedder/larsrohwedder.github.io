@@ -33,7 +33,7 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
 - `time <command>`: executes command and outputs time used for it
 - processor information: `cat /proc/cpuinfo` outputs various information about CPU architecture
 - [bpftrace](bpftrace): tracing tool for Unix/Linux systems
-- scheduling/priority: `renice -n <niceness> <pid>` changes the niceness of a process (which affects directly the scheduling priority. `nice -n <niceness> <command>` runs `<command>` with the specified niceness.
+- scheduling/priority: `renice -n <niceness> <pid>` changes the niceness of a process (which affects directly the scheduling priority). `nice -n <niceness> <command>` runs `<command>` with the specified niceness.
 - communication:
     - Producer-consumer with shared memory: [shm-producer.c](shm-producer.c), [shm-consumer.c](shm-consumer.c)
     - Producer-consumer with named pipe (create pipe first with `mkfifo dm510_fifo`): [np-producer.c](np-producer.c), [np-consumer.c](np-consumer.c)
