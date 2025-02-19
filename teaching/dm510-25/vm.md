@@ -31,6 +31,8 @@ Choose a name, for example DM510, select Linux as type and Debian (64-bit) as ve
 
 To create the disk, I recommend these settings: VDI, Dynamically allocated, A name you can remember, and 10GB.
 
+**update**: students have experienced that 10GB might be too low. Use 20GB if possible.
+
 ![Disk](/assets/img/dm510/vm-new-disk.png)
 
 ![Disk](/assets/img/dm510/vm-new-disk2.png)
