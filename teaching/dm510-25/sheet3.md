@@ -50,7 +50,7 @@ course_id: dm510-25
     | P5      | 100     | 10         | 5        |
     | P6      | 105     | 10         | 10       |
 
-Each process is assigned a numerical priority, with a higher number indicating a higher relative priority. In addition to the processes listed below, the system also has an idle task (which consumes no CPU resources and is identified as Pidle). This task has priority 0 and is scheduled whenever the system has no other available processes to run. The length of a time quantum is 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
+    Each process is assigned a numerical priority, with a lower number indicating a higher priority. In addition to the processes listed below, the system also has an idle task (which consumes no CPU resources and is identified as Pidle). This task has priority 0 and is scheduled whenever the system has no other available processes to run. The length of a time quantum is 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
     - Show the scheduling order of the processes using a Gantt chart.
     - What is the response time for each process?
     - What is the waiting time for each process?
@@ -62,7 +62,6 @@ Each process is assigned a numerical priority, with a higher number indicating a
     - Priority and FCFS
     - RR and SJF
 8. Suppose that a CPU scheduling algorithm favors those processes that have used the least processor time in the recent past. Why will this algorithm favor I/O-bound programs and yet not permanently starve CPU-bound programs?
-9. Distinguish between PCS and SCS scheduling.
 10. The traditional UNIX scheduler enforces an inverse relationship between priority numbers and priorities: the higher the number, the lower the priority. The scheduler recalculates process priorities once per second using the following function:
 
     Priority = (recent CPU usage / 2) + base
