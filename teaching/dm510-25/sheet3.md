@@ -28,11 +28,11 @@ course_id: dm510-25
     {: .table .table-striped}
     | Process |	Burst Time | Priority |
     | ------- | ---------- | -------- |
-    | P1      | 2          | 2        |
-    | P2      | 1          | 1        |
-    | P3      | 8          | 4        |
-    | P4      | 4          | 2        |
-    | P5      | 5          | 3        |
+    | P1      | 2          | 3        |
+    | P2      | 1          | 4        |
+    | P3      | 8          | 1        |
+    | P4      | 4          | 3        |
+    | P5      | 5          | 2        |
 
     The processes are assumed to have arrived in the order P1, P2, P3, P4 , P5, all at time 0. Draw four Gantt charts that illustrate the execution of these processes using the following scheduling algorithms: FCFS, SJF, nonpreemptive priority (a lower number implies a higher priority), and RR (quantum = 2).
     - What is the response time of each process for each of the scheduling algorithms in part a?
@@ -43,12 +43,12 @@ course_id: dm510-25
     {: .table .table-striped}
     | Process |	Arrival | Burst Time | Priority |
     | ------- | ------- | ---------- | -------- |
-    | P1      | 0       | 20         | 40       |
+    | P1      | 0       | 20         | 5        |
     | P2      | 25      | 25         | 30       |
     | P3      | 30      | 25         | 30       |
-    | P4      | 60      | 15         | 35       |
-    | P5      | 100     | 10         | 5        |
-    | P6      | 105     | 10         | 10       |
+    | P4      | 60      | 15         | 10       |
+    | P5      | 100     | 10         | 40       |
+    | P6      | 105     | 10         | 35       |
 
     Each process is assigned a numerical priority, with a lower number indicating a higher priority. In addition to the processes listed below, the system also has an idle task (which consumes no CPU resources and is identified as Pidle). This task has priority 0 and is scheduled whenever the system has no other available processes to run. The length of a time quantum is 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
     - Show the scheduling order of the processes using a Gantt chart.
@@ -82,12 +82,12 @@ course_id: dm510-25
     {: .table .table-striped}
     | Process |	Arrival | Burst Time | Priority |
     | ------- | ------- | ---------- | -------- |
-    | P1      | 0       | 15         | 8        |
-    | P2      | 0       | 20         | 3        |
-    | P3      | 20      | 20         | 4        |
-    | P4      | 25      | 20         | 4        |
-    | P5      | 45      | 5          | 5        |
-    | P6      | 55      | 15         | 5        |
+    | P1      | 0       | 15         | 1        |
+    | P2      | 0       | 20         | 8        |
+    | P3      | 20      | 20         | 5        |
+    | P4      | 25      | 20         | 5        |
+    | P5      | 45      | 5          | 4        |
+    | P6      | 55      | 15         | 4        |
 
     Each process is assigned a numerical priority, with a lower number indicating a higher relative priority. The scheduler will execute the highest priority process. For processes with the same priority, a round-robin scheduler will be used with a time quantum of 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
     - Show the scheduling order of the processes using a Gantt chart.
