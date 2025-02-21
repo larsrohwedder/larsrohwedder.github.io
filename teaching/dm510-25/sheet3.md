@@ -70,6 +70,7 @@ course_id: dm510-25
 11. Of these two types of programs:
     - I/O-bound
     - CPU-bound
+
     which is more likely to have voluntary context switches, and which is more likely to have nonvoluntary context switches? Explain your answer.
 12. One technique for implementing **lottery scheduling** works by assigning processes lottery tickets, which are used for allocating CPU time. Whenever a scheduling decision has to be made, a lottery ticket is chosen at random, and the process holding that ticket gets the CPU. The BTV operating system implements lottery scheduling by holding a lottery 50 times each second, with each lottery winner getting 20 milliseconds of CPU time (20 milliseconds × 50 = 1 second). Describe how the BTV scheduler can ensure that higher-priority threads receive more attention from the CPU than lower-priority threads.
 13. Consider the exponential average formula used to predict the length of the next CPU burst. What are the implications of assigning the following values to the parameters used by the algorithm?
@@ -88,9 +89,9 @@ course_id: dm510-25
     | P5      | 45      | 5          | 5        |
     | P6      | 55      | 15         | 5        |
 
-    Each process is assigned a numerical priority, with a higher number indicating a higher relative priority. The scheduler will execute the highestpriority process. For processes with the same priority, a round-robin scheduler will be used with a time quantum of 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
+    Each process is assigned a numerical priority, with a higher number indicating a higher relative priority. The scheduler will execute the highest priority process. For processes with the same priority, a round-robin scheduler will be used with a time quantum of 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
     - Show the scheduling order of the processes using a Gantt chart.
-    - What is the turnaround time for each process?
+    - What is the response time for each process?
     - What is the waiting time for each process?
 16. Which of the following scheduling algorithms could result in starvation?
     - First-come, first-served
@@ -104,7 +105,7 @@ course_id: dm510-25
     - FCFS
     - RR
     - Multilevel feedback queues
-19. Assume that an SMP system has private, per-processor run queues. When a new process is created, it can be placed in either the same queue as the parent process or a separate queue.
+19. Assume that a multicore system has private, per-processor run queues. When a new process is created, it can be placed in either the same queue as the parent process or a separate queue.
     - What are the benefits of placing the new process in the same queue as its parent?
     - What are the benefits of placing the new process in a different queue?
 20. Explain why interrupt and dispatch latency times must be bounded in a hard real-time system.
