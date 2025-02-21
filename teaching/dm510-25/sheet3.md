@@ -13,6 +13,7 @@ course_id: dm510-25
 2. Explain the difference between preemptive and nonpreemptive scheduling.
 3. Suppose that the following processes arrive for execution at the times indicated. Each process will run for the amount of time listed. In answering the questions, use nonpreemptive scheduling, and base all decisions on the information you have at the time the decision must be made. 
 
+    {: .table .table-striped}
     | Process |	Arrival Time | Burst Time |
     | ------- | ------------ | ---------- |
     | P1      | 0.0          | 8          |
@@ -24,6 +25,7 @@ course_id: dm510-25
     - The SJF algorithm is supposed to improve performance, but notice that we chose to run process P1 at time 0 because we did not know that two shorter processes would arrive soon. Compute what the average response time will be if the CPU is left idle for the first 1 unit and then SJF scheduling is used. Remember that processes P1 and P2 are waiting during this idle time, so their waiting time may increase. This algorithm could be known as future-knowledge scheduling.
 4. Consider the following set of processes, with the length of the CPU burst time given in milliseconds:
 
+    {: .table .table-striped}
     | Process |	Burst Time | Priority |
     | ------- | ---------- | -------- |
     | P1      | 2          | 2        |
@@ -38,6 +40,7 @@ course_id: dm510-25
     - Which of the algorithms results in the minimum average waiting time (over all processes)?
 5. The following processes are being scheduled using a preemptive, round-robin scheduling algorithm.
 
+    {: .table .table-striped}
     | Process |	Arrival | Burst Time | Priority |
     | ------- | ------- | ---------- | -------- |
     | P1      | 0       | 20         | 40       |
@@ -75,6 +78,8 @@ Each process is assigned a numerical priority, with a higher number indicating a
     α = 0.99 and τ0 = 10 milliseconds
 14. A variation of the round-robin scheduler is the **regressive round-robin** scheduler. This scheduler assigns each process a time quantum and a priority. The initial value of a time quantum is 50 milliseconds. However, every time a process has been allocated the CPU and uses its entire time quantum (does not block for I/O), 10 milliseconds is added to its time quantum, and its priority level is boosted. (The time quantum for a process can be increased to a maximum of 100 milliseconds.) When a process blocks before using its entire time quantum, its time quantum is reduced by 5 milliseconds, but its priority remains the same. What type of process (CPU-bound or I/O-bound) does the regressive round-robin scheduler favor? Explain.
 15. The following processes are being scheduled using a preemptive, priority-based, round-robin scheduling algorithm.
+
+    {: .table .table-striped}
     | Process |	Arrival | Burst Time | Priority |
     | ------- | ------- | ---------- | -------- |
     | P1      | 0       | 15         | 8        |
