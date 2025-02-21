@@ -34,7 +34,7 @@ course_id: dm510-25
     | P4      | 4          | 2        |
     | P5      | 5          | 3        |
 
-    The processes are assumed to have arrived in the order P1, P2, P3, P4 , P5, all at time 0. Draw four Gantt charts that illustrate the execution of these processes using the following scheduling algorithms: FCFS, SJF, nonpreemptive priority (a larger priority number implies a higher priority), and RR (quantum = 2).
+    The processes are assumed to have arrived in the order P1, P2, P3, P4 , P5, all at time 0. Draw four Gantt charts that illustrate the execution of these processes using the following scheduling algorithms: FCFS, SJF, nonpreemptive priority (a lower number implies a higher priority), and RR (quantum = 2).
     - What is the response time of each process for each of the scheduling algorithms in part a?
     - What is the waiting time of each process for each of these scheduling algorithms?
     - Which of the algorithms results in the minimum average waiting time (over all processes)?
@@ -89,7 +89,7 @@ course_id: dm510-25
     | P5      | 45      | 5          | 5        |
     | P6      | 55      | 15         | 5        |
 
-    Each process is assigned a numerical priority, with a higher number indicating a higher relative priority. The scheduler will execute the highest priority process. For processes with the same priority, a round-robin scheduler will be used with a time quantum of 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
+    Each process is assigned a numerical priority, with a lower number indicating a higher relative priority. The scheduler will execute the highest priority process. For processes with the same priority, a round-robin scheduler will be used with a time quantum of 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
     - Show the scheduling order of the processes using a Gantt chart.
     - What is the response time for each process?
     - What is the waiting time for each process?

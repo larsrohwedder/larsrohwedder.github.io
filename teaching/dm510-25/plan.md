@@ -39,7 +39,7 @@ Please see your individual calendar for the exact date.
 | ----- | ---------------------------- | ---------------- |
 | 7     | Chapter 1+2                  | [Sheet1](sheet1) |
 | 8     | Chapter 3+4                  | [Sheet2](sheet2) |
-| 9     | Chapter 5                    | TBD              |
+| 9     | Chapter 5                    | [Sheet3](sheet3) |
 | 10    | Chapter 6+7                  | TBD              |
 | 11    | Chapter 8                    | TBD              |
 | 12    | Chapter 9+10                 | TBD              |
