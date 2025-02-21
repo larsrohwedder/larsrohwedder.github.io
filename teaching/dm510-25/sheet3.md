@@ -11,8 +11,7 @@ course_id: dm510-25
 ### Related to Chapter 5
 1. A CPU-scheduling algorithm determines an order for the execution of its scheduled processes. Given n processes to be scheduled on one processor, how many different schedules are possible? Give a formula in terms of n.
 2. Explain the difference between preemptive and nonpreemptive scheduling.
-3. Suppose that the following processes arrive for execution at the times indicated. Each process will run for the amount of time listed. In answering the questions, use nonpreemptive scheduling, and base all decisions on the information you have at the time the decision must be made.
-    {% include table.html content="
+3. Suppose that the following processes arrive for execution at the times indicated. Each process will run for the amount of time listed. In answering the questions, use nonpreemptive scheduling, and base all decisions on the information you have at the time the decision must be made. {% include table.html content="
     | Process |	Arrival Time | Burst Time |
     | ------- | ------------ | ---------- |
     | P1      | 0.0          | 8          |
@@ -22,8 +21,7 @@ course_id: dm510-25
     - What is the average response time for these processes with the FCFS scheduling algorithm?
     - What is the average response time for these processes with the SJF scheduling algorithm?
     - The SJF algorithm is supposed to improve performance, but notice that we chose to run process P1 at time 0 because we did not know that two shorter processes would arrive soon. Compute what the average response time will be if the CPU is left idle for the first 1 unit and then SJF scheduling is used. Remember that processes P1 and P2 are waiting during this idle time, so their waiting time may increase. This algorithm could be known as future-knowledge scheduling.
-4. Consider the following set of processes, with the length of the CPU burst time given in milliseconds:
-    {% include table.html content="
+4. Consider the following set of processes, with the length of the CPU burst time given in milliseconds: {% include table.html content="
     | Process |	Burst Time | Priority |
     | ------- | ---------- | -------- |
     | P1      | 2          | 2        |
@@ -36,8 +34,7 @@ course_id: dm510-25
     - What is the response time of each process for each of the scheduling algorithms in part a?
     - What is the waiting time of each process for each of these scheduling algorithms?
     - Which of the algorithms results in the minimum average waiting time (over all processes)?
-5. The following processes are being scheduled using a preemptive, round-robin scheduling algorithm.
-    {% include table.html content="
+5. The following processes are being scheduled using a preemptive, round-robin scheduling algorithm. {% include table.html content="
     | Process |	Arrival | Burst Time | Priority |
     | ------- | ------- | ---------- | -------- |
     | P1      | 0       | 20         | 40       |
@@ -74,8 +71,7 @@ Each process is assigned a numerical priority, with a higher number indicating a
     α = 0 and τ0 = 100 milliseconds
     α = 0.99 and τ0 = 10 milliseconds
 14. A variation of the round-robin scheduler is the **regressive round-robin** scheduler. This scheduler assigns each process a time quantum and a priority. The initial value of a time quantum is 50 milliseconds. However, every time a process has been allocated the CPU and uses its entire time quantum (does not block for I/O), 10 milliseconds is added to its time quantum, and its priority level is boosted. (The time quantum for a process can be increased to a maximum of 100 milliseconds.) When a process blocks before using its entire time quantum, its time quantum is reduced by 5 milliseconds, but its priority remains the same. What type of process (CPU-bound or I/O-bound) does the regressive round-robin scheduler favor? Explain.
-15. The following processes are being scheduled using a preemptive, priority-based, round-robin scheduling algorithm.
-    {% include table.html content="
+15. The following processes are being scheduled using a preemptive, priority-based, round-robin scheduling algorithm. {% include table.html content="
     | Process |	Arrival | Burst Time | Priority |
     | ------- | ------- | ---------- | -------- |
     | P1      | 0       | 15         | 8        |
