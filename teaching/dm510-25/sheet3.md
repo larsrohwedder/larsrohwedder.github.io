@@ -18,7 +18,7 @@ course_id: dm510-25
     | P1      | 0.0          | 8          |
     | P2      | 0.4          | 4          |
     | P3      | 1.0          | 1          |
-    " }
+    " %}
     - What is the average response time for these processes with the FCFS scheduling algorithm?
     - What is the average response time for these processes with the SJF scheduling algorithm?
     - The SJF algorithm is supposed to improve performance, but notice that we chose to run process P1 at time 0 because we did not know that two shorter processes would arrive soon. Compute what the average response time will be if the CPU is left idle for the first 1 unit and then SJF scheduling is used. Remember that processes P1 and P2 are waiting during this idle time, so their waiting time may increase. This algorithm could be known as future-knowledge scheduling.
@@ -31,7 +31,7 @@ course_id: dm510-25
     | P3      | 8          | 4        |
     | P4      | 4          | 2        |
     | P5      | 5          | 3        |
-    " }
+    " %}
     The processes are assumed to have arrived in the order P1, P2, P3, P4 , P5, all at time 0. Draw four Gantt charts that illustrate the execution of these processes using the following scheduling algorithms: FCFS, SJF, nonpreemptive priority (a larger priority number implies a higher priority), and RR (quantum = 2).
     - What is the response time of each process for each of the scheduling algorithms in part a?
     - What is the waiting time of each process for each of these scheduling algorithms?
@@ -46,7 +46,7 @@ course_id: dm510-25
     | P4      | 60      | 15         | 35       |
     | P5      | 100     | 10         | 5        |
     | P6      | 105     | 10         | 10       |
-    " }
+    " %}
 Each process is assigned a numerical priority, with a higher number indicating a higher relative priority. In addition to the processes listed below, the system also has an idle task (which consumes no CPU resources and is identified as Pidle). This task has priority 0 and is scheduled whenever the system has no other available processes to run. The length of a time quantum is 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
     - Show the scheduling order of the processes using a Gantt chart.
     - What is the response time for each process?
@@ -84,7 +84,7 @@ Each process is assigned a numerical priority, with a higher number indicating a
     | P4      | 25      | 20         | 4        |
     | P5      | 45      | 5          | 5        |
     | P6      | 55      | 15         | 5        |
-    " }
+    " %}
     Each process is assigned a numerical priority, with a higher number indicating a higher relative priority. The scheduler will execute the highestpriority process. For processes with the same priority, a round-robin scheduler will be used with a time quantum of 10 units. If a process is preempted by a higher-priority process, the preempted process is placed at the end of the queue.
     - Show the scheduling order of the processes using a Gantt chart.
     - What is the turnaround time for each process?
