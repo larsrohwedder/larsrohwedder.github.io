@@ -59,7 +59,9 @@ course_id: dm510-25
      }
     ```
     This has the effect of summing the elements in the array as a series of partial sums, as shown in the figure below.
+
     ![Partial Sum](partialsum.png)
+
     After the code has executed, the sum of all elements in the array is stored in the last array location. Are there any race conditions in the above code example? If so, identify where they occur and illustrate with an example. If not, demonstrate why this algorithm is free from race conditions.
 8. One approach for using `compare_and_swap()` for implementing a spinlock is as follows:
     ```
