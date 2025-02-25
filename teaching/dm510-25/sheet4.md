@@ -86,7 +86,7 @@ course_id: dm510-25
      }
     ```
     Does this "compare and compare-and-swap" idiom work appropriately for implementing spinlocks? If so, explain. If not, illustrate how the integrity of the lock is compromised.
-9. The first known correct software solution (assuming appropriate memory barriers are added) to the critical-section problem for two processes was developed by Dekker. The two processes, P0 and P1, share the following variables:
+9. The first known correct software solution to the critical-section problem for two processes was developed by Dekker. The two processes, P0 and P1, share the following variables:
     ```
      boolean flag[2]; /* initially false */
      int turn;
@@ -113,7 +113,8 @@ course_id: dm510-25
          /* remainder section */
       }
     ```
-    Prove that the algorithm satisfies all three requirements for the critical-section problem.
+    - Prove that the algorithm satisfies all three requirements for the critical-section problem.
+    - Explain why memory barriers are necessary for correct functioning and where they need to be inserted.
 10. Consider how to implement a mutex lock using the `compare_and_swap()` instruction. Assume that the following structure defining the mutex lock is available:
     ```
      typedef struct {
