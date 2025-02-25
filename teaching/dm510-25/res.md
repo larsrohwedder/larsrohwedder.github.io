@@ -22,7 +22,7 @@ In the projects we are using User-Mode Linux. A guide on getting started with it
 For the projects you also need to get familiar with system calls in linux. Below is a guideline on implementing a trivial system call
 - [System call in linux](syscall)
 
-### Command-line tools and programs used in course
+### Command-line tools, programs, and examples used in course
 Below is a (growing) overview of Linux tools (mostly command-line) used throughout the lectures.
 
 - file tree navigation and modification in command line: `cd` to change the current directory, `ls` to list contents of current directory, `mv` to move a file, `mkdir` to create a new directory, `rm` to remove a file or directory.
@@ -43,3 +43,7 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
     - two separate matrix multiplications in two separate threads [pthread.c](pthread.c)
     - OpenMP parallelization of matrix multiplication (compile with `gcc -fopenmp`) [openmp.c](openmp.c)
     - Using SIMD instructions for matrix multiplication [sse.c](sse.c)
+- synchronization:
+    - via OpenMP: [crit-section.c](crit-section.c)
+    - via pthread mutex: [mutex.c](mutex.c)
+    - via atomic instructions (compare-and-exchange): [atomic.c](atomic.c)
