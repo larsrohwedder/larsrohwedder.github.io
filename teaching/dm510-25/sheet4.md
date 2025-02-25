@@ -86,7 +86,7 @@ course_id: dm510-25
      }
     ```
     Does this "compare and compare-and-swap" idiom work appropriately for implementing spinlocks? If so, explain. If not, illustrate how the integrity of the lock is compromised.
-9. The first known correct software solution to the critical-section problem for two processes was developed by Dekker. The two processes, P0 and P1, share the following variables:
+9. The first known correct software solution (assuming appropriate memory barriers are added) to the critical-section problem for two processes was developed by Dekker. The two processes, P0 and P1, share the following variables:
     ```
      boolean flag[2]; /* initially false */
      int turn;
@@ -144,7 +144,6 @@ course_id: dm510-25
     ```
     Explain which of these two strategies is more efficient.
 13. Servers can be designed to limit the number of open connections. For example, a server may wish to have only N socket connections at any point in time. As soon as N connections are made, the server will not accept another incoming connection until an existing connection is released. Illustrate how semaphores can be used by a server to limit the number of concurrent connections.
-14. Describe how the `signal()` operation associated with monitors differs from the corresponding operation defined for semaphores.
 
 ### Related to Chapter 7
 1. Describe how deadlock is possible with the dining-philosophers problem.

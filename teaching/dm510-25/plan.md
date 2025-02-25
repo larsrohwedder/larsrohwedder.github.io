@@ -15,7 +15,7 @@ The information on this page may be subject to changes during the run of the sem
 | 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3, [slides](lecture3.pdf) |
 | 8    | 18-02-2025 | Processes, Threads, Concurrency | Chapter 4, [slides](lecture4.pdf) |
 | 8    | 19-02-2025 | CPU Scheduling                  | Chapter 5, [slides](lecture5.pdf) |
-| 9    | 25-02-2025 | Synchronization                 | Chapter 6+7              |
+| 9    | 25-02-2025 | Synchronization                 | Chapter 6+7, [slides](lecture6.pdf) |
 | 10   | 04-03-2025 | Deadlocks                       | Chapter 8                |
 | 10   | 06-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10             |
 | 11   | 11-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10             |
@@ -40,7 +40,7 @@ Please see your individual calendar for the exact date.
 | 7     | Chapter 1+2                  | [Sheet1](sheet1) |
 | 8     | Chapter 3+4                  | [Sheet2](sheet2) |
 | 9     | Chapter 5                    | [Sheet3](sheet3) |
-| 10    | Chapter 6+7                  | TBD              |
+| 10    | Chapter 6+7                  | [Sheet4](sheet4) |
 | 11    | Chapter 8                    | TBD              |
 | 12    | Chapter 9+10                 | TBD              |
 | 13    | Chapter 11+12                | TBD              |
