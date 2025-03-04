@@ -12,11 +12,11 @@ The information on this page may be subject to changes during the run of the sem
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 03-02-2025 | Introduction, Overview          | Chapter 1, [slides](lecture1.pdf) |
 | 6    | 06-02-2025 | Operating Systems Structures    | Chapter 2, [slides](lecture2.pdf) |
-| 7    | 11-02-2025 | Processes, Threads, Concurrency | Chapter 3, [slides](lecture3.pdf) |
-| 8    | 18-02-2025 | Processes, Threads, Concurrency | Chapter 4, [slides](lecture4.pdf) |
+| 7    | 11-02-2025 | Processes                       | Chapter 3, [slides](lecture3.pdf) |
+| 8    | 18-02-2025 | Threads and Concurrency         | Chapter 4, [slides](lecture4.pdf) |
 | 8    | 19-02-2025 | CPU Scheduling                  | Chapter 5, [slides](lecture5.pdf) |
 | 9    | 25-02-2025 | Synchronization                 | Chapter 6+7, [slides](lecture6.pdf) |
-| 10   | 04-03-2025 | Deadlocks                       | Chapter 8                |
+| 10   | 04-03-2025 | Deadlocks                       | Chapter 8, [slides](lecture7.pdf) |
 | 10   | 06-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10             |
 | 11   | 11-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10             |
 | 11   | 13-03-2025 | Mass Storage Media              | Chapter 11               |
@@ -55,7 +55,7 @@ Please see your individual calendar for the exact date.
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
 | 06-02-2025 | 04-03-2025 |  [System Call](project1)    | TBD            |
-| 04-03-2025 | 08-04-2025 |  Kernel Module              | TBD            |
+| 06-03-2025 | 08-04-2025 |  Kernel Module              | TBD            |
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 " %}
 
