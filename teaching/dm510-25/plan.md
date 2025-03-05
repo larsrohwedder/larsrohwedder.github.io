@@ -41,7 +41,7 @@ Please see your individual calendar for the exact date.
 | 8     | Chapter 3+4                  | [Sheet2](sheet2) |
 | 9     | Chapter 5                    | [Sheet3](sheet3) |
 | 10    | Chapter 6+7                  | [Sheet4](sheet4) |
-| 11    | Chapter 8                    | TBD              |
+| 11    | Chapter 8                    | [Sheet5](sheet5) |
 | 12    | Chapter 9+10                 | TBD              |
 | 13    | Chapter 11+12                | TBD              |
 | 14    | Chapter 13+14+15             | TBD              |
@@ -55,7 +55,7 @@ Please see your individual calendar for the exact date.
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
 | 06-02-2025 | 04-03-2025 |  [System Call](project1)    | TBD            |
-| 06-03-2025 | 08-04-2025 |  Kernel Module              | TBD            |
+| 06-03-2025 | 08-04-2025 |  [Kernel Module](project2)  | TBD            |
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 " %}
 
