@@ -35,36 +35,35 @@ course_id: dm510-25
 10. **(important)** Is it possible to have a deadlock involving only one single-threaded process? Explain your answer.
 11. Draw the resource-allocation graph that illustrates deadlock that could occur in the following program example
     ```
-/* thread_one runs in this function */
-void *do_work_one(void *param)
-{
-   pthread_mutex_lock(&first_mutex);
-   pthread_mutex_lock(&second_mutex);
-   /**
-     * Do some work
-     */
-   pthread_mutex_unlock(&second_mutex);
-   pthread_mutex_unlock(&first_mutex);
-   pthread_exit(0);
-}
+    /* thread_one runs in this function */
+    void *do_work_one(void *param)
+    {
+       pthread_mutex_lock(&first_mutex);
+       pthread_mutex_lock(&second_mutex);
+       /**
+         * Do some work
+         */
+       pthread_mutex_unlock(&second_mutex);
+       pthread_mutex_unlock(&first_mutex);
+       pthread_exit(0);
+    }
 
 
-/* thread_two runs in this function */
-void *do_work_two(void *param)
-{
-   pthread_mutex_lock(&second_mutex);
-   pthread_mutex_lock(&first_mutex);
-   /**
-    * Do some work
-    */
-   pthread_mutex_unlock(&first_mutex);
-   pthread_mutex_unlock(&second_mutex);
+    /* thread_two runs in this function */
+    void *do_work_two(void *param)
+    {
+       pthread_mutex_lock(&second_mutex);
+       pthread_mutex_lock(&first_mutex);
+       /**
+        * Do some work
+        */
+       pthread_mutex_unlock(&first_mutex);
+       pthread_mutex_unlock(&second_mutex);
 
-   pthread_exit(0);
-}
+       pthread_exit(0);
+    }
     ```
-12. Assume that a multithreaded application uses only reader–writer locks for synchronization. Applying the four necessary conditions for deadlock, is deadlock still possible if multiple reader–writer locks are used?
-13. The program example shown in Figure 8.1 of the book (2 mutex deadlock example) doesn’t always lead to deadlock. Describe what role the CPU scheduler plays and how it can contribute to deadlock in this program.
+13. The program example shown in the previous exercise doesn't always lead to deadlock. Describe what role the CPU scheduler plays and how it can contribute to deadlock in this program.
 14. **(important)** Which of the six resource-allocation graphs shown in Figure below illustrate deadlock? For those situations that are deadlocked, provide the cycle of threads and resources. Where there is not a deadlock situation, illustrate the order in which the threads may complete execution.
 15. **(important)** Which of the six resource-allocation graphs shown in Figure below illustrate deadlock? For those situations that are deadlocked, provide the cycle of threads and resources. Where there is not a deadlock situation, illustrate the order in which the threads may complete execution.
 
