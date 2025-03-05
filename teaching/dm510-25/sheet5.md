@@ -13,6 +13,7 @@ course_id: dm510-25
 2. Give an example of a system in an unsafe state (according to definition from lectures) where it is possible for the threads to complete their execution without entering a deadlocked state.
 3. **(important)** Consider the following snapshot of a system:
 
+    {: .img-fluid. max-width: 100%; }
     ![Banker's algorithm](banker1.png)
 
     - Is the system in a safe state?
@@ -25,6 +26,7 @@ course_id: dm510-25
     - Can indefinite blocking occur? Explain your answer.
 8. **(important)** Consider the following snapshot of a system:
 
+    {: .img-fluid. max-width: 100%; }
     ![Banker's algorithm](banker2.png)
 
     Using the banker's algorithm, determine whether or not each of the following states is unsafe. If the state is safe, illustrate the order in which the threads may complete. Otherwise, illustrate why the state is unsafe.
@@ -44,6 +46,7 @@ course_id: dm510-25
 16. Consider the version of the dining-philosophers problem in which the chopsticks are placed at the center of the table and any two of them can be used by a philosopher. Assume that requests for chopsticks are made one at a time. Describe a simple rule for determining whether a particular request can be satisfied without causing deadlock given the current allocation of chopsticks to philosophers.
 17. Consider the following snapshot of a system:
 
+    {: .img-fluid. max-width: 100%; }
     ![Banker](banker3.png)
 
     Using the banker’s algorithm, determine whether or not each of the following states is unsafe. If the state is safe, illustrate the order in which the threads may complete. Otherwise, illustrate why the state is unsafe.
