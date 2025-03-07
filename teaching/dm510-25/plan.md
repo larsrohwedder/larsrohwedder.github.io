@@ -18,15 +18,15 @@ The information on this page may be subject to changes during the run of the sem
 | 9    | 25-02-2025 | Synchronization                 | Chapter 6+7, [slides](lecture6.pdf) |
 | 10   | 04-03-2025 | Deadlocks                       | Chapter 8, [slides](lecture7.pdf) |
 | 10   | 06-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10             |
-| 11   | 11-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10             |
-| 11   | 13-03-2025 | Mass Storage Media              | Chapter 11               |
-| 13   | 25-03-2025 | I/O                             | Chapter 12               |
-| 13   | 27-03-2025 | File Systems                    | Chapter 13               |
-| 14   | 01-04-2025 | File Systems                    | Chapter 14+15            |
-| 15   | 08-04-2025 | Security and Protection         | Chapter 16+17            |
-| 15   | 10-04-2025 | Virtual Machines                | Chapter 18               |
-| 17   | 22-04-2025 | Networks                        | Chapter 19               |
-| 19   | 05-05-2025 | Exam Preparation                |                          |
+| 11   | 13-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10             |
+| 11   | 25-03-2025 | Mass Storage Media              | Chapter 11               |
+| 13   | 27-03-2025 | I/O                             | Chapter 12               |
+| 13   | 01-04-2025 | File Systems                    | Chapter 13               |
+| 14   | 08-04-2025 | File Systems                    | Chapter 14+15            |
+| 15   | 10-04-2025 | Security and Protection         | Chapter 16+17            |
+| 15   | 22-04-2025 | Virtual Machines                | Chapter 18               |
+| 17   | 05-05-2025 | Networks                        | Chapter 19               |
+| 19   | 15-05-2025 | Exam Preparation                |                          |
 " %}
 
 
