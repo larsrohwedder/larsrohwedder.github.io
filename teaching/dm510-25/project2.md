@@ -98,6 +98,8 @@ To remove the module and to delete the devices execute:
 {% highlight terminal %}
 ./dm510_unload
 {% endhighlight %}
+If the command outputs the error *Permission denied*, it means that the script **dm510_load** or **dm510_load** does not have permission to be executed. Then you need to add this permission by running `chmod +x dm510_load` and `chmod +x dm510_unload`.
+
 See LDD chapter 4 and check the two scripts for details. Similar for the scull example. For the scull example, you can compile the test program using `gcc sculltest.c`.
 
 ### Making the Driver
