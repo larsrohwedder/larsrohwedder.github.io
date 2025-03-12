@@ -42,7 +42,9 @@ course_id: dm510-25
     - FIFO replacement
     - Optimal replacement
 3. Consider the page table for a system with 12-bit virtual and physical addresses and 256-byte pages, all addresses given in hexadecimal.
-    ![Page Table](page-table)
+
+    ![Page Table](page-table.png)
+
     The list of free page frames is D, E, F (that is, D is at the head of the list, E is second, and F is last). A dash for a page frame indicates that the page is not in memory. Convert the following virtual addresses to their equivalent physical addresses
     - 9EF
     - 111
