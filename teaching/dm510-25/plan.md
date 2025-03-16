@@ -54,7 +54,7 @@ Please see your individual calendar for the exact date.
 {% include table.html content="
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
-| 06-02-2025 | 04-03-2025 |  [System Call](project1)    | TBD            |
+| 06-02-2025 | 04-03-2025 |  [System Call](project1)    | 	08-04-2025   |
 | 06-03-2025 | 08-04-2025 |  [Kernel Module](project2)  | TBD            |
 | 08-04-2025 | 20-05-2025 |  File System                | TBD            |
 " %}
