@@ -43,7 +43,7 @@ Please see your individual calendar for the exact date.
 | 10    | Chapter 6+7                  | [Sheet4](sheet4) |
 | 11    | Chapter 8                    | [Sheet5](sheet5) |
 | 12    | Chapter 9+10                 | [Sheet6](sheet6) |
-| 13    | Chapter 11                   | [Sheet6](sheet7) |
+| 13    | Chapter 11                   | [Sheet7](sheet7) |
 | 14    | Chapter 13+14+15             | TBD              |
 | 15    | Chapter 16+17                | TBD              |
 | 17    | Chapter 18+19                | TBD              |
