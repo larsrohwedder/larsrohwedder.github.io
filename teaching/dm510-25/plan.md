@@ -19,7 +19,7 @@ The information on this page may be subject to changes during the run of the sem
 | 10   | 04-03-2025 | Deadlocks                       | Chapter 8, [slides](lecture7.pdf) |
 | 10   | 06-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10 [slides](lecture8.pdf) |
 | 11   | 13-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10 [slides](lecture9.pdf) |
-| 11   | 25-03-2025 | Mass Storage Media              | Chapter 11               |
+| 11   | 25-03-2025 | Mass Storage Media              | Chapter 11 [slides](lecture10.pdf) |
 | 13   | 27-03-2025 | I/O                             | Chapter 12               |
 | 13   | 01-04-2025 | File Systems                    | Chapter 13               |
 | 14   | 08-04-2025 | File Systems                    | Chapter 14+15            |
@@ -43,7 +43,7 @@ Please see your individual calendar for the exact date.
 | 10    | Chapter 6+7                  | [Sheet4](sheet4) |
 | 11    | Chapter 8                    | [Sheet5](sheet5) |
 | 12    | Chapter 9+10                 | [Sheet6](sheet6) |
-| 13    | Chapter 11                   | TBD              |
+| 13    | Chapter 11                   | [Sheet6](sheet7) |
 | 14    | Chapter 13+14+15             | TBD              |
 | 15    | Chapter 16+17                | TBD              |
 | 17    | Chapter 18+19                | TBD              |
