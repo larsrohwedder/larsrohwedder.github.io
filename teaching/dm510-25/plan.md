@@ -20,12 +20,11 @@ The information on this page may be subject to changes during the run of the sem
 | 10   | 06-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10 [slides](lecture8.pdf) |
 | 11   | 13-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10 [slides](lecture9.pdf) |
 | 13   | 25-03-2025 | Mass Storage Structures         | Chapter 11 [slides](lecture10.pdf) |
-| 13   | 27-03-2025 | I/O                             | Chapter 12               |
+| 13   | 27-03-2025 | I/O Systems and Networks        | Chapter 12+19            |
 | 14   | 01-04-2025 | File Systems                    | Chapter 13               |
 | 15   | 08-04-2025 | File Systems                    | Chapter 14+15            |
-| 15   | 10-04-2025 | Security and Protection         | Chapter 16+17            |
-| 17   | 22-04-2025 | Virtual Machines                | Chapter 18               |
-| 18   | 28-04-2025 | Networks                        | Chapter 19               |
+| 17   | 22-04-2025 | Security and Protection         | Chapter 18               |
+| 18   | 28-04-2025 | Virtual Machines                | Chapter 19               |
 | 19   | 15-05-2025 | Exam Preparation                |                          |
 " %}
 
@@ -44,9 +43,10 @@ Please see your individual calendar for the exact date.
 | 11    | Chapter 8                    | [Sheet5](sheet5) |
 | 12    | Chapter 9+10                 | [Sheet6](sheet6) |
 | 13    | Chapter 11                   | [Sheet7](sheet7) |
-| 14    | Chapter 13+14+15             | TBD              |
-| 15    | Chapter 16+17                | TBD              |
-| 17    | Chapter 18+19                | TBD              |
+| 14    | Chapter 12+19                | TBD              |
+| 15    | Chapter 13+14+15             | TBD              |
+| 17    | Chapter 18                   | TBD              |
+| 18    | rhapter 19                   | TBD              |
 " %}
 
 ### Programming Projects
