@@ -46,7 +46,7 @@ Please see your individual calendar for the exact date.
 | 14    | Chapter 12+19                | [Sheet8](sheet8) |
 | 15    | Chapter 13+14+15             | TBD              |
 | 17    | Chapter 18                   | TBD              |
-| 18    | rhapter 19                   | TBD              |
+| 18    | Chapter 19                   | TBD              |
 " %}
 
 ### Programming Projects
