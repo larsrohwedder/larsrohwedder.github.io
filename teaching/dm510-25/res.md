@@ -34,6 +34,7 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
 - processor information: `cat /proc/cpuinfo` outputs various information about CPU architecture
 - [bpftrace](bpftrace): tracing tool for Unix/Linux systems
 - scheduling/priority: `renice -n <niceness> <pid>` changes the niceness of a process (which affects directly the scheduling priority). `nice -n <niceness> <command>` runs `<command>` with the specified niceness.
+- network: `nc <ipaddress> <port>` establishes tcp connection. `ifconfig` shows network card status, e.g. ip address and MAC address.
 - communication:
     - Producer-consumer with shared memory: [shm-producer.c](shm-producer.c), [shm-consumer.c](shm-consumer.c)
     - Producer-consumer with named pipe (create pipe first with `mkfifo dm510_fifo`): [np-producer.c](np-producer.c), [np-consumer.c](np-consumer.c)
@@ -47,3 +48,6 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
     - via OpenMP: [crit-section.c](crit-section.c)
     - via pthread mutex: [mutex.c](mutex.c)
     - via atomic instructions (compare-and-exchange): [atomic.c](atomic.c)
+- device access:
+    - Random access via lseek: [seek.c](seek.c)
+    - Random access via mmap: [mmap.c](mmap.c)
