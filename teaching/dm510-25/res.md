@@ -26,6 +26,8 @@ For the projects you also need to get familiar with system calls in linux. Below
 Below is a (growing) overview of Linux tools (mostly command-line) used throughout the lectures.
 
 - file tree navigation and modification in command line: `cd` to change the current directory, `ls` to list contents of current directory, `mv` to move a file, `mkdir` to create a new directory, `rm` to remove a file or directory.
+- more navigation: `pushd <dir>` works like `cd`, but it saves previous directory and we can go back using `popd`.
+- links: create a hard link with `ln` and soft link with `ln -s`.
 - file access and modification: `cat` prints out contents of file, `vi` (advanced) and `nano` (simple) are useful command line text editors. `>` can be used to write into a file, e.g. `echo "hello" > samplefile`. 
 - system status: `top` monitors resource usage of various processes (CPU, memory, etc.)
 - processes: `ps -e` lists current processes. `pstree` displays the parent-child relationships of processes as a tree. `cat /proc/<pid>/status` displays status information about a process (for example, number of context swithes)
