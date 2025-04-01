@@ -21,8 +21,8 @@ The information on this page may be subject to changes during the run of the sem
 | 11   | 13-03-2025 | Main Memory & Virtual Memory    | Chapter 9+10 [slides](lecture9.pdf) |
 | 13   | 25-03-2025 | Mass Storage Structures         | Chapter 11 [slides](lecture10.pdf) |
 | 13   | 27-03-2025 | I/O Systems and Networks        | Chapter 12+19 [slides](lecture11.pdf) |
-| 14   | 01-04-2025 | File Systems                    | Chapter 13               |
-| 15   | 08-04-2025 | File Systems                    | Chapter 14+15            |
+| 14   | 01-04-2025 | File Systems                    | Chapter 13+15 [slides](lecture12.pdf) |
+| 15   | 08-04-2025 | File Systems                    | Chapter 14               |
 | 17   | 22-04-2025 | Security and Protection         | Chapter 18               |
 | 18   | 28-04-2025 | Virtual Machines                | Chapter 19               |
 | 19   | 15-05-2025 | Exam Preparation                |                          |
