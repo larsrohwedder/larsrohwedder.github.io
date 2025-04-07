@@ -38,13 +38,22 @@ FUSE fixes #1 by providing a simpler, more uniform API. For example, in FUSE all
 | misc   | open, close, truncate |              |
 " %}
 
-Also, there is a `getattr` function, which applies to both files and directories. `getattr` returns various statistics, such as file size, or the number of files in a directory. This is heavily used, and should be one of the first places to implement.
+Also, there is a `getattr` function, which applies to both files and directories. `getattr` returns various statistics, such as file size, or the number of files in a directory. This is heavily used, and should be one of the first things to implement.
 
 You can find more information about the data structures of FUSE in the file **/usr/include/fuse/fuse_common.h** and the interface of the functions in **/usr/include/fuse/fuse.h**. The latest version of fuse.h have some usefull documentation as well: [fuse.h](https://github.com/libfuse/libfuse/blob/master/include/fuse.h). But keep in mind it is a newer version than installed at IMADA.
 
 ### Taking FUSE for a test run
 
-Download the files dm510fs.c and Makefile, and create an executable with the name dm510fs. The following sample session shows how this very simple sample file system is mounted (via the command dm510fs) and unmounted (via the command fusermount -u).
+{% include box.html style="bg-warning" text="For this project you do not need User-Mode Linux. However, you do need a Linux environment that has FUSE installed. The computers at IMADA virtual computer lab, see [Resources page](res), have FUSE installed.
+
+If you are working on your own Linux computer, the command to install it varies depending on your package manager. Using `apt` it is installed as follows.
+```
+$ sudo apt install fuse libfuse-dev
+```
+Note that there is also a version 3 of fuse (typically under package fuse3), but we are using version 2.5.
+" %}
+
+Download the files [dm510fs.c](FUSE/dm510fs.c) and [Makefile](FUSE/Makefile), and create an executable with the name dm510fs. If the header `<fuse.h>` is not found, try changing it to `<fuse/fuse.h>` in `dm510fs.c`. The following sample session shows how this very simple sample file system is mounted (via the command dm510fs) and unmounted (via the command fusermount -u).
 
 ```
 $ mkdir ~/dm510fs-mountpoint
@@ -82,16 +91,17 @@ Your file system should implement the following parts of a file system using app
 - **Directories:** List, create, and delete files. Create and delete directories. You can omit rename and link. You are as mentioned above allowed to restrict the length of filenames.
 - **Files:** Open, close. Sequential read/write of streams of bytes.
 - **Inodes:** Size, access and modification time stamps. You can omit owner, permissions, reference count, etc.
-- **Persistance:** Once the filesystem is mounted, you should restore a previous version (if one exists), and unmounting should save to disk.
+- **Persistence:** Once the filesystem is mounted, you should restore a previous version (if one exists), and unmounting should save to disk.
+- **Additional feature:** You need to select at least one additional feature to implement on top of the required functionality. You are free to choose it, but it should require significant changes to your code. Examples: Linked allocation, encryption (for example with Caesar Cipher), sophisticated directory management,...
 
-Remember to document your choises in the report.
+Remember to document your choices in the report.
 
 ### Code Requirements
 All of your functions should be named with a prefix that is closely related to your filesystem name. For this project use dm510fs.
 
-The actual file system should be implemented using a normal semi-large (5mb) file in the file system of the computer you use, i.e. if your filesystem writes to the harddisk, this semi-huge file in the file system is changed. Everything must of course be able to run on the Linux machines at IMADA. You should read into memory the full file when the filesystem is mounted, and write out when unmounted. You could periodically write in between, but this is not a requirement.
+The actual file system should be implemented using a normal semi-large (5mb) file in the file system of the computer you use, i.e. if your filesystem writes to the harddisk, this semi-huge file in the file system is changed. Everything must of course be able to run on the Linux machines at IMADA. You should read into memory the full file when the filesystem is mounted, and write out when unmounted. You could periodically write in between or map the file to your memory using `mmap`, but this is not a requirement.
 
-Note that in the description above, a lot of details are left out. You have to decide for yourself what is appropriate and what to do, and document the choises in your report.
+Note that in the description above, a lot of details are left out. You have to decide for yourself what is appropriate and what to do, and document the choices in your report.
 
 ## Getting Started
 One way to get started is to define the inode, and create the array of inodes. The try to migrate the small demo functionality to use your inodes. When this works, you are in a good spot to continue implementing directories and later files.
