@@ -22,7 +22,7 @@ The information on this page may be subject to changes during the run of the sem
 | 13   | 25-03-2025 | Mass Storage Structures         | Chapter 11 [slides](lecture10.pdf) |
 | 13   | 27-03-2025 | I/O Systems and Networks        | Chapter 12+19 [slides](lecture11.pdf) |
 | 14   | 01-04-2025 | File Systems                    | Chapter 13+15 [slides](lecture12.pdf) |
-| 15   | 08-04-2025 | File Systems                    | Chapter 14               |
+| 15   | 08-04-2025 | File Systems                    | Chapter 14  [slides](lecture13.pdf) |
 | 17   | 22-04-2025 | Security and Protection         | Chapter 18               |
 | 18   | 28-04-2025 | Virtual Machines                | Chapter 19               |
 | 19   | 15-05-2025 | Exam Preparation                |                          |
@@ -54,9 +54,9 @@ Please see your individual calendar for the exact date.
 {% include table.html content="
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
-| 06-02-2025 | 04-03-2025 |  [System Call](project1)    | 	08-04-2025   |
+| 06-02-2025 | 04-03-2025 |  [System Call](project1)    | 	08-04-2025 (submit via email) |
 | 06-03-2025 | 08-04-2025 |  [Kernel Module](project2)  | TBD            |
-| 08-04-2025 | 20-05-2025 |  File System                | TBD            |
+| 08-04-2025 | 20-05-2025 |  [File System] (project3)    | TBD            |
 " %}
 
 The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**. A zip-archive with the following structure (replacing X by the appropriate number) should be submitted to itslearning:
