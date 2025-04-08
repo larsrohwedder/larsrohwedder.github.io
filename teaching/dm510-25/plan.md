@@ -56,7 +56,7 @@ Please see your individual calendar for the exact date.
 | ---------- | ---------- | --------------------------- | -------------- |
 | 06-02-2025 | 04-03-2025 |  [System Call](project1)    | 	08-04-2025 (submit via email) |
 | 06-03-2025 | 08-04-2025 |  [Kernel Module](project2)  | TBD            |
-| 08-04-2025 | 20-05-2025 |  [File System] (project3)    | TBD            |
+| 08-04-2025 | 20-05-2025 |  [File System](project3)    | TBD            |
 " %}
 
 The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**. A zip-archive with the following structure (replacing X by the appropriate number) should be submitted to itslearning:
