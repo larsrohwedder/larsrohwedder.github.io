@@ -1,3 +1,8 @@
+- authors: "Alexander Armbruster, Lars Rohwedder, Stefan Weltge, Andreas Wiese, Ruilong Zhang"
+  title: "Multiplicative Assignment with Upgrades"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2504.07663"
+
 - authors: "Lars Rohwedder, Leander Schnaars"
   title: "3.415-Approximation for Coflow Scheduling via Iterated Rounding"
   conference: "preprint"
