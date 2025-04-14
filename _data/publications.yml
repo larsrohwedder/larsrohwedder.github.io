@@ -5,17 +5,17 @@
 
 - authors: "Lars Rohwedder, Leander Schnaars"
   title: "3.415-Approximation for Coflow Scheduling via Iterated Rounding"
-  conference: "preprint"
+  conference: "ICALP'25"
   preprint: "https://arxiv.org/abs/2502.21197"
 
 - authors: "Lars Rohwedder, Arman Rouhani, Leo Wennmann"
   title: "Cost Preserving Dependent Rounding for Allocation Problems"
-  conference: "preprint"
+  conference: "ICALP'25"
   preprint: "https://arxiv.org/abs/2502.08267"
 
 - authors: "Lars Rohwedder"
   title: "ETH-Tight FPT Algorithm for Makespan Minimization on Uniform Machines"
-  conference: "preprint"
+  conference: "ICALP'25"
   preprint: "https://arxiv.org/abs/2501.04859"
 
 - authors: "Lars Rohwedder, Karol Wegrzycki"
