@@ -45,7 +45,7 @@ Please see your individual calendar for the exact date.
 | 13    | Chapter 11                   | [Sheet7](sheet7) |
 | 14    | Chapter 12+19                | [Sheet8](sheet8) |
 | 15    | Chapter 13+14+15             | [Sheet9](sheet9) |
-| 17    | Chapter 18                   | [Sheet9](sheet10) |
+| 17    | Chapter 18                   | [Sheet10](sheet10) |
 | 18    | Chapter 19                   | TBD              |
 " %}
 
