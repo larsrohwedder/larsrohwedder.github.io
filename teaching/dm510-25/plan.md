@@ -23,7 +23,7 @@ The information on this page may be subject to changes during the run of the sem
 | 13   | 27-03-2025 | I/O Systems and Networks        | Chapter 12+19 [slides](lecture11.pdf) |
 | 14   | 01-04-2025 | File Systems                    | Chapter 13+15 [slides](lecture12.pdf) |
 | 15   | 08-04-2025 | File Systems                    | Chapter 14  [slides](lecture13.pdf) |
-| 17   | 22-04-2025 | Security and Protection         | Chapter 18               |
+| 17   | 22-04-2025 | Security and Protection         | Chapter 18  [slides](lecture14.pdf) |
 | 18   | 28-04-2025 | Virtual Machines                | Chapter 19               |
 | 19   | 15-05-2025 | Exam Preparation                |                          |
 " %}
@@ -45,7 +45,7 @@ Please see your individual calendar for the exact date.
 | 13    | Chapter 11                   | [Sheet7](sheet7) |
 | 14    | Chapter 12+19                | [Sheet8](sheet8) |
 | 15    | Chapter 13+14+15             | [Sheet9](sheet9) |
-| 17    | Chapter 18                   | TBD              |
+| 17    | Chapter 18                   | [Sheet9](sheet10) |
 | 18    | Chapter 19                   | TBD              |
 " %}
 
