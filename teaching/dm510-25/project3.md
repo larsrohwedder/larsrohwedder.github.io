@@ -47,7 +47,8 @@ You can find more information about the data structures of FUSE in the file **/u
 {% include box.html style="bg-warning" text="For this project you do not need User-Mode Linux. However, you do need a Linux environment that has FUSE installed. The computers at IMADA virtual computer lab, see [Resources page](res), have FUSE installed.
 
 If you are working on your own Linux computer, the command to install it varies depending on your package manager. See [here](https://github.com.mcas.ms/AppImage/AppImageKit/wiki/FUSE) for a description. Note also that this page warns from a bug in recent versions of Ubuntu, where the wrong FUSE package might break something. Please follow the description carefully or if you are unsure please use the virtual computer lab.
-If you already encountered the problem, the page also explains how to solve it.
+If you already encountered the problem, the page also explains how to solve it."
+%}
 
 Download the files [dm510fs.c](FUSE/dm510fs.c) and [Makefile](FUSE/Makefile), and create an executable with the name dm510fs. If the header `<fuse.h>` is not found, try changing it to `<fuse/fuse.h>` in `dm510fs.c`. The following sample session shows how this very simple sample file system is mounted (via the command dm510fs) and unmounted (via the command fusermount -u).
 
