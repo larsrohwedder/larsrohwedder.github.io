@@ -10,7 +10,7 @@ course_id: dm510-25
 
 ### Related to Chapter 18
 1. Describe the three types of traditional hypervisors.
-2. Instead of a VMM running several operating systems, a computer may have several operating systems installed on different partitions of the hard drive and the user can choose the operating system in the bootloader. Name two situations for each of the alternatives where they are better suited.
+2. Dual-/Multi-booting refers to the mechanism that a computer has several operating systems installed on different partitions of the hard drive and the user can choose the operating system in the bootloader. Name situations where dual-booting or VMMs are better suited.
 2. Describe four virtualization-like execution environments, and explain how they differ from "true" virtualization.
 3. Why are VMMs unable to implement trap-and-emulate-based virtualization on some CPUs? Lacking the ability to trap and emulate, what method can a VMM use to implement virtualization?
 4. What hardware assistance for virtualization can be provided by modern CPUs?
