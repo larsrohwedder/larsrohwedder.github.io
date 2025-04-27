@@ -25,7 +25,7 @@ The information on this page may be subject to changes during the run of the sem
 | 15   | 08-04-2025 | File Systems                    | Chapter 14  [slides](lecture13.pdf) |
 | 17   | 22-04-2025 | Security and Protection         | Chapter 18  [slides](lecture14.pdf) |
 | 18   | 28-04-2025 | Virtual Machines                | Chapter 19               |
-| 19   | 15-05-2025 | Exam Preparation                |                          |
+| 19   | 12-05-2025 | Recap and Exam Preparation      |                          |
 " %}
 
 
@@ -56,7 +56,7 @@ Please see your individual calendar for the exact date.
 | ---------- | ---------- | --------------------------- | -------------- |
 | 06-02-2025 | 04-03-2025 |  [System Call](project1)    | 	08-04-2025 (submit via email) |
 | 06-03-2025 | 08-04-2025 |  [Kernel Module](project2)  | TBD            |
-| 08-04-2025 | 20-05-2025 |  [File System](project3)    | TBD            |
+| 08-04-2025 | 23-05-2025 |  [File System](project3)    | TBD            |
 " %}
 
 The projects are submitted in teams of two students (in exceptions: three). Each submission consists of **source code**, **report**, and **screen recording**. A zip-archive with the following structure (replacing X by the appropriate number) should be submitted to itslearning:
