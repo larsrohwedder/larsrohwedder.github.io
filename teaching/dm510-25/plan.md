@@ -25,7 +25,7 @@ The information on this page may be subject to changes during the run of the sem
 | 15   | 08-04-2025 | File Systems                    | Chapter 14  [slides](lecture13.pdf) |
 | 17   | 22-04-2025 | Security and Protection         | Chapter 16+17  [slides](lecture14.pdf) |
 | 18   | 28-04-2025 | Virtual Machines                | Chapter 18 [slides](lecture15.pdf) |
-| 19   | 12-05-2025 | Recap and Exam Preparation      |                          |
+| 19   | 12-05-2025 | Recap and Exam Preparation      | [slides](lecture16.pdf) |
 " %}
 
 
