@@ -55,4 +55,4 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
     - Random access via mmap: [mmap.c](mmap.c)
 
 ### Exams
-Exam from June 2025, including answers: [Exam](exam1.pdf)
+Exam from June 2025, including answers: [exam1.pdf](exam1.pdf)
