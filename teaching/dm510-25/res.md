@@ -53,3 +53,6 @@ Below is a (growing) overview of Linux tools (mostly command-line) used througho
 - device access:
     - Random access via lseek: [seek.c](seek.c)
     - Random access via mmap: [mmap.c](mmap.c)
+
+### Exams
+Exam from June 2025, including answers: [Exam](exam1.pdf)
