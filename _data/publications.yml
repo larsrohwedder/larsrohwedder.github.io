@@ -3,6 +3,11 @@
   conference: "preprint"
   preprint: "https://arxiv.org/abs/2504.07663"
 
+- authors: "Mads Anker Nielsen, Lars Rohwedder, Kevin Schewior"
+  title: "Non-Adaptive Evaluation of k-of-n Functions: Tight Gap and a Unit-Cost PTAS"
+  conference: "APPROX'25"
+  preprint: "https://arxiv.org/abs/2507.05877"
+
 - authors: "Lars Rohwedder, Leander Schnaars"
   title: "3.415-Approximation for Coflow Scheduling via Iterated Rounding"
   conference: "ICALP'25"
@@ -22,6 +27,7 @@
   title: "Space-Efficient Algorithm for Integer Programming with Few Constraints"
   conference: "IPCO'25"
   preprint: "https://arxiv.org/abs/2409.03681"
+  comment: "Best Paper Award"
 
 - authors: "Lars Rohwedder, Karol Wegrzycki"
   title: "Fine-Grained Equivalence for Problems Related to Integer Linear Programming"
@@ -35,6 +41,11 @@
   title: "The Submodular Santa Claus Problem"
   conference: "SODA'25"
   preprint: "https://arxiv.org/abs/2407.04824"
+
+- authors: "Lars Rohwedder, Ashkan Safari, Tjark Vredeveld"
+  title: "A k-swap local search for makespan scheduling"
+  conference: "Computers & Operations Research'25"
+  preprint: "https://arxiv.org/abs/2401.05956"
 
 - authors: "Lars Rohwedder, Ashkan Safari, Tjark Vredeveld"
   title: "Smoothed analysis of the k-swap neighborhood for makespan scheduling"
