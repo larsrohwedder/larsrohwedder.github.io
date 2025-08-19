@@ -1,0 +1,10 @@
+id: "dm898-25"
+title: "DM898"
+banner: "min-height: 240px; background: url(/assets/img/param-logo.png) left top repeat-x;"
+links:
+  - title: Home
+    href: index
+  - title: Resources
+    href: res
+  - title: Course Plan
+    href: plan
