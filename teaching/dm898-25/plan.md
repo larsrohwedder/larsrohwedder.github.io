@@ -6,8 +6,8 @@ course_id: dm898-25
 
 # Course notes
 
-TBD: Weekly summary and slides, exercises from class
+TBC: Weekly summary and slides, exercises from class
 
 # Project
 
-TBD: Information on the semester project
+TBC: Information on the semester project
