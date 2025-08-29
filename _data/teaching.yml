@@ -1,3 +1,9 @@
+- time: "Fall'25"
+  role: "Lecturer"
+  lecture: "Parameterized Algorithms (SDU)"
+  translation: "Parameterized Algorithms (SDU)"
+  link: "teaching/dm898-25/index"
+
 - time: "Spring'25"
   role: "Lecturer"
   lecture: "Operating Systems (SDU)"
