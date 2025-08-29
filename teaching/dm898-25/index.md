@@ -6,11 +6,9 @@ course_id: dm898-25
 
 Welcome to the course DM898 Parameterized Algorithms at IMADA, SDU!
 
-This course provides knowledge of parameterized algorithms and related topics in operations research.
+This course provides the fundamentals of Parameterized Algorithms through the lens of Operations Research.
 
-Students will get to know algorithmic paradigms for solving difficult problems to optimality. 
-
-Students will work on a group project throughout the semester, in which they tackle a larger problem resembling using the methods they learned. 
+Students will work on a group project throughout the semester, in which they tackle a larger problem using the methods they learned. 
 
 ### Teacher
 
