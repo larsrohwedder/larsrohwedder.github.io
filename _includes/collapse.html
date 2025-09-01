@@ -1,0 +1,25 @@
+{% if _collapse_count %}
+  {% assign _collapse_count = _collapse_count + 1 %}
+{% else %}
+  {% assign _collapse_count = 1 %}
+{% endif %}
+{% assign collapse = _collapse_count %}
+
+<div id="accordion_{{ collapse }}">
+  <div class="card">
+    <div class="card-header" id="heading_{{ collapse }}">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_{{ collapse }}" aria-expanded="true" aria-controls="collapse_{{ collapse }}">
+		{{ include.collapse }}
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse_{{ collapse }}" class="collapse" aria-labelledby="heading_{{ collapse }}" data-parent="#accordion_{{ collapse }}">
+      <div class="card-body">
+{% endif %}
+  {{ content | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
