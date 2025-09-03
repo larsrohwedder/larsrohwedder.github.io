@@ -14,7 +14,7 @@ and relation to Operation Research. Then we looked at the preprocessing rules fo
 
 In the lecture on September 3rd (see [slides](lecture2.pdf)), we discussed dynamic programming and in particular the algorithm for Steiner tree, see also Chapter~6.1.2 from the textbook.
 
-The first [exercise sheet](sheet1.pdf) was given out. Please prepare solutions until Wednesday next week.
+The first [exercise sheet](exer1.pdf) was given out. Please prepare solutions until Wednesday next week.
 " %}
 
 # Project
