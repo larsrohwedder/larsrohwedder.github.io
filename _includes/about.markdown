@@ -4,8 +4,12 @@ From 2022 to 2024, I was an assistant professor in Maastricht University (Nether
 Between 2019 and 2021, I was a postdoc researcher in Ola Svensson's group at EPFL, Lausanne (Switzerland).
 Before that I have received my Ph.D. in computer science at CAU, Kiel (Germany) where I was
 advised by Klaus Jansen. I am alumni of the Studienstiftung des deutschen Volkes (German Academic Scholarship Foundation).
-I will serve or have served in the program committees of MAPSP'26 (chair), SODA'26, [STACS'25](https://stacs2025.de/), [MAPSP'24](https://people.cs.pitt.edu/~kirk/MAPSP/), [ICALP'24](https://compose.ioc.ee/icalp2024/), [APPROX'23](https://approxconference.wordpress.com/), [SODA'23](https://www.siam.org/conferences/cm/conference/soda23), and [WAOA'20](http://algo2020.di.unipi.it/WAOA2020/).
-I am grateful to the NWO for funding my Open Competition M1 project ``Twilight Zone of Efficiency: Optimality of Quasi-Polynomial Time Algorithms".
+I will serve or have served in the program committees of [MAPSP'26 (chair)](https://mapsp2026.webspace.durham.ac.uk/), [SODA'26](https://www.siam.org/conferences-events/siam-conferences/soda26/), [STACS'25](https://stacs2025.de/), [MAPSP'24](https://people.cs.pitt.edu/~kirk/MAPSP/), [ICALP'24](https://compose.ioc.ee/icalp2024/), [APPROX'23](https://approxconference.wordpress.com/), [SODA'23](https://www.siam.org/conferences/cm/conference/soda23), and [WAOA'20](http://algo2020.di.unipi.it/WAOA2020/).
+
+I am very grateful for the funding of my research projects.
+**Projects**
+- 2026-2030. *PARAMLP: Parameterized Algorithms and Polyhedra* (ERC Starting Grant)
+- 2023-2027. *Twilight Zone of Efficiency: Optimality of Quasi-Polynomial Time Algorithms* (NWO Open Competition M1 project)
 
 **Supervision**
 - Long term visitor [Leander Schnaars (2024-2025)](https://www.ot.mgt.tum.de/en/or/group/leander-schnaars/)
