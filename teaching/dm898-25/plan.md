@@ -17,6 +17,16 @@ In the lecture on September 3rd (see [slides](lecture2.pdf)), we discussed dynam
 The first [exercise sheet](exer1.pdf) was given out. Please prepare solutions until Wednesday next week.
 " %}
 
+{% include collapse.html collapse="Week 36" content="
+In the lecture on September 10st, we discussed solutions to the first exercise set.
+For the dynamic programming exercise, see also [Dynamic Program for Vertex Coloring](solution-coloring-dp.pdf).
+
+In the lecture on September 11rd, we recalled basics from complexity theory by discussing the complexity questions from the first exercise sheet.
+
+The second [exercise sheet](exer2.pdf) was given out. Please prepare solutions until Wednesday next week.
+" %}
+
+
 # Project
 
 TBC: Information on the semester project
