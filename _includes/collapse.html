@@ -1,8 +1,7 @@
-{% if _collapse_count %}
-  {% assign _collapse_count = _collapse_count + 1 %}
-{% else %}
-  {% assign _collapse_count = 1 %}
+{% if _collapse_count == null %}
+  {% assign _collapse_count = 0 %}
 {% endif %}
+{% assign _collapse_count = _collapse_count + 1 %}
 {% assign collapse = _collapse_count %}
 
 <div id="accordion_{{ collapse }}">
