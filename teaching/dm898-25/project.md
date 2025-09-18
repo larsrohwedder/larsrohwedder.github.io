@@ -68,4 +68,15 @@ In some variant, also fully occupied continents (Europe, Africa, etc.) give you 
 
 ![Risk](risk.jpg)
 
+### Catan
+The regions on the map (see below) correpond to different resources. On the borders between regions
+you can build roads, unless another player has already done so. At the intersection points you can build settlements (again, unless there is already one).
+Assume that you and other players have already build some settlements and roads. Your goal
+is to have at least one settlement at each resource.
+Your initial roads and settlements might not all be connected,
+but you are only allowed to build new roads next to
+your existing roads or settlements. Similarly, you are only allowed to
+build new settlements at your roads. The number of roads and settlements you can build
+is limited. Can you reach all resources?
 
+![Catan](catan.jpg)
