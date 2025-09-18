@@ -39,7 +39,8 @@ The third [exercise sheet](exer3.pdf) was given out. Please prepare solutions un
 # Project
 
 In the project, you will work together in teams of 2 on a board game inspired problem.
-The possible settings can be found [here](project). Each team will be given a different setting based on preferences they submit.
+The possible settings can be found [here](project). Each team will be given a different setting based on preferences they submit (details to follow).
+Your tasks are:
 
 1. Formally define your problem and possibly variants (including parameterizations) of it and write an ILP model for it.
 2. Develop an initial algorithm based on reduction rules, branching strategies, or dynamic programming.
