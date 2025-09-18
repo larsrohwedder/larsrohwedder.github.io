@@ -20,7 +20,7 @@ Minimize the number of weeks until the entire world has been vaccinated.
 
 The map is a labyrinth with some locations having treasures. You are given a list of treasures
 which you need to collect (in a specified order), starting at a certain position.
-You can move freely move in the labyrinth as far as you want, but some treasures might be unreachable.
+You can freely move in the labyrinth as far as you want, but some treasures might be unreachable.
 To solve this, you can use magic spells to alter the labyrinth in some fixed ways. In the game
 you can move an entire row or column of the labyrinth, but you are free to look at other, simpler alternations as well.
 The goal is to collect all treasures with the minimal number of magic spells used.
@@ -29,11 +29,10 @@ The goal is to collect all treasures with the minimal number of magic spells use
 
 ### Ticket-to-Ride
 
-The map consists of different cities. You are given some pairs of cities that you should pairwise
-connect with a train network (e.g. Amsterdam to Copenhagen and Madrid to Marseille). Making a connection between two cities requires a certain number of resources of different kinds, marked in color on the map, sometimes
-direct connection may not be possible, but you could connect them also indirectly. 
+The map consists of different cities. You are given some pairs of cities that you should 
+connect with a train network (e.g. Amsterdam to Copenhagen and Madrid to Marseille). Making a connection between two cities requires a certain number of resources of different kinds, marked in color on the map, sometimes direct connection between two cities may not be possible, but you could connect them indirectly. 
 
-For example, connecting Copenhagen with Cologne might cost 3 gray resources, connecting Copenhagen to Stockholm might cost 3 yellow and 3 white resources. Connecting Copenhagen directly to Amsterdam might not be possible, but Amsterdam-Cologne-Copenhagen may be.
+For example, connecting Copenhagen with Cologne might cost 6 gray resources, connecting Copenhagen to Stockholm might cost 3 yellow and 3 white resources. Connecting Copenhagen directly to Amsterdam might not be possible, but Amsterdam-Cologne-Copenhagen may be.
 
 Of each resource you only have a limited budget. How do you connect all pairs?
 
@@ -43,7 +42,8 @@ Of each resource you only have a limited budget. How do you connect all pairs?
 
 The high profile criminal Mr. X was spotted an hour ago at a specific crossing in Manhattan.
 There are different modes of transportation in Manhattan, for example, metro, ferry and taxi.
-You know, which modes of transportation Mr. X used and how often he did. This can be used to
+The FBI found out which modes of transportation Mr. X used in the last hour and how often he did,
+but not the exact route. This can be used to
 estimate his current position. Install road blocks at specific locations to make sure
 Mr. X cannot escape. However, the number of road blocks you can use is limited.
 To reduce the police search, you want to minimize the positions where Mr. X can still travel to.
