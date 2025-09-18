@@ -10,7 +10,7 @@ this is also not the goal.
 ### Pandemic
 
 A disease broke out and several major cities are infected.
-Every week you can send medical teams cities (infected or not) and vaccinate/heal the population there.
+Every week you can send medical teams to cities (infected or not) and vaccinate/heal the population there.
 The number of medical teams is limited.
 Every week the disease also spreads to all neighboring cities of infected cities that have not been vaccinated/healed yet.  
 Minimize the number of weeks until no city is infected anymore.
