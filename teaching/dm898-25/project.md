@@ -69,12 +69,12 @@ In some variant, also fully occupied continents (Europe, Africa, etc.) give you 
 ![Risk](risk.jpg)
 
 ### Catan
-The regions on the map (see below) correpond to different resources and when you have a settlement
+The regions on the map (see below) correpond to different resources and for each settlement
 next to it, you receive this resource at a specified rate (e.g. 3 units per round).
 On the borders between regions
 you can build roads, unless another player has already done so. At the intersection points you can build settlements (again, unless there is already one).
 Assume that you and other players have already built some settlements and roads. Your goal
-is to have a good supply of each resource, so you want to receive at a specified rate of each (say, 10 units per round).
+is to have a good supply of each resource, say, at least 10 units per round and resource.
 Your initial roads and settlements might not all be connected,
 but you are only allowed to build new roads next to
 your existing roads or settlements. Similarly, you are only allowed to
