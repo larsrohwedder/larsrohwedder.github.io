@@ -7,6 +7,15 @@ course_id: dm898-25
 The following problems are inspired by the board games, but they do not resemble exactly the rules and
 this is also not the goal.
 
+### Pandemic
+
+A disease broke out and several major cities are infected.
+Every week you can send medical teams cities (infected or not) and vaccinate/heal the population there.
+Then the disease spreads to all neighboring cities of infected cities that have not been vaccinated yet.  
+Minimize the number of weeks until the entire world has been vaccinated.
+
+![Pandemic](pandemic.jpeg)
+
 ### Labyrinth
 
 The map is a labyrinth with some locations having treasures. You are given a list of treasures
