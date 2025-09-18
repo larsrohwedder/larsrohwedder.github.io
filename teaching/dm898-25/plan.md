@@ -18,13 +18,22 @@ The first [exercise sheet](exer1.pdf) was given out. Please prepare solutions un
 " %}
 
 {% include collapse.html collapse="Week 37" content="
-In the lecture on September 10st, we discussed solutions to the first exercise set.
+In the lecture on September 10th, we discussed solutions to the first exercise set.
 For the dynamic programming exercise, see also [Dynamic Program for Vertex Coloring](solution-coloring-dp.pdf).
 
 In the lecture on September 11rd, we recalled basics from complexity theory by discussing the complexity questions from the first exercise sheet.
 
 The second [exercise sheet](exer2.pdf) was given out. Please prepare solutions until Wednesday next week.
 " %}
+
+{% include collapse.html collapse="Week 38" content="
+The lecture on September 17th unexpectedly did not happen.
+
+In the lecture on September 18th, we started with the topic Kernelization and Preprocessing (see [slides](lecture3.pdf)). We covered Chapters 2.1 (formal definitions), 2.2.1 (Vertex Cover), and 2.2.3 (Edge Clique Cover) from the textbook. In the second half, we discussed solutions to exercise sheet 2.
+
+The third [exercise sheet](exer3.pdf) was given out. Please prepare solutions until Friday next week.
+" %}
+
 
 
 # Project
