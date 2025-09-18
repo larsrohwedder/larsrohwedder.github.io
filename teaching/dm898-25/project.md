@@ -12,7 +12,7 @@ this is also not the goal.
 A disease broke out and several major cities are infected.
 Every week you can send medical teams cities (infected or not) and vaccinate/heal the population there.
 Then the disease spreads to all neighboring cities of infected cities that have not been vaccinated yet.  
-Minimize the number of weeks until the entire world has been vaccinated.
+Minimize the number of weeks until no city is infected anymore.
 
 ![Pandemic](pandemic.jpeg)
 
