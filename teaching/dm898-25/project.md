@@ -30,7 +30,18 @@ Of each resource you only have a limited budget. How do you connect all pairs?
 
 ![Ticket-to-Ride](ticket-to-ride.jpg)
 
-### Risk (possibly difficult)
+### N.Y. Chase
+
+The high profile criminal Mr. X was spotted an hour ago at a specific crossing in Manhattan.
+There are different modes of transportation in Manhattan, for example, metro, ferry and taxi.
+You know, which modes of transportation Mr. X used and how often he did. This can be used to
+estimate his current position. Install road blocks at specific locations to make sure
+Mr. X cannot escape. However, the number of road blocks you can use is limited.
+To reduce the police search, you want to minimize the positions where Mr. X can still travel to.
+
+![NY Chase](nychase.jpg)
+
+### Risk
 
 The game map consists of different regions. Your enemy has placed their troops on some of the regions. 
 You now want to occupy a set of regions and that you can also defend by placing your own troops on
