@@ -79,6 +79,6 @@ Your initial roads and settlements might not all be connected,
 but you are only allowed to build new roads next to
 your existing roads or settlements. Similarly, you are only allowed to
 build new settlements at your roads. The number of roads and settlements you can build
-is limited. Can you reach all resources?
+is limited.
 
 ![Catan](catan.jpg)
