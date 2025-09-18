@@ -4,6 +4,20 @@ layout: teaching
 course_id: dm898-25
 ---
 
+The following problems are inspired by the board games, but they do not resemble exactly the rules and
+this is also not the goal.
+
+### Labyrinth
+
+The map is a labyrinth with some locations having treasures. You are given a list of treasures
+which you need to collect (in a specified order), starting at a certain position.
+You can move freely move in the labyrinth as far as you want, but some treasures might be unreachable.
+To solve this, you can use magic spells to alter the labyrinth in some fixed ways. In the game
+you can move an entire row or column of the labyrinth, but you are free to look at other, simpler alternations as well.
+The goal is to collect all treasures with the minimal number of magic spells used.
+
+![Labyrinth](labyrinth.jpg)
+
 ### Ticket-to-Ride
 
 The map consists of different cities. You are given some pairs of cities that you should pairwise
