@@ -74,7 +74,7 @@ next to it, you receive this resource at a specified rate (e.g. 3 units per roun
 On the borders between regions
 you can build roads, unless another player has already done so. At the intersection points you can build settlements (again, unless there is already one).
 Assume that you and other players have already built some settlements and roads. Your goal
-is to have a good supply of each resourse, so you want to receive at a specified rate of each (say, 10 units per round).
+is to have a good supply of each resource, so you want to receive at a specified rate of each (say, 10 units per round).
 Your initial roads and settlements might not all be connected,
 but you are only allowed to build new roads next to
 your existing roads or settlements. Similarly, you are only allowed to
