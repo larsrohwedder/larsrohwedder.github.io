@@ -1,3 +1,9 @@
+---
+title: DM898 - Parameterized Algorithms
+layout: teaching
+course_id: dm898-25
+---
+
 ### Ticket-to-Ride
 
 The map consists of different cities. You are given some pairs of cities that you should pairwise
