@@ -51,6 +51,6 @@ It should be a correct and sensible algorithm, but formal guarantees on running 
 Remarks:
 - some of the problems are more complicated than others. You are free to make simplifying assumptions, for example, removing some constraints from the problem.
 - start with the easiest, not the most complicated techniques from the course. Similarly, start by simplifying the problem as much as you can, to obtain initial ideas that might transfer to more general variants.
-- Goals: fun, nice ideas, efficiency, generality of the algorithm (priority in this order) 
+- Goals: nice ideas, efficiency, generality of the algorithm (priority in this order) 
 - These are difficult projects. I do not know the outcome of them. It is expected that you run into obstacles or get stuck at some point. Do not give up easily!
 - More to come
