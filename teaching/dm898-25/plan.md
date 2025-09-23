@@ -34,6 +34,13 @@ In the lecture on September 18th, we started with the topic Kernelization and Pr
 The third [exercise sheet](exer3.pdf) was given out. Please prepare solutions until Friday next week.
 " %}
 
+{% include collapse.html collapse="Week 39" content="
+
+In the lecture on September 23rd, we had the second part of topic Kernelization and Preprocessing (see [slides](lecture4.pdf)). We covered Chapter 2.6 (Sunflower Lemma) from the textbook and the role of preprocessing in practice on integer linear programming, based on Wolsey Chapter 7.6.
+
+Please note the annoncement regarding the project on ItsLearning.
+" %}
+
 
 
 # Project
