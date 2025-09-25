@@ -41,6 +41,17 @@ In the lecture on September 23rd, we had the second part of topic Kernelization 
 Please note the annoncement regarding the project on ItsLearning.
 " %}
 
+Materials by topics
+
+{% include table.html content="
+| Topic         | Lecture           |  Material covered    |
+| ------------- | ----------------- | -------------------- |
+| Introduction  | [Introduction and Overview](slides1.pdf) | Motivation, examples of FPT algorithms |
+|               | [Introduction (cont'd)](slides2.pdf) | Dynamic Programming |
+| Preprocessing and Kernelization  | [Preprocessing and Kernelization I](slides3.pdf) | Formalism of Kernelization, kernels for Vertex Cover and Edge Clique Cover |
+|               | [Preprocessing and Kernelization II](slides4.pdf) | Sunflower Lemma, Preprocessing in practice (ILPs) |
+"
+%}
 
 
 # Project
