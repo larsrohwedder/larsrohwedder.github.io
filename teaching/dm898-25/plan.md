@@ -46,10 +46,10 @@ Materials by topics
 {% include table.html content="
 | Topic         | Lecture           |  Material covered    |
 | ------------- | ----------------- | -------------------- |
-| Introduction  | [Introduction and Overview](slides1.pdf) | Motivation, examples of FPT algorithms |
-|               | [Introduction (cont'd)](slides2.pdf) | Dynamic Programming |
-| Preprocessing and Kernelization  | [Preprocessing and Kernelization I](slides3.pdf) | Formalism of Kernelization, kernels for Vertex Cover and Edge Clique Cover |
-|               | [Preprocessing and Kernelization II](slides4.pdf) | Sunflower Lemma, Preprocessing in practice (ILPs) |
+| Introduction  | [Introduction and Overview](lecture1.pdf) | Motivation, examples of FPT algorithms |
+|               | [Introduction (cont'd)](lecture2.pdf) | Dynamic Programming |
+| Preprocessing and Kernelization  | [Preprocessing and Kernelization I](lecture3.pdf) | Formalism of Kernelization, kernels for Vertex Cover and Edge Clique Cover |
+|               | [Preprocessing and Kernelization II](lecture4.pdf) | Sunflower Lemma, Preprocessing in practice (ILPs) |
 "
 %}
 
