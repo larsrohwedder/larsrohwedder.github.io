@@ -44,12 +44,15 @@ Please note the annoncement regarding the project on ItsLearning.
 Materials by topics
 
 {% include table.html content="
-| Topic         | Lecture           |  Material covered    |
+| Topic         | Lecture/Exercise          |  Material covered    |
 | ------------- | ----------------- | -------------------- |
 | Introduction  | [Introduction and Overview](lecture1.pdf) | Motivation, examples of FPT algorithms |
 |               | [Introduction (cont'd)](lecture2.pdf) | Dynamic Programming |
+|               | [Exercise Sheet 1](exer1.pdf) |  |
+|               | [Exercise Sheet 2](exer2.pdf) |  |
 | Preprocessing and Kernelization  | [Preprocessing and Kernelization I](lecture3.pdf) | Formalism of Kernelization, kernels for Vertex Cover and Edge Clique Cover |
 |               | [Preprocessing and Kernelization II](lecture4.pdf) | Sunflower Lemma, Preprocessing in practice (ILPs) |
+|               | [Exercise Sheet 3](exer3.pdf) |  |
 "
 %}
 
