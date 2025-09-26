@@ -40,7 +40,7 @@ In the lecture on September 23rd, we had the second part of topic Kernelization 
 
 Please note the annoncement regarding the project on ItsLearning.
 
-In the lecture on September 26th, we discussed exercise sheet 3. Then started with the topic branching (see [slides](lecture5.pdf)). We covered formalism of branching and Vertex Cover. We didn't get to the algorithm for Closest String yet.
+In the lecture on September 26th, we discussed exercise sheet 3. Then started with the topic branching (see [slides](lecture5.pdf)). We covered Chapter 3.0 (formalism of branching) and Chapter 3.1 (Vertex Cover) from the textbook. We didn't get to the algorithm for Closest String yet.
 " %}
 
 Materials by topics
