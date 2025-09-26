@@ -39,6 +39,8 @@ The third [exercise sheet](exer3.pdf) was given out. Please prepare solutions un
 In the lecture on September 23rd, we had the second part of topic Kernelization and Preprocessing (see [slides](lecture4.pdf)). We covered Chapter 2.6 (Sunflower Lemma) from the textbook and the role of preprocessing in practice on integer linear programming, based on Wolsey Chapter 7.6.
 
 Please note the annoncement regarding the project on ItsLearning.
+
+In the lecture on September 26th, we discussed exercise sheet 3. Then started with the topic branching (see [slides](lecture5.pdf)). We covered formalism of branching and Vertex Cover. We didn't get to the algorithm for Closest String yet.
 " %}
 
 Materials by topics
@@ -53,6 +55,7 @@ Materials by topics
 | Preprocessing and Kernelization  | [Preprocessing and Kernelization I](lecture3.pdf) | Formalism of Kernelization, kernels for Vertex Cover and Edge Clique Cover |
 |               | [Preprocessing and Kernelization II](lecture4.pdf) | Sunflower Lemma, Preprocessing in practice (ILPs) |
 |               | [Exercise Sheet 3](exer3.pdf) |  |
+| Branching     | [Branching I](lecture5.pdf) | Formalism of branching, Vertex Cover, Closest String |
 "
 %}
 
