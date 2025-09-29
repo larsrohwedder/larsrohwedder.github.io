@@ -40,7 +40,7 @@ If it is too hard, start with a less complicated/restricted variant of your prob
 
 # Submission
 
-Your submission should be in the form of a report. An appropriate length is 3-5 pages. This should include a short introduction. It is highly recommended to write this report using LaTeX.
+Your submission is a report in PDF format. An appropriate length is 3-5 pages. This should include a short introduction. It is highly recommended to write this report using LaTeX.
 
 You will submit a draft on ItsLearning. On this draft you will get feedback, which you can incorporate
 afterwards. The final report will consist of revised versions of the drafts for each of the 4 tasks. 
