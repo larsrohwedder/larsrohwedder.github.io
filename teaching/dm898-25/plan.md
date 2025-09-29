@@ -66,7 +66,7 @@ In the project, you will work together in teams of 2 on a board game inspired pr
 The possible settings can be found [here](project). Each team will be given a different setting based on preferences they submit (details to follow).
 Your tasks are:
 
-1. Formally define your problem and possibly variants (including parameterizations) of it and write an ILP model for it.
+1. Formally define your problem and possibly variants (including parameterizations) of it and write an ILP model for it. See [here](task1) for details.
 2. Develop an initial algorithm based on reduction rules, branching strategies, or dynamic programming.
 It should be a correct and sensible algorithm, but formal guarantees on running time, etc. are not required.
 3. Evaluate the complexity of your problem and variants, by showing NP-hardness and possibly hardness with respect to some parameters. 

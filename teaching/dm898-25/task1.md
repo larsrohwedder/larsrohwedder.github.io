@@ -23,8 +23,8 @@ and omit the details. A higher level of abstraction makes the algorithm more bro
 
 **Further requirements:**
 - All problem settings have an underlying graph structure. In line with the abstraction guideline, your problem definition should contain a graph and not specific terminology (e.g. do not use *street* and *crossing* if you can use the terminology edge and vertex). This makes it easier to transfer ideas developed for other graph problems to your problem.
-- Specify possible parameters of interest in your problem. You do not want to restrict the overal input size, specifically the size of the underlying graph in your problem. The parameters should be natural, perhaps even be *small* in the board game. Natural parameters include: size of the solution, some input number, size of some input set. Ideally, we want to be able to efficiently solve the problem if your parameter (or a combination of several) is small. Perhaps you can already see an XP algorithm by naive enumeration?
-- Depending on your setting, it may be a very complicated problem. In that case, think about restrictions of the problem that make it easier to start. You might even identify a natural restriction and develop a specialised algorithm for it. If on the other hand your problem is very simple, think about generalizations that could be of interest.
+- Specify possible parameters of interest in your problem. You do not want to restrict the size of the entire input or the size of the underlying graph in your problem. The parameters should be natural, perhaps even be *small* in the board game. Natural parameters include: size of the solution, some input number, size of some input set. Ideally, you want to be able to efficiently solve the problem if your parameter (or a combination of several) is small. Perhaps you can already see an XP algorithm by naive enumeration?
+- Depending on your setting, it may be a very complicated problem. In that case, think about restrictions of the problem that make it easier to start. You might even identify a natural restriction and develop a specialized algorithm for it. If on the other hand your problem is very simple, think about generalizations that could be of interest.
 
 # Task 1.2: ILP formulation
 
@@ -37,3 +37,11 @@ definition.
 Describe clearly each of the formulars that you give.
 Look at other examples of related ILP formulations to get ideas for how to write the ILP.
 If it is too hard, start with a less complicated/restricted variant of your problem.
+
+# Submission
+
+Your submission should be in the form of a report. An appropriate length is 3-5 pages. This should include a short introduction. It is highly recommended to write this report using LaTeX.
+
+You will submit a draft on ItsLearning. On this draft you will get feedback, which you can incorporate
+afterwards. The final report will consist of revised versions of the drafts for each of the 4 tasks. 
+Although you receive feedback for each draft, only the final report will be graded.
