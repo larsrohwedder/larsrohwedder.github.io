@@ -43,6 +43,17 @@ Please note the annoncement regarding the project on ItsLearning.
 In the lecture on September 26th, we discussed exercise sheet 3. Then started with the topic branching (see [slides](lecture5.pdf)). We covered Chapter 3.0 (formalism of branching) and Chapter 3.1 (Vertex Cover) from the textbook. We didn't get to the algorithm for Closest String yet.
 " %}
 
+{% include collapse.html collapse="Week 40" content="
+
+In the lecture on September 30rd, we finished the example on Closest String, see [slides](lecture5.pdf)),
+from Chapter 3.5 of the textbook.
+
+We practiced ILP modelling on examples from the [second exercise sheet](exer2.pdf).
+
+Topic of the lecture on October 1st was Branch-and-Bound, see [slides](lecture6.pdf). This does not appear in the main textbook. For reference, see Chapter 7 in Wolseley's book.
+" %}
+
+
 Materials by topics
 
 {% include table.html content="
@@ -56,6 +67,8 @@ Materials by topics
 |               | [Preprocessing and Kernelization II](lecture4.pdf) | Sunflower Lemma, Preprocessing in practice (ILPs) |
 |               | [Exercise Sheet 3](exer3.pdf) |  |
 | Branching     | [Branching I](lecture5.pdf) | Formalism of branching, Vertex Cover, Closest String |
+|               | [Branching II: Branch-and-Bound](lecture6.pdf) | Combinatorial Branch-and-Bound, LP-based Branch-and-Bound |
+|               | [Exercise Sheet 4](exer4.pdf) | |
 "
 %}
 
