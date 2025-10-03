@@ -1,3 +1,8 @@
+- authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
+  title: "A (2+epsilon)-Approximation Algorithm for the General Scheduling
+  Problem in Quasipolynomial Time"
+  conference: "SODA'26"
+
 - authors: "Alexander Armbruster, Lars Rohwedder, Stefan Weltge, Andreas Wiese, Ruilong Zhang"
   title: "Multiplicative Assignment with Upgrades"
   conference: "preprint"
