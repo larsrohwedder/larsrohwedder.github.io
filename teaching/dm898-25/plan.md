@@ -62,9 +62,11 @@ In the lectures on October 7th and October 9th, we looked at FPT algorithms for 
 
 " %}
 
-
+<br>
 
 ### Materials by topics
+
+<br>
 
 {% include table.html content="
 | Topic         | Lecture/Exercise          |  Material covered    |
@@ -73,7 +75,7 @@ In the lectures on October 7th and October 9th, we looked at FPT algorithms for 
 |               | [Introduction (cont'd)](lecture2.pdf) | Dynamic Programming |
 |               | [Exercise Sheet 1](exer1.pdf) |  |
 |               | [Exercise Sheet 2](exer2.pdf) |  |
-| Preprocessing and Kernelization  | [Preprocessing and Kernelization I](lecture3.pdf) | Formalism of Kernelization, kernels for Vertex Cover and Edge Clique Cover |
+| Preprocessing | [Preprocessing and Kernelization I](lecture3.pdf) | Formalism of Kernelization, kernels for Vertex Cover and Edge Clique Cover |
 |               | [Preprocessing and Kernelization II](lecture4.pdf) | Sunflower Lemma, Preprocessing in practice (ILPs) |
 |               | [Exercise Sheet 3](exer3.pdf) |  |
 | Branching     | [Branching I](lecture5.pdf) | Formalism of branching, Vertex Cover, Closest String |
