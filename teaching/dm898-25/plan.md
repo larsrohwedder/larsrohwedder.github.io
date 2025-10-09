@@ -55,10 +55,10 @@ Topic of the lecture on October 1st was Branch-and-Bound, see [slides](lecture6.
 
 {% include collapse.html collapse="Week 41" content="
 
-In the lecture on October 6th, we discussed an kernel for Vertex Cover based on the LP relaxation, see [slides](lecture7.pdf)),
+In the lecture on October 6th, we discussed an kernel for Vertex Cover based on the LP relaxation, see [slides](lecture7.pdf),
 which follows Chapter 2.5 of the textbook.
 
-In the lectures on October 7th and October 9th, we looked at FPT algorithms for integer linear programs, specifically the Eisenbrand-Weismantel algorithm, see [slides](lecture8.pdf)) and [more slides](lecture9.pdf)). We also looked at an application for Closest String, see [exercises](exer4.pdf). This is based on relatively new research that came out after the textbook appeared. As additional material see the [lecture notes](EW-notes.pdf).
+In the lectures on October 7th and October 9th, we looked at FPT algorithms for integer linear programs, specifically the Eisenbrand-Weismantel algorithm, see [slides](lecture8.pdf) and [more slides](lecture9.pdf). We also looked at an application for Closest String, see [exercises](exer5.pdf). This is based on relatively new research that came out after the textbook appeared. As additional material see the [lecture notes](EW-notes.pdf).
 
 " %}
 
