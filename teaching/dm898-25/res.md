@@ -12,4 +12,4 @@ Digital version available [online](https://www.mimuw.edu.pl/~malcin/book/paramet
 
 # Additional Resources
 - Optional: Integer Programming (2nd Edition). Laurence A. Wolsey. Wiley. 2021
-- TBC
+- [lecture notes](EW-notes.pdf) on Eisenbrand-Weismantel algorithm

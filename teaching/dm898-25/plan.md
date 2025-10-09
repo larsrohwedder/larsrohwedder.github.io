@@ -53,6 +53,16 @@ We practiced ILP modelling on examples from the [second exercise sheet](exer2.pd
 Topic of the lecture on October 1st was Branch-and-Bound, see [slides](lecture6.pdf). This does not appear in the main textbook. For reference, see Chapter 7 in Wolseley's book.
 " %}
 
+{% include collapse.html collapse="Week 41" content="
+
+In the lecture on October 6th, we discussed an kernel for Vertex Cover based on the LP relaxation, see [slides](lecture7.pdf)),
+which follows Chapter 2.5 of the textbook.
+
+In the lectures on October 7th and October 9th, we looked at FPT algorithms for integer linear programs, specifically the Eisenbrand-Weismantel algorithm, see [slides](lecture8.pdf)) and [more slides](lecture9.pdf)). We also looked at an application for Closest String, see [exercises](exer4.pdf). This is based on relatively new research that came out after the textbook appeared. As additional material see the [lecture notes](EW-notes.pdf).
+
+" %}
+
+
 
 Materials by topics
 
@@ -69,6 +79,11 @@ Materials by topics
 | Branching     | [Branching I](lecture5.pdf) | Formalism of branching, Vertex Cover, Closest String |
 |               | [Branching II: Branch-and-Bound](lecture6.pdf) | Combinatorial Branch-and-Bound, LP-based Branch-and-Bound |
 |               | [Exercise Sheet 4](exer4.pdf) | |
+| FPT via LP    | [FPT via Linear Programming I](lecture7.pdf) | LP based kernel for Vertex Cover |
+|               | [FPT via Linear Programming II](lecture8.pdf) | Eisenbrand-Weismantel algorithm for ILP |
+|               | [FPT via Linear Programming III](lecture9.pdf) | Proof of proximity theorem and Steinitz Lemma |
+|               | [Lecture notes](EW-notes.pdf) | |
+|               | [Exercise Sheet 5](exer5.pdf) | |
 "
 %}
 
