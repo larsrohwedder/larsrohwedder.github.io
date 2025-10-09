@@ -64,7 +64,7 @@ In the lectures on October 7th and October 9th, we looked at FPT algorithms for 
 
 
 
-Materials by topics
+### Materials by topics
 
 {% include table.html content="
 | Topic         | Lecture/Exercise          |  Material covered    |
