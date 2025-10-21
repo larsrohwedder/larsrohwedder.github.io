@@ -97,8 +97,8 @@ The possible settings can be found [here](project). Each team will be given a di
 Your tasks are:
 
 1. Formally define your problem and possibly variants (including parameterizations) of it and write an ILP model for it. See [here](task1) for details.
-2. Develop an initial algorithm based on reduction rules, branching strategies, or dynamic programming.
-It should be a correct and sensible algorithm, but formal guarantees on running time, etc. are not required.
+2. Develop an initial algorithm based on Branch-and-Bound.
+It should be a correct and sensible algorithm, but formal guarantees on running time, etc. are not required. See [here](task2) for details.
 3. Evaluate the complexity of your problem and variants, by showing NP-hardness and possibly hardness with respect to some parameters. 
 4. Choice between: (a) Establish some non-trivial theoretical result for your problem, for example FPT algorithm with respect to some parameters (b) implement an algorithmic idea and run experiments
 
