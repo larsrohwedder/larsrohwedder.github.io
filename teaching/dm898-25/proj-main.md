@@ -25,5 +25,5 @@ Remarks:
 
 # Links
 - [Project settings](project)
-- [task1](Task 1)
-- [task2](Task 2)
+- [Task 1](task1)
+- [Task 2](task2)
