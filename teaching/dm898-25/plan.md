@@ -62,6 +62,15 @@ In the lectures on October 7th and October 9th, we looked at FPT algorithms for 
 
 " %}
 
+{% include collapse.html collapse="Week 43" content="
+
+In the lecture on October 21th, we discussed the Exponential Time Hypothesis and a reduction from Clique to 3-SAT. The reduction appears indirectly in the textbook (via the 3-colorability problem). For the direct proof, see [lecture notes](ETH-notes.pdf).
+
+In the lectures on October 23th, we have seen the proof of the Sparsification Lemma (for 3-SAT). The proof is omitted in the textbook, but you can find them in the [lecture notes](ETH-notes.pdf).
+
+" %}
+
+
 <br>
 
 ### Materials by topics
@@ -86,25 +95,8 @@ In the lectures on October 7th and October 9th, we looked at FPT algorithms for 
 |               | [FPT via Linear Programming III](lecture9.pdf) | Proof of proximity theorem and Steinitz Lemma |
 |               | [Lecture notes](EW-notes.pdf) | |
 |               | [Exercise Sheet 5](exer5.pdf) | |
+| Complexity Theory| [Parameterized Complexity Theory I](lecture10.pdf) | Exponential Time Hypothesis, Clique |
+|               | [Parameterized Complexity Theory II](lecture11.pdf) | Proof of Sparsification Lemma |
+|               | [Lecture notes](ETH-notes.pdf) | |
 "
 %}
-
-
-# Project
-
-In the project, you will work together in teams of 2 on a board game inspired problem.
-The possible settings can be found [here](project). Each team will be given a different setting based on preferences they submit (details to follow).
-Your tasks are:
-
-1. Formally define your problem and possibly variants (including parameterizations) of it and write an ILP model for it. See [here](task1) for details.
-2. Develop an initial algorithm based on Branch-and-Bound.
-It should be a correct and sensible algorithm, but formal guarantees on running time, etc. are not required. See [here](task2) for details.
-3. Evaluate the complexity of your problem and variants, by showing NP-hardness and possibly hardness with respect to some parameters. 
-4. Choice between: (a) Establish some non-trivial theoretical result for your problem, for example FPT algorithm with respect to some parameters (b) implement an algorithmic idea and run experiments
-
-Remarks:
-- some of the problems are more complicated than others. You are free to make simplifying assumptions, for example, removing some constraints from the problem.
-- start with the easiest, not the most complicated techniques from the course. Similarly, start by simplifying the problem as much as you can, to obtain initial ideas that might transfer to more general variants.
-- Goals: nice ideas, efficiency, generality of the algorithm (priority in this order) 
-- These are difficult projects. I do not know the outcome of them. It is expected that you run into obstacles or get stuck at some point. Do not give up easily!
-- More to come
