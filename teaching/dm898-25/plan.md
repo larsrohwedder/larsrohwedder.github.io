@@ -70,6 +70,15 @@ In the lectures on October 23th, we have seen the proof of the Sparsification Le
 
 " %}
 
+{% include collapse.html collapse="Week 45" content="
+
+The topic of this week were parameterized reductions. Based on ETH there is evidence that the Clique problem does not have an FPT algorithm. In the lecture on November 4th we reduced Clique to Set Packing and we reduced Clique to Multicolored Clique and Multicolored Clique to Hitting Set. See Chapter 13.2 for similar reductions.
+In the lecture on November 6th, we reduced Multicolored Clique to Exact Unique Hitting Set and the latter to k-SUM.
+The textbook contains in Chapter 13.6.3 hardness of Exact Unique Hitting Set, although implicitly through other reductions.
+
+" %}
+
+
 
 <br>
 

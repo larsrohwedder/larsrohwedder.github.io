@@ -1,3 +1,8 @@
+- authors: "Etienne Bamas, Shi Li, Lars Rohwedder"
+  title: "Randomized Rounding over Dynamic Programs"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2511.03490"
+
 - authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
   title: "A (2+epsilon)-Approximation Algorithm for the General Scheduling
   Problem in Quasipolynomial Time"
