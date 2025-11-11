@@ -117,5 +117,5 @@ The sixth [exercise sheet](exer6.pdf) was given out. Please prepare solutions un
 | Treewidth     | [Treewidth I: Pathwidth](lecture14.pdf) | Path decomposition, Independent Set, Order Picking |
 |               | [Treewidth II](lecture14.pdf) | Tree decomposition |
 |               | [Exercise Sheet 6](exer6.pdf) | |
-""
+"
 %}
