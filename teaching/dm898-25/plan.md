@@ -78,6 +78,13 @@ The textbook contains in Chapter 13.6.3 hardness of Exact Unique Hitting Set, al
 
 " %}
 
+{% include collapse.html collapse="Week 46" content="
+
+In the lectures on November 10th ([slides](lecture14.pdf)) and November 11th ([more slides](lecture15.pdf)), we introduced the notions of path decomposition, path width and we looked at dynamic programming approaches over path decompositions on the example of Maximum Weight Independent Set. We also looked at an application in Order Picking. We only discussed the main ideas of the DP there, but did not go over the details of the recurrence.
+We then generalized the notions to tree decomposition and treewidth. For reference, see Chapters 7.0-7.3 of the textbook.
+
+The sixth [exercise sheet](exer6.pdf) was given out. Please prepare solutions until Tuesday next week.
+" %}
 
 
 <br>
@@ -107,5 +114,8 @@ The textbook contains in Chapter 13.6.3 hardness of Exact Unique Hitting Set, al
 | Complexity Theory| [Parameterized Complexity Theory I](lecture10.pdf) | Exponential Time Hypothesis, Clique |
 |               | [Parameterized Complexity Theory II](lecture11.pdf) | Proof of Sparsification Lemma |
 |               | [Lecture notes](ETH-notes.pdf) | |
-"
+| Treewidth     | [Treewidth I: Pathwidth](lecture14.pdf) | Path decomposition, Independent Set, Order Picking |
+|               | [Treewidth II](lecture14.pdf) | Tree decomposition |
+|               | [Exercise Sheet 6](exer6.pdf) | |
+""
 %}
