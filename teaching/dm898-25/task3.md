@@ -16,7 +16,7 @@ In the third task you have flexibility to take the project in the direction you 
 - The work for this task should be a bit more than in each of the previous tasks. As a rough guideline, aim for 8-10 pages. If for example there is a straight-forward reduction showing NP-hardness of your problem and this does not feel like a significant enough contribution, then add more goals.
 - When working on either a theoretical or practical goal below, you may encounter unexpected obstacles or outcomes. Your report can also be on a failed attempt and an interpretation of why it did not work.
 - If you do not manage to prove hardness, try to find a generalization of your problem for which you can show hardness.
-- If you do not manage to design an FPT algorithm, either add more parameters or restrict the problem by removing features.
+- If you do not manage to design an FPT algorithm, either add more parameters, assume that some parameters are constant, or restrict the problem by removing features.
 
 # Possible goals (choose)
 - prove NP-hardness
