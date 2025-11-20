@@ -28,3 +28,16 @@ The following list will be extended until the last lecture of the course (estima
     - Important: Basic ideas for Vertex Cover via LP relaxation, Eisenbrand-Weismantel algorithm, proximity and basic ideas behind proof (including Steinitz Lemma)
     - Less important: knowing by heart every detail of the proofs (as long as you can explain the high level intuition); other FPT results for ILP (Lenstra's algorithm, block structures)
     - **Aids**: In case you are asked to explain the Eisenbrand-Weismantel algorithm, you will be given the lecture slide
+- Complexity Theory
+    - Important: basic definitions (ETH, parameterized reductions), basic structure of proof of Sparsification Lemma, explaining approach for proving hardness of parameterized problems and giving examples
+    - Less important: reciting calculations in the Sparsification Lemma, knowing reductions by heart
+    - **Aids**: In case you are asked to explain the Sparsification Lemma, you will be given the lecture slide with the algorithm on it
+- Treewidth
+    - Important: basic definitions (path decomposition, tree decomposition), being able to construct a path/tree decomposition for a given graph, being able to explain (on a high level) how to apply dynamic programming on path/tree decompositions, Courcelle's Theorem, modelling problems in monadic second order logic
+    - Less important: reciting details of the proof of recurrences
+
+## Summary of randomly drawn topic
+- You will briefly (6-8 minutes) explain a randomly drawn topic. You can use the blackboard/whiteboard
+- You do not have to prepare a polished speech. Talk naturally
+- Focus on high level (relevance of the topic in the context of the course, basic ideas)
+- Be concise and keep what you write on blackboard/whiteboard short
