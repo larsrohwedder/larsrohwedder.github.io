@@ -4,6 +4,8 @@ layout: teaching
 course_id: dm898-25
 ---
 
+**Exam information:** [see here](exam)
+
 # Course notes
 
 Weekly summary and slides, exercises from class
