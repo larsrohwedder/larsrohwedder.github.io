@@ -88,6 +88,14 @@ We then generalized the notions to tree decomposition and treewidth. For referen
 The sixth [exercise sheet](exer6.pdf) was given out. Please prepare solutions until Tuesday next week.
 " %}
 
+{% include collapse.html collapse="Week 47" content="
+
+In the lectures on November 18th, we discussed the solutions to the [exercise sheet](exer6.pdf).
+For the full dynamic program including the proof of correctness, please see textbook Chapter 7.3.1.
+
+In the lecture on November 20th, we discussed Courcelle's Theorem, see [slides](lecture16.pdf). This follows the material from the textbook Chapter 7.4.
+" %}
+
 
 <br>
 
@@ -116,8 +124,9 @@ The sixth [exercise sheet](exer6.pdf) was given out. Please prepare solutions un
 | Complexity Theory| [Parameterized Complexity Theory I](lecture10.pdf) | Exponential Time Hypothesis, Clique |
 |               | [Parameterized Complexity Theory II](lecture11.pdf) | Proof of Sparsification Lemma |
 |               | [Lecture notes](ETH-notes.pdf) | |
-| Treewidth     | [Treewidth I: Pathwidth](lecture14.pdf) | Path decomposition, Independent Set, Order Picking |
-|               | [Treewidth II](lecture14.pdf) | Tree decomposition |
+| Treewidth     | [Treewidth I](lecture14.pdf) | Path decomposition, Independent Set, Order Picking |
+|               | [Treewidth II](lecture15.pdf) | Tree decomposition |
+|               | [Treewidth III](lecture16.pdf) | Courcelle's Theorem |
 |               | [Exercise Sheet 6](exer6.pdf) | |
 "
 %}
