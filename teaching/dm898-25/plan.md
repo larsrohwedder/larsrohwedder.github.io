@@ -96,6 +96,17 @@ For the full dynamic program including the proof of correctness, please see text
 In the lecture on November 20th, we discussed Courcelle's Theorem, see [slides](lecture16.pdf). This follows the material from the textbook Chapter 7.4.
 " %}
 
+{% include collapse.html collapse="Week 48" content="
+
+In the lectures on November 25th, we introduced the concept of randomization in algorithms and obtained
+an FPT algorithm for longest path using the technique of Color Coding, see [slides](lecture17.pdf)
+or textbook Section 5.2.
+
+In the lecture on November 27th, we discussed a randomized exponential time algorithm for k-SAT, see [slides](lecture18.pdf) and the Strong Exponential Time Hypothesis (SETH). For SETH and its relation to ETH, see also textbook section 14.1.
+" %}
+
+
+
 
 <br>
 
@@ -128,5 +139,8 @@ In the lecture on November 20th, we discussed Courcelle's Theorem, see [slides](
 |               | [Treewidth II](lecture15.pdf) | Tree decomposition |
 |               | [Treewidth III](lecture16.pdf) | Courcelle's Theorem |
 |               | [Exercise Sheet 6](exer6.pdf) | |
+
+| Randomized Methods     | [Randomized Methods I](lecture17.pdf) | Basics, Color Coding, Longest Path |
+|               | [Randomized Methods II](lecture18.pdf) | k-SAT, Strong Exponential Time Hypothesis |
 "
 %}
