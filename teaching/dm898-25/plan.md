@@ -139,8 +139,7 @@ In the lecture on November 27th, we discussed a randomized exponential time algo
 |               | [Treewidth II](lecture15.pdf) | Tree decomposition |
 |               | [Treewidth III](lecture16.pdf) | Courcelle's Theorem |
 |               | [Exercise Sheet 6](exer6.pdf) | |
-
-| Randomized Methods     | [Randomized Methods I](lecture17.pdf) | Basics, Color Coding, Longest Path |
+| Randomized Methods | [Randomized Methods I](lecture17.pdf) | Basics, Color Coding, Longest Path |
 |               | [Randomized Methods II](lecture18.pdf) | k-SAT, Strong Exponential Time Hypothesis |
 "
 %}
