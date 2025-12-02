@@ -35,6 +35,13 @@ The following list will be extended until the last lecture of the course (estima
 - Treewidth
     - Important: you know the basic definitions (path decomposition, tree decomposition), are able to construct a path/tree decomposition for a given graph, can explain (on a high level) how to apply dynamic programming on path/tree decompositions, you know Courcelle's Theorem, you can model problems in monadic second order logic
     - Less important: reciting details of the proof of recurrences
+- Randomized Algorithms
+    - Important: you know the basic definitions (Monte-Carlo Algorithm), are able to relate success probability to running time, understand how Color-Coding can be used to simplify parameterized problems, can explain on a high level why walk-SAT is faster than naive enumeration
+    - Less important: reciting technical calculations in the k-SAT algorithm
+- Fine-Grained Complexity
+    - Important: you understand how prove conditional running time lower bounds can be proven for polynomial time solvable problems. You know the definition of SETH and can give examples of consequences and how they are obtained on a high level
+    - Less important: The results derived from SETH that we did not prove
+
 
 ## Summary of randomly drawn topic
 - You will briefly (6-8 minutes) explain a randomly drawn topic. You can use the blackboard/whiteboard

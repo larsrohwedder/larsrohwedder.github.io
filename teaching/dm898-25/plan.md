@@ -105,6 +105,17 @@ or textbook Section 5.2.
 In the lecture on November 27th, we discussed a randomized exponential time algorithm for k-SAT, see [slides](lecture18.pdf) and the Strong Exponential Time Hypothesis (SETH). For SETH and its relation to ETH, see also textbook section 14.1.
 " %}
 
+{% include collapse.html collapse="Week 49" content="
+
+In the lectures on December 2nd, we introduced the field of fine-grained complexity and showed
+hardness of Orthogonal Vectors and Diameter under SETH, see [slides](lecture19.pdf).
+On December 4th we will continue with other consequences of SETH, namely an overview of
+results for Subset Sum and String problems.
+
+For a gentle introduction to the field and proofs for hardness of Orthogonal Vectors and Pattern Matching, see [notes by Karl Bringmann](https://drops.dagstuhl.de/storage/00lipics/lipics-vol126-stacs2019/LIPIcs.STACS.2019.4/LIPIcs.STACS.2019.4.pdf).
+For hardness of Diameter, see also [lecture notes by Amir Abboud](https://www.weizmann.ac.il/math/AmirAbboud/sites/math.AmirAbboud/files/uploads/W7notes_0.pdf).
+" %}
+
 
 
 
@@ -141,5 +152,6 @@ In the lecture on November 27th, we discussed a randomized exponential time algo
 |               | [Exercise Sheet 6](exer6.pdf) | |
 | Randomized Methods | [Randomized Methods I](lecture17.pdf) | Basics, Color Coding, Longest Path |
 |               | [Randomized Methods II](lecture18.pdf) | k-SAT, Strong Exponential Time Hypothesis |
+| Fine-Grained Complexity | [Fine-Grained Complexity](lecture19.pdf) | Introduction, Consequences of SETH |
 "
 %}
