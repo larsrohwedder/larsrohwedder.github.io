@@ -15,7 +15,7 @@ I am very grateful for the funding of my research projects.
 - Long term visitor [Leander Schnaars (2024-2025)](https://www.ot.mgt.tum.de/en/or/group/leander-schnaars/)
 - PhD student Leo Wennmann (2023-)
 - Long term visitor [Sarah Morell (2023)](https://www3.math.tu-berlin.de/coga/team/morell/)
-- PhD student [Ashkan Safari (2021-)](https://ashkansafari.com/) (together with Tjark Vredeveld)
+- PhD student [Ashkan Safari (2021-2026)](https://ashkansafari.com/) (together with Tjark Vredeveld)
 
 **Service**
 - I am an associate editor for Operations Research Letters (ORL) and was guest editor in the SODA’23 special issue of Transactions on Algorithms (TALG).
