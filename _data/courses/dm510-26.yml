@@ -1,0 +1,10 @@
+id: "dm510-26"
+title: "DM510"
+banner: "min-height: 240px; background: url(/assets/img/dm510/console.gif) left bottom;"
+links:
+  - title: Home
+    href: index
+  - title: Resources
+    href: res
+  - title: Course Plan
+    href: plan
