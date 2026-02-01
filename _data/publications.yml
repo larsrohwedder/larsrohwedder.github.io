@@ -7,6 +7,7 @@
   title: "A (2+epsilon)-Approximation Algorithm for the General Scheduling
   Problem in Quasipolynomial Time"
   conference: "SODA'26"
+  preprint: "https://arxiv.org/abs/2511.16536"
 
 - authors: "Alexander Armbruster, Lars Rohwedder, Stefan Weltge, Andreas Wiese, Ruilong Zhang"
   title: "Multiplicative Assignment with Upgrades"
