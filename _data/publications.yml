@@ -1,6 +1,6 @@
 - authors: "Etienne Bamas, Shi Li, Lars Rohwedder"
   title: "Randomized Rounding over Dynamic Programs"
-  conference: "preprint"
+  conference: "STOC'26"
   preprint: "https://arxiv.org/abs/2511.03490"
 
 - authors: "Alexander Armbruster, Lars Rohwedder, Andreas Wiese"
