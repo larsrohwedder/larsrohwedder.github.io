@@ -12,7 +12,7 @@ the role of operating systems in this task, and the resource abstractions provid
 Students will gain knowledge about actual operating systems, scheduling algorithms, security and protection mechanisms,
 file systems and process communication.
 
-Students will work on several programming assignments 
+Students will work on several programming assignments on Raspberry Pi Zero Mini-Computers.
 
 ### Teaching Team
 
@@ -25,6 +25,6 @@ room O17-602a-2
 
 [rohwedder@sdu.dk](mailto:rohwedder@sdu.dk)" %}
 
-{% include box.html title="Your teaching assistants" text="Carl-Gustav Øboe Rasmussen and Bastian Graver Blohm" %}
+{% include box.html title="Your tutors" text="Carl-Gustav Øboe Rasmussen and Bastian Graver Blohm" %}
 
 Some of the materials in this course go back to previous lecturers, including Jakob Aae Mikkelsen and Daniel Merkle.

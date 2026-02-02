@@ -1,3 +1,9 @@
+- time: "Spring'26"
+  role: "Lecturer"
+  lecture: "Operating Systems (SDU)"
+  translation: "Operating Systems (SDU)"
+  link: "teaching/dm510-26/index"
+
 - time: "Fall'25"
   role: "Lecturer"
   lecture: "Parameterized Algorithms (SDU)"
@@ -8,7 +14,6 @@
   role: "Lecturer"
   lecture: "Operating Systems (SDU)"
   translation: "Operating Systems (SDU)"
-  link: "teaching/dm510-25/index"
 
 - time: "Spring'24"
   role: "Coordinator / Tutor"
