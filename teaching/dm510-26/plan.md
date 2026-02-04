@@ -10,7 +10,7 @@ The information on this page may be subject to changes during the run of the sem
 {% include table.html content="
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
-| 6    | 04-02-2025 | Introduction, Overview          | [Slides](lectures/lecture1.pdf) |
+| 6    | 04-02-2025 | Introduction, Overview          | [Slides](lectures/lecture1.pdf), Textbook Chapter 1 |
 " %}
 
 
