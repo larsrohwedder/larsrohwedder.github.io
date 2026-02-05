@@ -5,7 +5,7 @@ course_id: dm510-26
 ---
 
 The purpose of these instructions is to assemble a Raspberry Pi Zero 2W, install and configure its operating system
-so that you can access it via a SSH (remote terminal).
+so that you can access it via SSH (a remote terminal).
 
 You should have:
 - one Raspberry Pi Zero 2W
@@ -73,10 +73,10 @@ If this worked, congratulations, you have access to the Pi!
 
 # Programming and working on the Pi
 You can directly write programs on the Pi or you can write them on your computer and then copy them to the Pi.
-To copy files via SSH, use `scp` on a Unix machine. 
+For example, to copy files via SSH on a Unix machine, use `scp`. 
 For the purpose of this course, I (Lars) recommend to compile programs on the Pi itself. Your computer most likely
 has a different CPU architecture than the Pi (arm64). It would require a cross-compiler to compile a program that
-can run on a different CPU architecture, which you can do if you like but then you need to find out yourself how to do this.
+can be run on a different CPU architecture, which you can do if you really want but then please find instructions for it yourself.
 
 Use the following instructions to write and run a Hello World program entirely on the Pi via terminal access.
 Start by moving into the home directory:
@@ -102,7 +102,7 @@ Write the following:
         return 0;
     }
 ```
-Save and close the file. Then compile it using:
+Save (Ctrl+O) and close (Ctrl+X) the file. Then compile it using:
 ```
     gcc -o main main.c
 ```
@@ -110,7 +110,7 @@ Run it using
 ```
     ./main
 ```
-Alternatively you could use the text edit `vi`, which is much more powerful and convenient once you understand it, but takes more time to learn.
+Alternatively you could use the text editor `vi`, which is much more powerful and convenient once you understand it, but takes time to learn.
 
 # Connecting to the Pi via USB
 Instead of WIFI, it is also possible to make a network connection to the Pi via the USB cable.
