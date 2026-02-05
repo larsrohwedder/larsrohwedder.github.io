@@ -15,6 +15,8 @@ You should have:
 
 Please treat all hardware with great care so that future generations of students can enjoy them as well. 
 
+{% include box.html style="bg-warning" text="If something does not work immediately, do not panic. Talk to other students and see if they encountered the same issues and whether they found a solution. Try a few things. If nothing works even after trying for hours, contact me (Lars)" %}
+
 # Preparation
 Unpack the Pi and the case and put them together using the screws. Keep the plastic bag of the case so that you can later put the assembled Pi and the SD card (including adapter) inside it. The assembled Pi should look as follows:
 
@@ -48,6 +50,8 @@ On your computer open an SSH client and connect to raspberry.local (or whatever 
 ssh pi@raspberry.local
 ```
 Accept the certificate if asked.
+The approach above uses mDNS, a protocol that allows network devices to propagate their name locally. If this does not work, you can always connect to the Pi using its IP address. The only problem is finding its IP address. If you connect via a hotspot on your mobile phone, you can usually see the connected devices and their IP address.
+
 Now you should have terminal access to the Pi. Try the following:
 ```
     cd /sys/class/leds/ACT
@@ -67,9 +71,51 @@ Turn it on again using
 ```
 If this worked, congratulations, you have access to the Pi!
 
+# Programming and working on the Pi
+You can directly write programs on the Pi or you can write them on your computer and then copy them to the Pi.
+To copy files via SSH, use `scp` on a Unix machine. 
+For the purpose of this course, I (Lars) recommend to compile programs on the Pi itself. Your computer most likely
+has a different CPU architecture than the Pi (arm64). It would require a cross-compiler to compile a program that
+can run on a different CPU architecture, which you can do if you like but then you need to find out yourself how to do this.
+
+Use the following instructions to write and run a Hello World program entirely on the Pi via terminal access.
+Start by moving into the home directory:
+```
+    cd ~
+```
+Create a new folder for the project and navigate to it:
+```
+    mkdir helloworld
+    cd helloworld
+```
+Create and open a file `main.c` with `nano`, a terminal-based text editor:
+```
+    nano main.c
+```
+Write the following:
+```
+    #include <stdio.h>
+
+    int main()
+    {
+        printf("Hello DM510!\n");
+        return 0;
+    }
+```
+Save and close the file. Then compile it using:
+```
+    gcc -o main main.c
+```
+Run it using
+```
+    ./main
+```
+Alternatively you could use the text edit `vi`, which is much more powerful and convenient once you understand it, but takes more time to learn.
+
 # Connecting to the Pi via USB
 Instead of WIFI, it is also possible to make a network connection to the Pi via the USB cable.
 This requires slightly more effort and may be more prone to errors. If you would like to try it, follow these
 [instructions](https://www.raspberrypi.com/news/usb-gadget-mode-in-raspberry-pi-os-ssh-over-usb/).
 
 I (Lars) have followed these instructions successfully himself, but experienced the following problem on Linux: the connection sometimes could not be established if the Pi has not finished booting at the time the USB cable is connected. I could fix this by first connecting the Pi to a power source using the outer micro USB socket and then only after the Pi has finished booting up, connect the other micro USB to the computer. This requires two micro USB cables. Make sure that the micro USB cable that connects the Pi to the computer is a data cable (for example the one that you got from the university). In contrast some USB cables are only for power.
+
