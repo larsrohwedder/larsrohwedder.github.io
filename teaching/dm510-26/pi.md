@@ -16,8 +16,9 @@ You should have:
 Please treat all hardware with great care so that future generations of students can enjoy them as well. 
 
 # Preparation
-Unpack the Pi and the case and put them together using the screws. Keep the plastic bag of the case so that you can later put the assembled Pi and the SD card (including adapter) inside it. The assembled Pi should look as below:
-![Pi](img/pi_assembled.jpg){: width="250" }
+Unpack the Pi and the case and put them together using the screws. Keep the plastic bag of the case so that you can later put the assembled Pi and the SD card (including adapter) inside it. The assembled Pi should look as follows:
+
+![Pi](img/pi_assembled.jpg){: width="400" }
 
 # Setting up the operating system
 The Pi uses an SD card instead of a hard drive. The SD card is currently empty and you need to install a Linux operating system on it and configure it.
