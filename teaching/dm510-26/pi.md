@@ -24,18 +24,17 @@ In order to connect a computer via SSH to the Pi, both need to be in the same ne
 
 # Setting up the operating system
 The Pi uses an SD card instead of a hard drive. The SD card is currently empty and you need to install a Linux operating system on it and configure it.
-Fortunately, there is a very tool that makes this very easy: On your regular computer download the [Raspberry Pi Imager tool](https://www.raspberrypi.com/software/), which is available for Linux, MacOS, and Windows.
-Unpack and insert the micro SD card (possibly by plugging it into the SD adapter) into your computer and run the Imager tool.
+Fortunately, there is a very tool that makes this very easy: On your regular computer download the [Raspberry Pi Imager tool](https://www.raspberrypi.com/software/), which is available for Linux, MacOS, and Windows. Please use a recent version. I (Lars) have tested it with 
+Unpack and insert the micro SD card (possibly by plugging it into the SD adapter) into your computer. If your computer has no SD card slot and you have no adapter to use it with your computer, please find a fellow student who can help you with this. You only need to write to the SD card once.
+
+Run the Imager tool.
 - Under Raspberry Pi Device, choose `Raspberry Pi Zero 2W`
 - Under OS, choose `Raspberry Pi OS (64-bit)`
 - Under storage, choose the SD card
-- Click `Next`
-
-In the popup choose `edit settings`
-- Check and choose a hostname, for example raspberry.local
-- Check and select a username and password
-- Check and configure a wireless LAN
-- Under `Services` check `Enable SSH` and `Use password authentification`
+- Select a hostname, for example raspberry
+- Select a username and password
+- Configure your WIFI
+- Select `Enable SSH` and `Use password authentification`
 
 Press `Save` and then `Yes`. Confirm to erase the contents of the SD card.
 The Imager tool is now writing to the SD card, which will take a while.
@@ -51,20 +50,20 @@ ssh pi@raspberry.local
 Accept the certificate if asked.
 Now you should have terminal access to the Pi. Try the following:
 ```
-    cd /sys/class/leds/
+    cd /sys/class/leds/ACT
 ```
 You are now in the directory corresponding to the onboard LED.
-Change the permission of the LED so that any user can write to it:
+Change the permission of the LED's brightness so that any user can write to it:
 ```
-    chmod a+w 
+    sudo chmod a+w brightness
 ```
 Turn it off using
 ```
-    echo 0 > 
+    echo 0 > brightness
 ```
 Turn it on again using
 ```
-    echo 0 > 
+    echo 1 > brightness
 ```
 If this worked, congratulations, you have access to the Pi!
 
