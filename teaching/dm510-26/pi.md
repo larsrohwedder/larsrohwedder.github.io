@@ -20,7 +20,7 @@ Please treat all hardware with great care so that future generations of students
 # Preparation
 Unpack the Pi and the case and put them together using the screws. Keep the plastic bag of the case so that you can later put the assembled Pi and the SD card (including adapter) inside it. The assembled Pi should look as follows:
 
-![Pi](img/pi_assembled.jpg){: width="400" }
+![Pi](img/pi_assembled.jpg){: width="300" }
 
 In order to connect a computer via SSH to the Pi, both need to be in the same network. The easiest way is to have both be in the same wireless LAN (WIFI). Since Eduroam (the WIFI at the University) requires complicated authentification with a certificate, either use your home WIFI or create a hotspot with your mobile phone, which you can enter with both your computer and the Pi.
 
@@ -75,10 +75,11 @@ If this worked, congratulations, you have access to the Pi!
 You can directly write programs on the Pi or you can write them on your computer and then copy them to the Pi.
 For example, to copy files via SSH on a Unix machine, use `scp`. 
 For the purpose of this course, I (Lars) recommend to compile programs on the Pi itself. Your computer most likely
-has a different CPU architecture than the Pi (arm64). It would require a cross-compiler to compile a program that
-can be run on a different CPU architecture, which you can do if you really want but then please find instructions for it yourself.
+has a different CPU architecture than the Pi (arm64). It requires a cross-compiler to compile a program that
+can be run on a different CPU architecture, which is non-trivial to set up. There are many instructions on it online, but do this at your own risk.
 
-Use the following instructions to write and run a Hello World program entirely on the Pi via terminal access.
+For program and compile a Hello World program on the Pi itself via SSH,
+use the following instructions.
 Start by moving into the home directory:
 ```
     cd ~
