@@ -11,7 +11,7 @@ The information on this page may be subject to changes during the run of the sem
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 04-02-2025 | Introduction, Overview          | [Slides](lectures/lecture1.pdf), Textbook Chapter 1 |
-| 7    | 07-02-2025 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
+| 7    | 09-02-2025 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
 " %}
 
 
