@@ -12,7 +12,7 @@ Note, that there is an International and a US version of the book. It is not imp
 
 ### Course-Specific Instructions
 
-TBA
+- [Getting started with Raspberry Pi](pi)
 
 ### Command-line tools, programs, and examples used in course
 Below is a (growing) overview of Linux tools (mostly command-line) used throughout the lectures.

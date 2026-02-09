@@ -11,6 +11,7 @@ The information on this page may be subject to changes during the run of the sem
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 04-02-2025 | Introduction, Overview          | [Slides](lectures/lecture1.pdf), Textbook Chapter 1 |
+| 7    | 07-02-2025 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
 " %}
 
 
@@ -21,7 +22,7 @@ Please see your individual calendar for the exact date.
 {% include table.html content="
 | Week  |              Topic           | Exercises        |
 | ----- | ---------------------------- | ---------------- |
-| 7     | Chapters 1+2                  | TBA |
+| 7     | Chapters 1+2                  | [Exercise sheet](exercises/exer1.pdf) |
 " %}
 
 ### Programming Projects
