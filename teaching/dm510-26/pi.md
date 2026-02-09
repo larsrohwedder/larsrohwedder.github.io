@@ -50,7 +50,7 @@ On your computer open an SSH client and connect to raspberry.local (or whatever 
 ssh pi@raspberry.local
 ```
 Accept the certificate if asked.
-The approach above uses mDNS, a protocol that allows network devices to propagate their name locally. If this does not work, you can always connect to the Pi using its IP address. The only problem is finding its IP address. If you connect via a hotspot on your mobile phone, you can usually see the connected devices and their IP address.
+The approach above uses mDNS, a protocol that allows network devices to propagate their name locally. If this does not work, you can always connect to the Pi using its IP address. The only problem is finding its IP address. If you connect via a hotspot on your mobile phone, you can usually see the connected devices and their IP addresses.
 
 Now you should have terminal access to the Pi. Try the following:
 ```
