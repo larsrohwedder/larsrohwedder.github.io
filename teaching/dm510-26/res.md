@@ -21,11 +21,13 @@ Communication
 - `command1 | command2` (pipe) redirects output of command1 into input of command2
 - `echo <out>` outputs `<out>`
 
-File system browsing.
+File system browsing and manipulation.
 The command line has a working directory in which you currently are.
 - `pwd` outputs the working directory 
 - `ls` outputs all files in the working directory (or another directory using `ls <dir>`)
 - `cd <dir>` changes the working directory
+- `mv <file> <directory/filename>` moves file `<file>` to different directory or renames to different name
+- `rm <file>` removes `<file>`
 
 File I/O
 - `cat <file>` outputs content of file
