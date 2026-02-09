@@ -26,7 +26,7 @@ In order to connect a computer via SSH to the Pi, both need to be in the same ne
 
 # Setting up the operating system
 The Pi uses an SD card instead of a hard drive. The SD card is currently empty and you need to install a Linux operating system on it and configure it.
-Fortunately, there is a tool that makes this very easy: On your regular computer download the [Raspberry Pi Imager tool](https://www.raspberrypi.com/software/), which is available for Linux, MacOS, and Windows. Please use a recent version. I (Lars) have tested it with 
+Fortunately, there is a tool that makes this very easy: On your regular computer download the [Raspberry Pi Imager tool](https://www.raspberrypi.com/software/), which is available for Linux, MacOS, and Windows. Please use a recent version. I (Lars) have tested it with version 2.0.6. 
 Unpack and insert the micro SD card (possibly by plugging it into the SD adapter) into your computer. If your computer has no SD card slot and you have no adapter to use it with your computer, please find a fellow student who can help you with this. You only need to write to the SD card once.
 
 Run the Imager tool.
