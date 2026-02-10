@@ -41,6 +41,10 @@ Text editors
 - `nano <file>` is a simple command line text editor
 - `vi <file>` is a more advanced command line text editor
 
+Networking
+- `ping <host>` test connectivity to host `<host>`
+- `ssh <user>@<host>` establish remote command line on `<host>`
+
 ### Exams
 
 TBA
