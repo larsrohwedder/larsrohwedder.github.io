@@ -113,7 +113,47 @@ Run it using
 ```
 Alternatively you could use the text editor `vi`, which is much more powerful and convenient once you understand it, but takes time to learn.
 
-# Connecting to the Pi via USB
+# Serial connection over USB (optional)
+The Raspberry Pi can be configured in such a way that a serial connection to a host computer
+ is established over the USB cable. This gives you terminal access without requiring a network connection.
+It can be very helpful, for example, to debug network problems, when the SSH connection fails.
+
+The following requires modification of ext4 file system, which may not be straight-forward on Windows (although there are ways).
+The following instructions require a **a Linux host machine**.
+
+Insert the SD card to your computer. The SD card should be mounted and have two file systems `bootfs` and `rootfs`.
+ Open the file `.../bootfs/firmware/config.txt`.
+Add the following line to the end:
+```
+dtoverlay=dwc2
+```
+Now open the file `.../bootfs/cmdline.txt`. After `rootwait` insert a space and:
+```
+modules-load=dwc2,g_serial
+```
+There should not be any line breaks. Before and after the text above there should be a single space.
+
+In a terminal navigate to the directory `.../rootfs/etc/systemd/system/getty.target.wants/` (create it if it does not exist). Then in this directory create a symbolic link using the following.
+```
+ln -s /lib/systemd/system/getty@.service getty@ttyGS0.service
+```
+You might need superuser priviledges. In this case, run the command above with `sudo ln ...`.
+
+Insert the USB cable into the **inner** micro USB socket of the Pi. Insert the other side to your computer's USB socket. Your computer should be able to see a new serial device. Find the name either by checking `dmesg` or by
+typing
+```
+ls -l /dev/serial/by-id
+```
+It should show you the device id, for example, `/dev/ttyACM0`. 
+Use any serial client to connect to it. On Windows for example, you can use PuTTY. On 
+Linux, you can use `screen`, which on many distributions can be installed using `sudo apt install screen`.
+Run
+```
+sudo screen /dev/ttyACM0
+```
+where might need to replace `ttyACM0` by the correct device.
+
+# Network connection over USB (optional)
 Instead of WIFI, it is also possible to make a network connection to the Pi via the USB cable.
 This requires slightly more effort and may be more prone to errors. If you would like to try it, follow these
 [instructions](https://www.raspberrypi.com/news/usb-gadget-mode-in-raspberry-pi-os-ssh-over-usb/).

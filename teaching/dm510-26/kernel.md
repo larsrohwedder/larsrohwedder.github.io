@@ -56,3 +56,34 @@ nohup make Image.gz modules dtbs &
 to run building process in the background. This will continue even if you disconnect the SSH connection. The output of the building process will be written into a file called `nohup.out`. You can check with `top` whether build process is still active. If so the CPU utilization should be high.
 
 Generally, it should be safe to interrupt the building process by pressing `Ctrl+C` (or `killall make` if it is running in the background). and restart it by running the corresponding make command again.
+```
+sudo make modules_install
+```
+
+Next we need to install the newly compiled kernel.
+```
+sudo cp arch/arm64/boot/Image.gz /boot/firmware/kernel8-custom.img
+sudo cp arch/arm64/boot/dts/broadcom/*.dtb /boot/firmware/
+sudo cp arch/arm64/boot/dts/overlays/*.dtb* /boot/firmware/overlays/
+sudo cp arch/arm64/boot/dts/overlays/README /boot/firmware/overlays/
+```
+
+open the boot configuration with `sudo nano /boot/firmware/config.txt` and add to the end the line
+
+```
+kernel=kernel8-custom.img
+
+```
+
+Reboot the Pi using
+
+```
+sudo reboot
+```
+
+Once the Pi is back running, check that the correct kernel is used by
+
+```
+uname -r
+```
+
