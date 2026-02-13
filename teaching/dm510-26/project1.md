@@ -30,14 +30,12 @@ sudo ./leds
 You should see the led blinking. Stop the process using Ctrl+C.
 For many reasons it is not a good idea to directly write to raw physical memory in user programs. We will implement a similar control in the kernel.
 
-### The linux kernel
+### Kernel mode implementation
 
 Follow the instructions [here](kernel) to download, build and run your own custom version of the Linux kernel.
-Then follow the intrductions [here](syscall) to understand how to add new system calls. Design an system call
+Then follow the intrductions [here](syscall) to understand how to add new system calls. Design a system call
 interface for controlling the LED (turning it on or off) and add the corresponding function stubs to the kernel,
 first without the implementation.
-
-### Implementation of system calls
 
 On a high level, you will control the LED in a similar way to the user mode hack: by writing to the physical memory addresses. When kernel code executes, it does not run in the raw physical memory space. That means for example that dereferencing pointer `10` will not read/write to the physical address `10`, but to some other address that you have no control over. In the user mode hack the workaround was to map `/dev/mem` to some memory section via `mmap`.
 This is not the safe way to do it and in particular is not feasible to do from kernel code.
