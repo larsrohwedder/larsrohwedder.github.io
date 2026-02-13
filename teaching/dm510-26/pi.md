@@ -119,7 +119,7 @@ The Raspberry Pi can be configured in such a way that a serial connection to a h
 It can be very helpful, for example, to debug network problems, when the SSH connection fails.
 
 The following requires modification of ext4 file system, which may not be straight-forward on Windows (although there are ways).
-The following instructions require a **a Linux host machine**.
+The following instructions require a **Linux host machine**.
 
 Insert the SD card to your computer. The SD card should be mounted and have two file systems `bootfs` and `rootfs`.
  Open the file `.../bootfs/firmware/config.txt`.
