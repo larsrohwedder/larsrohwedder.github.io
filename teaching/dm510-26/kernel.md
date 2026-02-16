@@ -17,14 +17,6 @@ cd ~
 git clone --depth=1 https://github.com/raspberrypi/linux
 ```
 
-The following instructions change the version of the source code to one specific snapshot on which the project has been tested.
-
-```
-cd linux
-git reset --hard 8057c4a5107b5daaa075c646a1ccc313c456d779
-git pull
-```
-
 Using the package manager, we install developer tools required to build the kernel.
 ```
 sudo apt install bc bison flex libssl-dev make
