@@ -122,7 +122,7 @@ The following requires modification of ext4 file system, which may not be straig
 The following instructions require a **Linux host machine**.
 
 Insert the SD card to your computer. The SD card should be mounted and have two file systems `bootfs` and `rootfs`.
- Open the file `.../bootfs/firmware/config.txt`.
+ Open the file `.../bootfs/config.txt`.
 Add the following line to the end:
 ```
 dtoverlay=dwc2

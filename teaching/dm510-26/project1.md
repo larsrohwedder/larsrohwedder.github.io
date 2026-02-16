@@ -33,7 +33,7 @@ For many reasons it is not a good idea to directly write to raw physical memory 
 ### Kernel mode implementation
 
 Follow the instructions [here](kernel) to download, build and run your own custom version of the Linux kernel.
-Then follow the intrductions [here](syscall) to understand how to add new system calls. Design a system call
+Then follow the instructions [here](syscall) to understand how to add new system calls. Design a system call
 interface for controlling the LED (turning it on or off) and add the corresponding function stubs to the kernel,
 first without the implementation.
 
@@ -49,7 +49,7 @@ inputs (if appropriate).
 ### Submission
 
 Submit via itslearning the following:
-- Source code of the implementation of your system call: all files with `SYSCALL_DEFINE` in it. You do not need to include header files, etc.
+- Source code of the implementation of your system calls: all files with `SYSCALL_DEFINE` in it. You do not need to include header files, etc.
 - Source code of the user program(s) that test your system calls.  
 - A video recording from your phone that shows how you invoke `uname -r` on your terminal and then how you execute your user program(s). Move the camera between screen and Pi to show how the LED changes.
 - A pdf with answers to the questionaire below and possibly appendices.
@@ -63,7 +63,7 @@ Submit via itslearning the following:
 - Did you manage to turn the LED on and off via your own system calls?
 
 If your answer is no to some of these questions, you may include explanation on which problems you ran into.
-It is intentional that there is to excessive report on the project. All design decisions that you made should be documented in the source code itself.  
+It is intentional that there is no excessive report on the project. All design decisions that you made should be documented in the source code itself.  
 
 **Assessment:**
 

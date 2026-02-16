@@ -12,6 +12,7 @@ The information on this page may be subject to changes during the run of the sem
 | ---- | ---------- | ------------------------------- | ------------------------ |
 | 6    | 04-02-2025 | Introduction, Overview          | [Slides](lectures/lecture1.pdf), Textbook Chapter 1 |
 | 7    | 09-02-2025 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
+| 8    | 16-02-2025 | Processes          | [Slides](lectures/lecture3.pdf), Textbook Chapter 3 |
 " %}
 
 
@@ -23,6 +24,7 @@ Please see your individual calendar for the exact date.
 | Week  |              Topic           | Exercises        |
 | ----- | ---------------------------- | ---------------- |
 | 7     | Chapters 1+2                  | [Exercise sheet](exercises/exer1.pdf) |
+| 8     | Chapter 3                  | [Exercise sheet](exercises/exer2.pdf) |
 " %}
 
 ### Programming Projects
@@ -31,12 +33,10 @@ Deadlines of the projects may be subject to change before their release.
 {% include table.html content="
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
-| 16-02-2026 | 9-03-2026 |  TBA    | TBA |
+| 16-02-2026 | 9-03-2026 |  [System Call](project1)    | TBA |
 | 09-03-2026 | 13-04-2026 |  TBA  | TBA |
 | 13-04-2025 | 11-05-2025 |  TBA    | TBA            |
 " %}
-
-More information: TBA
 
 ### Exam, grading, and repeat students
 

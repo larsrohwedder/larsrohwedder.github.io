@@ -13,6 +13,8 @@ Note, that there is an International and a US version of the book. It is not imp
 ### Course-Specific Instructions
 
 - [Getting started with Raspberry Pi](pi)
+- [Building the Linux kernel for Raspberry Pi](kernel)
+- [Adding a System Call to Linux](syscall)
 
 ### Command-line tools, programs, and examples used in course
 Below is a (growing) overview of Linux tools (mostly command-line) used throughout the lectures.
@@ -25,8 +27,7 @@ File system browsing and manipulation.
 The command line has a working directory in which you currently are.
 - `pwd` outputs the working directory 
 - `ls` outputs all files in the working directory (or another directory using `ls <dir>`)
-- `cd <dir>` changes the working directory
-- `mv <file> <directory/filename>` moves file `<file>` to different directory or renames to different name
+- `cd <dir>` changes the working directory. `<dir>` can be absolute, for example, `cd /etc/` or relative, for example `cd subdirectory`. Use `cd ..` to navigate to the parent directory - `mv <file> <directory/filename>` moves file `<file>` to different directory or renames to different name
 - `rm <file>` removes `<file>`
 
 File I/O
