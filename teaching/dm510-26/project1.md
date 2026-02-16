@@ -49,9 +49,9 @@ inputs (if appropriate).
 ### Submission
 
 Submit via itslearning the following:
-- Source code of the implementation of your system calls: all files with `SYSCALL_DEFINE` in it. You do not need to include header files, etc.
+- Source code of the implementation of your system calls: all files with `SYSCALL_DEFINE...` in it. You do not need to include header files, etc.
 - Source code of the user program(s) that test your system calls.  
-- A video recording from your phone that shows how you invoke `uname -r` on your terminal and then how you execute your user program(s). Move the camera between screen and Pi to show how the LED changes.
+- A video recording from your phone that shows how you invoke `uname -r` on your terminal and then how you execute your user program(s). Move the camera between screen and Pi to demonstrate how the LED changes.
 - A pdf with answers to the questionaire below and possibly appendices.
 
 **Questionaire:**
@@ -69,7 +69,7 @@ It is intentional that there is no excessive report on the project. All design d
 
 The project will be graded based on the following:
 
-- **Functionality:** How much of the required functionality did you manage to implement?
+- **Functionality:** Did you implement the required functionality and is the implementation correct?
 - **Style:** Is the programming style appropriate and is the code well documented?
 - **Tests:** Are you testing all aspects of the newly implemented system calls?
 
