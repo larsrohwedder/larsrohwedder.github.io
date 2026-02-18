@@ -16,7 +16,7 @@ Note, that there is an International and a US version of the book. It is not imp
 - [Building the Linux kernel for Raspberry Pi](kernel)
 - [Adding a System Call to Linux](syscall)
 
-### Command-line tools, programs, and examples used in course
+### Command-line tools used in course
 Below is a (growing) overview of Linux tools (mostly command-line) used throughout the lectures.
 
 Communication
@@ -45,6 +45,20 @@ Text editors
 Networking
 - `ping <host>` test connectivity to host `<host>`
 - `ssh <user>@<host>` establish remote command line on `<host>`
+
+Processes
+- `ps -e` list all processes
+- `top` shows resource usage of processes
+
+### Examples shown in course
+Communication
+- [named-pipe-consumer.c](examples/named-pipe-consumer.c), [named-pipe-producer.c](examples/named-pipe-producer.c) for an example of a named pipe (run `mkfifo dm510_fifo` first)
+- [pipe.c](examples/pipe.c) for an ordinary pipe
+- [shared-mem.c](examples/shared-mem.c) creating a shared memory segment using mmap
+
+Parallelism 
+- [mult.c](examples/mult.c) for an example of using openmp to speed up matrix multiplication. Compile with `-fopenmp`
+- [sse.c](examples/sse.c) for an example of SIMD instructions
 
 ### Exams
 
