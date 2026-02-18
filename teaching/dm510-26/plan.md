@@ -13,6 +13,7 @@ The information on this page may be subject to changes during the run of the sem
 | 6    | 04-02-2025 | Introduction, Overview          | [Slides](lectures/lecture1.pdf), Textbook Chapter 1 |
 | 7    | 09-02-2025 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
 | 8    | 16-02-2025 | Processes          | [Slides](lectures/lecture3.pdf), Textbook Chapter 3 |
+| 9    | 18-02-2025 | Threads and Concurrency          | [Slides](lectures/lecture4.pdf), Textbook Chapter 4 |
 " %}
 
 
