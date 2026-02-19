@@ -47,7 +47,7 @@ SYSCALL_DEFINE1(hellokernel, long, param)
 }
 ```
 This is the actual implementation of your system call that will be called when it is invoked. The number in `SYSCALL_DEFINE1` stands for the number of parameters and can be changed.
-Open `arch/arm64/Makefile`. You find `obj-y := ...` with a long list of object files. Add `hellokernel.o` to it.
+Open `arch/arm64/kernel/Makefile`. You find `obj-y := ...` with a long list of object files. Add `hellokernel.o` to it.
 
 You can now compile the kernel with the new system call.
 Compiling the kernel after these changes takes a long time, since many source files depend on the system calls that were changed.
