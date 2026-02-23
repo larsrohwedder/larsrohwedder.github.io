@@ -14,6 +14,7 @@ The information on this page may be subject to changes during the run of the sem
 | 7    | 09-02-2025 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
 | 8    | 16-02-2025 | Processes          | [Slides](lectures/lecture3.pdf), Textbook Chapter 3 |
 | 9    | 18-02-2025 | Threads and Concurrency          | [Slides](lectures/lecture4.pdf), Textbook Chapter 4 |
+| 10    | 23-02-2025 | CPU Scheduling          | [Slides](lectures/lecture5.pdf), Textbook Chapter 5 |
 " %}
 
 
@@ -26,6 +27,7 @@ Please see your individual calendar for the exact date.
 | ----- | ---------------------------- | ---------------- |
 | 7     | Chapters 1+2                  | [Exercise sheet](exercises/exer1.pdf) |
 | 8     | Chapter 3                  | [Exercise sheet](exercises/exer2.pdf) |
+| 8     | Chapter 4+5                  | [Exercise sheet](exercises/exer3.pdf) |
 " %}
 
 ### Programming Projects
