@@ -49,6 +49,7 @@ Networking
 Processes
 - `ps -e` list all processes
 - `top` shows resource usage of processes
+- `taskset --cpu-list 1 <command>` executes the program `<command>` only on CPU core 1
 
 ### Examples shown in course
 Communication
@@ -59,6 +60,11 @@ Communication
 Parallelism 
 - [mult.c](examples/mult.c) for an example of using openmp to speed up matrix multiplication. Compile with `-fopenmp`
 - [sse.c](examples/sse.c) for an example of SIMD instructions
+
+Synchronization
+- [atomic.c](examples/atomic.c) Usage of atomic compare-and-exchange
+- [mutex.c](examples/mutex.c) Usage of pthread mutex
+- [crit-section.c](examples/crit-section.c) Usage of critical sections in openmp
 
 ### Exams
 
