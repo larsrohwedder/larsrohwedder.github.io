@@ -6,7 +6,26 @@ course_id: dm510-26
 
 # Project 2: Kernel Module
 
+In this assignment your task is to create driver for the Raspberry Pi that exposes a character device `/dev/morse` to the user. When a user writes into `/dev/morse`, the message should be transmitted via Morse code
+on the LED. Morse code is an old standard for transmitting text via a series of short and long signals. You can find all necessary instructions on this encoding in the image below. 
+
 ![Morse](img/morse.png)
+
+### Drivers in Linux
+
+
+
+### Requirements
+
+- You should either use a major number of 255 and minor number of 0.
+- There must be an output buffer.
+- Blocking and non-blocking I/O must be supported (see Chapter 6 of LDD, page 147ff).
+- Only one process at the time should be able to open the device for writing.
+- Simple device control has to be possible via the ioctl system call. Implement at least a way to set the unit duration of the Morse transmission and the size of the output buffer.
+
+The following is not required:
+- udev and devfs support.
+- Poll, select and asynchronous notification support (see Chapter 6 of LDD).
 
 ### Submission
 
