@@ -16,6 +16,7 @@ The information on this page may be subject to changes during the run of the sem
 | 8    | 18-02-2025 | Threads and Concurrency          | [Slides](lectures/lecture4.pdf), Textbook Chapter 4 |
 | 9    | 23-02-2025 | CPU Scheduling          | [Slides](lectures/lecture5.pdf), Textbook Chapter 5 |
 | 10    | 02-04-2025 | Synchronization          | [Slides](lectures/lecture6.pdf), Textbook Chapter 6+7 |
+| 10    | 04-04-2025 | Deadlocks          | [Slides](lectures/lecture7.pdf), Textbook Chapter 8 |
 " %}
 
 
