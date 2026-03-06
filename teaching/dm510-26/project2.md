@@ -6,10 +6,10 @@ course_id: dm510-26
 
 # Project 2: Kernel Module
 
-In this assignment your task is to program a driver for the Raspberry Pi that exposes a character device `/dev/morse` to the user. When a user writes into `/dev/morse`, the message should be transmitted via Morse code
+In this assignment your task is to program a character driver for the Raspberry Pi that exposes a device `/dev/morse` to the user. When a user writes into `/dev/morse`, the message should be transmitted via Morse code
 on the LED. Morse code is an old standard for transmitting text via a series of short and long signals. You can find all the necessary information on Morse encoding in the image below. 
 
-![Morse](img/morse.png)
+![Morse](img/morse.png){: .img-fluid }
 
 ### Drivers in Linux
 
@@ -32,7 +32,7 @@ sudo sh morse_load
 ```
 
 You can check that `/dev/morse` is now visible. However, it does not do anything yet. Unload it again using `sudo sh morse_unload`.
-To bring your driver to life, you need to first learn more about programming drivers for Linux.
+To bring your driver to life, you first need to learn more about programming drivers for Linux.
 
 Almost everything you need to know for this can be found in the [Linux Device Drivers (LDD)](https://lwn.net/Kernel/LDD3/) book.
 The first chapters of the book explain in detail how a character driver `scull` is written. Unlike your driver, `scull` does not do anything useful, but you should understand its code in detail, since
@@ -45,7 +45,7 @@ The log messages can be viewed using the `dmesg` command line program.
 For this, read Chapter 3 of LDD, implement the code to register your device and a write method that simply logs messages with `printk`.
 Use a major number of 255 and minor number of 0 when registering the device.
 
-Next, transfer your code for controlling the LED from the first project to your driver. Note that you are **not** supposed to make a system call from your drive). Instead,
+Next, transfer your code for controlling the LED from the first project to your driver. Note that you are **not** supposed to make a system call from your driver). Instead,
 simply copy the relevant source code into the driver.
 Using this code and the `msleep` function, you can already implement a basic Morse transmitter in the write function and test it.
 
@@ -66,7 +66,7 @@ The following is not required:
 ### Submission
 
 Submit via itslearning the following:
-- Source code of the driver: `morse_dev.c` and other source files in case you added any
+- Source code of the driver: `morse_dev.c` and other source files in case you added any.
 - Source code of the user program(s) that test the functionality, including writing to the device and `ioctl`.
 - A video recording from your phone that shows how you write the last names of your group members into the device on your terminal. Move the camera between screen and Pi to demonstrate how the LED transmits the Morse code.
 - A pdf with answers to the questionaire below and possibly appendices.
@@ -74,7 +74,7 @@ Submit via itslearning the following:
 **Questionaire:**
 
 - Did you manage to compile the driver and load it?
-- Did you manage to implement a driver that prints messages writting into the device to the log?
+- Did you manage to implement a driver that prints messages written into the device to the log?
 - Did you manage to implement a Morse transmittion over the LED?
 - Did you manage to implement an output buffer, from which a seperate thread reads and transmits the data via Morse code?
 - Did you manage to implement blocking and non-blocking I/O?
