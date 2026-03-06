@@ -6,7 +6,7 @@ course_id: dm510-26
 
 # Project 2: Kernel Module
 
-In this assignment your task is to create driver for the Raspberry Pi that exposes a character device `/dev/morse` to the user. When a user writes into `/dev/morse`, the message should be transmitted via Morse code
+In this assignment your task is to program a driver for the Raspberry Pi that exposes a character device `/dev/morse` to the user. When a user writes into `/dev/morse`, the message should be transmitted via Morse code
 on the LED. Morse code is an old standard for transmitting text via a series of short and long signals. You can find all the necessary information on Morse encoding in the image below. 
 
 ![Morse](img/morse.png)
@@ -19,8 +19,8 @@ To get started simply download [project2.zip](projects/project2.zip) onto your R
 
 ```
 cd ~
-wget https://larsrohwedder.com/teaching/dm510-25/project2.zip
-unzip project2
+wget https://larsrohwedder.com/teaching/dm510-25/projects/project2.zip
+unzip project2.zip
 cd project2
 ```
 
