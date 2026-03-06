@@ -19,7 +19,7 @@ To get started simply download [project2.zip](projects/project2.zip) onto your R
 
 ```
 cd ~
-wget https://larsrohwedder.com/teaching/dm510-25/projects/project2.zip
+wget https://larsrohwedder.com/teaching/dm510-26/projects/project2.zip
 unzip project2.zip
 cd project2
 ```
