@@ -15,7 +15,7 @@ on the LED. Morse code is an old standard for transmitting text via a series of 
 
 To add a new driver to Linux you do not need to recompile the kernel. You do not even need to reboot the system. A driver is typically implemented in a kernel module, which is a piece of code that can be dynamically loaded or unloaded
 into the kernel. Simply put, the kernel module you need for this project implements a number of functions that will be invoked when the module is loaded, when the device is opened, when something is written into the device, etc.
-To get started simply download [project2.zip](project2.zip) onto your Raspberry Pi home directory and unzip it:
+To get started simply download [project2.zip](projects/project2.zip) onto your Raspberry Pi home directory and unzip it:
 
 ```
 cd ~
@@ -51,7 +51,7 @@ Using this code and the `msleep` function, you can already implement a basic Mor
 
 ### The advanced driver
 
-Your final driver should satisfy the following requirements
+Your final driver should satisfy the following requirements:
 
 - There must be an output buffer to which messages are first written instead of directly transmitting them within the write function. Asynchronously, a kernel thread (kthread) should transmit the contents of the buffer over the LED whenever the buffer is non-empty. For the API of kthreads, read [this](https://c-pointers.com/LinuxDeviceDriver/basic_ldd/chapter2_kthreads/p1_createKthread.html).
 - Synchronization mechanisms should be used to prevent race conditions (see Chapter 5 of LDD).
@@ -74,9 +74,9 @@ Submit via itslearning the following:
 **Questionaire:**
 
 - Did you manage to compile the driver and load it?
-- Did you manage to implement a driver that prints messages to the log?
-- Did you manage to implement a Morse transmittion on the LED?
-- Did you manage to implement an output buffer from which a seperate thread reads and transmits the data via Morse code?
+- Did you manage to implement a driver that prints messages writting into the device to the log?
+- Did you manage to implement a Morse transmittion over the LED?
+- Did you manage to implement an output buffer, from which a seperate thread reads and transmits the data via Morse code?
 - Did you manage to implement blocking and non-blocking I/O?
 - Did you manage to allow only one process to open the device at a time?
 - Did you manage to implement device control via `ioctl`?
