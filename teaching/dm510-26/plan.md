@@ -42,7 +42,7 @@ Deadlines of the projects may be subject to change before their release.
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
 | 16-02-2026 | 9-03-2026 |  [System Call](project1)    | TBA |
-| 09-03-2026 | 13-04-2026 |  TBA  | TBA |
+| 09-03-2026 | 13-04-2026 |  [Kernel Module](project2)  | TBA |
 | 13-04-2025 | 11-05-2025 |  TBA    | TBA            |
 " %}
 
