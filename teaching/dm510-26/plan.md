@@ -10,13 +10,14 @@ The information on this page may be subject to changes during the run of the sem
 {% include table.html content="
 | Week |   Date     |              Topic              | Material                 |
 | ---- | ---------- | ------------------------------- | ------------------------ |
-| 6    | 04-02-2025 | Introduction, Overview          | [Slides](lectures/lecture1.pdf), Textbook Chapter 1 |
-| 7    | 09-02-2025 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
-| 8    | 16-02-2025 | Processes          | [Slides](lectures/lecture3.pdf), Textbook Chapter 3 |
-| 8    | 18-02-2025 | Threads and Concurrency          | [Slides](lectures/lecture4.pdf), Textbook Chapter 4 |
-| 9    | 23-02-2025 | CPU Scheduling          | [Slides](lectures/lecture5.pdf), Textbook Chapter 5 |
-| 10    | 02-04-2025 | Synchronization          | [Slides](lectures/lecture6.pdf), Textbook Chapter 6+7 |
-| 10    | 04-04-2025 | Deadlocks          | [Slides](lectures/lecture7.pdf), Textbook Chapter 8 |
+| 6    | 04-02-2026 | Introduction, Overview          | [Slides](lectures/lecture1.pdf), Textbook Chapter 1 |
+| 7    | 09-02-2026 | Operating System Structures          | [Slides](lectures/lecture2.pdf), Textbook Chapter 2 |
+| 8    | 16-02-2026 | Processes          | [Slides](lectures/lecture3.pdf), Textbook Chapter 3 |
+| 8    | 18-02-2026 | Threads and Concurrency          | [Slides](lectures/lecture4.pdf), Textbook Chapter 4 |
+| 9    | 23-02-2026 | CPU Scheduling          | [Slides](lectures/lecture5.pdf), Textbook Chapter 5 |
+| 10    | 02-03-2026 | Synchronization          | [Slides](lectures/lecture6.pdf), Textbook Chapter 6+7 |
+| 10    | 04-03-2026 | Deadlocks          | [Slides](lectures/lecture7.pdf), Textbook Chapter 8 |
+| 11    | 09-03-2026 | I/O Systems and Networks          | [Slides](lectures/lecture8.pdf), Textbook Chapter 12 + 19 |
 " %}
 
 
@@ -31,6 +32,7 @@ Please see your individual calendar for the exact date.
 | 8     | Chapter 3                  | [Exercise sheet](exercises/exer2.pdf) |
 | 9     | Chapter 4+5                  | [Exercise sheet](exercises/exer3.pdf) |
 | 10     | Chapter 6+7                  | [Exercise sheet](exercises/exer4.pdf) |
+| 11     | Chapter 8+12                  | [Exercise sheet](exercises/exer5.pdf) |
 " %}
 
 ### Programming Projects
