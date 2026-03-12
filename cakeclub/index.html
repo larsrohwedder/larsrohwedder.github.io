@@ -61,18 +61,14 @@ If you work at IMADA, as a professor, postdoc, PhD student, or in administration
 
 	  <h1>Schedule</h1>
 
-	<div class="table-responsive">
-	{: .table .table-striped}
-
-	{% include_relative schedule.md %}
+	<div class="table-responsive" style=".table .table-striped">
+	{% include_relative schedule.md | markdownify %}
 	</div>
 
 	  <h1>History</h1>
 
-	<div class="table-responsive">
-	{: .table .table-striped}
-
-	{% include_relative history.md %}
+	<div class="table-responsive" style=".table .table-striped">
+	{% include_relative history.md | markdownify %}
 	</div>
 
   </div>
