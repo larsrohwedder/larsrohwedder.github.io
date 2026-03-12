@@ -1,3 +1,4 @@
+{: .table .table-striped}
 | Date       | Cake bringer          |
 | ---------- | --------------------- |
 | 17.03.2026 | Lars Rohwedder        |
