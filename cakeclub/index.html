@@ -72,7 +72,7 @@ If you work at IMADA, as a professor, postdoc, PhD student, or in administration
 	<div class="table-responsive">
 		{% capture history %}{% include_relative history.md %}{% endcapture %}
 
-		{{ {: .table .table-striped} | append: history | markdownify }}
+		{{ "{: .table .table-striped} " | append: history | markdownify }}
 	</div>
 
   </div>
