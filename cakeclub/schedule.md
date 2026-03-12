@@ -4,7 +4,7 @@
 | 17.03.2026 | Lars Rohwedder        |
 | 24.03.2026 | Bjarne Toft           |
 | 31.03.2026 | **Break from Cake**   |
-|            | .....                 |
+|            | ...                   |
 | 14.04.2026 | Teresa Steiner        |
 | 21.04.2026 | Jacob Matzen          |
 |            | ...                   |
