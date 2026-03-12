@@ -64,7 +64,7 @@ If you work at IMADA, as a professor, postdoc, PhD student, or in administration
 	<div class="table-responsive">
 		{% capture schedule %}{% include_relative schedule.md %}{% endcapture %}
 
-		{% assign table = "{: .table .table-striped} " | append schedule %}
+		{% assign table = "{: .table .table-striped} " | append: schedule %}
 		{{ table | markdownify }}
 	</div>
 
@@ -73,7 +73,7 @@ If you work at IMADA, as a professor, postdoc, PhD student, or in administration
 	<div class="table-responsive">
 		{% capture history %}{% include_relative history.md %}{% endcapture %}
 
-		{% assign table = "{: .table .table-striped} " | append history %}
+		{% assign table = "{: .table .table-striped} " | append: history %}
 		{{ table | markdownify }}
 	</div>
 
