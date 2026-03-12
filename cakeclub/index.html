@@ -13,7 +13,7 @@
   </script>
 
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <title>IMADA Cake Club</title>
   <meta name="description" content="IMADA Cake Club">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,20 +48,31 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <div class="jumbotron jumbotron-fluid mb-0 pt-3 pb-3" style="">
+  <div class="jumbotron jumbotron-fluid mb-0 pt-3 pb-3" style="min-height: 300px; background: url(img/header_cropped.jpg) repeat-x">
   </div>
 
   <div class="container">
+	  <p>
 	  The semi academic Cake Club at IMADA goes back at least to 2003.
 If you work at IMADA, as a professor, postdoc, PhD student, or in administration, and you enjoy cake and occasionally bringing one, you are very welcome to join.
+	  </p>
 
 	  <h1>Schedule</h1>
 
-	{% include table.html content="{% include_relative plan.md %}" %}
+	<div class="table-responsive">
+	{% assign table = "{: .table .table-striped}" %}
+
+	{% include_relative schedule.md %}
+	</div>
 
 	  <h1>History</h1>
 
-	{% include table.html content="{% include_relative history.md %}" %}
+	<div class="table-responsive">
+	{% assign table = "{: .table .table-striped}" %}
+
+	{% include_relative history.md %}
+	</div>
+
   </div>
   
   <script src="/assets/js/vendor/modernizr-3.8.0.min.js"></script>
