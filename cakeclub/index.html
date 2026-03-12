@@ -14,7 +14,7 @@
 
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.title }}">
+  <meta name="description" content="IMADA Cake Club">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -52,7 +52,16 @@
   </div>
 
   <div class="container">
+	  The semi academic Cake Club at IMADA goes back at least to 2003.
+If you work at IMADA, as a professor, postdoc, PhD student, or in administration, and you enjoy cake and occasionally bringing one, you are very welcome to join.
 
+	  <h1>Schedule</h1>
+
+	{% include table.html content="{% include_relative plan.md %}" %}
+
+	  <h1>History</h1>
+
+	{% include table.html content="{% include_relative history.md %}" %}
   </div>
   
   <script src="/assets/js/vendor/modernizr-3.8.0.min.js"></script>
