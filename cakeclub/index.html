@@ -62,13 +62,17 @@ If you work at IMADA, as a professor, postdoc, PhD student, or in administration
 	  <h1>Schedule</h1>
 
 	<div class="table-responsive" style=".table .table-striped">
-	{% include_relative schedule.md | markdownify %}
+		{% capture schedule %}{% include_relative schedule.md %}{% endcapture %}
+
+		{{ schedule | markdownify }}
 	</div>
 
 	  <h1>History</h1>
 
 	<div class="table-responsive" style=".table .table-striped">
-	{% include_relative history.md | markdownify %}
+		{% capture history %}{% include_relative schedule.md %}{% endcapture %}
+
+		{{ history | markdownify }}
 	</div>
 
   </div>
