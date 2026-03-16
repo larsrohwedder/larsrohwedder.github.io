@@ -3,10 +3,15 @@
 | ---------- | --------------------- |
 | 17.03.2026 | Lars Rohwedder        |
 | 24.03.2026 | Bjarne Toft           |
-| 31.03.2026 | **Cake Break**        |
-| 07.04.2026 | *TBD*                 |
-| 14.04.2026 | Teresa Steiner        |
-| 21.04.2026 | Jacob                 |
-| 28.04.2026 | *TBD*                 |
+| 31.03.2026 | **Break from Cake**   |
 |            | ...                   |
-| 05.05.2026 | Christine             |
+| 14.04.2026 | Teresa Steiner        |
+| 21.04.2026 | Jacob Matzen          |
+|            | ...                   |
+| 05.05.2026 | Christine Gundlach    |
+| 12.05.2026 | Siddharth Bhaskar     |
+|            | ...                   |
+| 02.06.2026 | Lene Favrholdt        |
+| 09.06.2026 | Jacopo Mauro          |
+|            | ...                   |
+| 30.06.2026 | Faiza Rohwedder-Tahir |
