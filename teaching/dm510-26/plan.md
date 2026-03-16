@@ -18,6 +18,7 @@ The information on this page may be subject to changes during the run of the sem
 | 10    | 02-03-2026 | Synchronization          | [Slides](lectures/lecture6.pdf), Textbook Chapter 6+7 |
 | 10    | 04-03-2026 | Deadlocks          | [Slides](lectures/lecture7.pdf), Textbook Chapter 8 |
 | 11    | 09-03-2026 | I/O Systems and Networks          | [Slides](lectures/lecture8.pdf), Textbook Chapter 12 + 19 |
+| 12    | 16-03-2026 | Main Memory I          | [Slides](lectures/lecture9.pdf), Textbook Chapter 9 |
 " %}
 
 
