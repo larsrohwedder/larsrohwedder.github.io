@@ -18,7 +18,8 @@ The information on this page may be subject to changes during the run of the sem
 | 10    | 02-03-2026 | Synchronization          | [Slides](lectures/lecture6.pdf), Textbook Chapter 6+7 |
 | 10    | 04-03-2026 | Deadlocks          | [Slides](lectures/lecture7.pdf), Textbook Chapter 8 |
 | 11    | 09-03-2026 | I/O Systems and Networks          | [Slides](lectures/lecture8.pdf), Textbook Chapter 12 + 19 |
-| 12    | 16-03-2026 | Main Memory I          | [Slides](lectures/lecture9.pdf), Textbook Chapter 9 |
+| 12    | 16-03-2026 | Main Memory I          | [Slides](lectures/lecture9.pdf), Textbook Chapter 9 + 10 |
+| 13    | 23-03-2026 | Main Memory II          | [Slides](lectures/lecture19.pdf), Textbook Chapter 9 + 10 |
 " %}
 
 
@@ -34,6 +35,7 @@ Please see your individual calendar for the exact date.
 | 9     | Chapter 4+5                  | [Exercise sheet](exercises/exer3.pdf) |
 | 10     | Chapter 6+7                  | [Exercise sheet](exercises/exer4.pdf) |
 | 11     | Chapter 8+12                  | [Exercise sheet](exercises/exer5.pdf) |
+| 13     | Chapter 9+10                  | [Exercise sheet](exercises/exer6.pdf) |
 " %}
 
 ### Programming Projects
