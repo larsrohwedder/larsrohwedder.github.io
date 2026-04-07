@@ -20,6 +20,7 @@ The information on this page may be subject to changes during the run of the sem
 | 11    | 09-03-2026 | I/O Systems and Networks          | [Slides](lectures/lecture8.pdf), Textbook Chapter 12 + 19 |
 | 12    | 16-03-2026 | Main Memory I          | [Slides](lectures/lecture9.pdf), Textbook Chapter 9 + 10 |
 | 13    | 23-03-2026 | Main Memory II          | [Slides](lectures/lecture10.pdf), Textbook Chapter 9 + 10 |
+| 15    | 07-04-2026 | Mass-Storage Structure          | [Slides](lectures/lecture11.pdf), Textbook Chapter 11 |
 " %}
 
 
@@ -36,6 +37,7 @@ Please see your individual calendar for the exact date.
 | 10     | Chapter 6+7                  | [Exercise sheet](exercises/exer4.pdf) |
 | 11     | Chapter 8+12                  | [Exercise sheet](exercises/exer5.pdf) |
 | 13     | Chapter 9+10                  | [Exercise sheet](exercises/exer6.pdf) |
+| 15     | Chapter 11                  | [Exercise sheet](exercises/exer7.pdf) |
 " %}
 
 ### Programming Projects
