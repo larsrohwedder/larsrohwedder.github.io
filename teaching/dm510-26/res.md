@@ -29,6 +29,8 @@ The command line has a working directory in which you currently are.
 - `ls` outputs all files in the working directory (or another directory using `ls <dir>`)
 - `cd <dir>` changes the working directory. `<dir>` can be absolute, for example, `cd /etc/` or relative, for example `cd subdirectory`. Use `cd ..` to navigate to the parent directory - `mv <file> <directory/filename>` moves file `<file>` to different directory or renames to different name
 - `rm <file>` removes `<file>`
+- `ln <path> <linkname>` create a hard link `<linkname>` to `<path>`
+- `ln -s <path> <linkname>` create a soft link `<linkname>` to `<path>`
 
 File I/O
 - `cat <file>` outputs content of file
