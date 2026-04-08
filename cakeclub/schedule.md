@@ -2,7 +2,6 @@
 | Date       | Cake bringer          |
 | ---------- | --------------------- |
 | 31.03.2026 | **Break from Cake**   |
-| 07.04.2026 | Mette Jørgensen       |
 | 14.04.2026 | Teresa Steiner        |
 | 21.04.2026 | Jacob Matzen          |
 |            | ...                   |
