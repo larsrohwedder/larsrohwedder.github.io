@@ -21,6 +21,7 @@ The information on this page may be subject to changes during the run of the sem
 | 12    | 16-03-2026 | Main Memory I          | [Slides](lectures/lecture9.pdf), Textbook Chapter 9 + 10 |
 | 13    | 23-03-2026 | Main Memory II          | [Slides](lectures/lecture10.pdf), Textbook Chapter 9 + 10 |
 | 15    | 07-04-2026 | Mass-Storage Structure          | [Slides](lectures/lecture11.pdf), Textbook Chapter 11 |
+| 15    | 08-04-2026 | File Systems I          | [Slides](lectures/lecture12.pdf), Textbook Chapter 12 |
 " %}
 
 
