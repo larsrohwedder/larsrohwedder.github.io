@@ -135,16 +135,16 @@ The filesystem you will implement is simplified and makes many shortcuts, compar
 In the description below, a lot of details are left out. You have to decide for yourself what is appropriate and what to do, and document the choices in the comments of your source code.
 You may also implement more advanced features, such as the ones you learned in the lectures about, at your own choice.
 
-To get started quickly, you might want to ignore the actual partition you created and simply allocate a section of memory with `malloc` and store the filesystem in there. You can later adapt your code to keep the filesystem in partition.
+To get started quickly, you might want to ignore the actual partition you created and simply allocate a section of memory with `malloc` and store your entire filesystem in there. You can later adapt your code to keep the filesystem in the partition.
 
 **The inode**
 
 The inode (or FCB) is the central data structure in a file system.
 The first thing you should do is to consider what your inode should contain.
 
-You are allowed to restrict the length of a filesystem path and the name of a file, and can keep this in an array of a fixed length. The same goes for the data of the files, where you can restrict the maximum length of a file to what can be in a fixed length array in the inode.
+You are allowed to restrict the length of a filesystem path and the name of a file, and you can keep this in an array of a fixed length. The same goes for the data of the files, where you can restrict the maximum length of a file to what can be in a fixed length array in the inode.
 
-With these limitations, your inode can have a fixed size, which makes it easy to use a `struct` for it. You can consider your filesystem as an array of inodes, with both data and metadata of the directories and files.
+With these limitations, your inode can have a fixed size, which makes it easy to use a `struct` for it. You can consider your filesystem as an array of inodes, one for each file or directory. The inode then contains both data and metadata of the directory or file.
 
 **Functionality**
 
