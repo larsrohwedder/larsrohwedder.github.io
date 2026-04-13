@@ -21,7 +21,8 @@ The information on this page may be subject to changes during the run of the sem
 | 12    | 16-03-2026 | Main Memory I          | [Slides](lectures/lecture9.pdf), Textbook Chapter 9 + 10 |
 | 13    | 23-03-2026 | Main Memory II          | [Slides](lectures/lecture10.pdf), Textbook Chapter 9 + 10 |
 | 15    | 07-04-2026 | Mass-Storage Structure          | [Slides](lectures/lecture11.pdf), Textbook Chapter 11 |
-| 15    | 08-04-2026 | File Systems I          | [Slides](lectures/lecture12.pdf), Textbook Chapter 12 |
+| 15    | 08-04-2026 | File Systems I          | [Slides](lectures/lecture12.pdf), Textbook Chapters 13+15 |
+| 15    | 08-04-2026 | File Systems II          | [Slides](lectures/lecture13.pdf), Textbook Chapter 14 |
 " %}
 
 
@@ -39,6 +40,7 @@ Please see your individual calendar for the exact date.
 | 11     | Chapter 8+12                  | [Exercise sheet](exercises/exer5.pdf) |
 | 13     | Chapter 9+10                  | [Exercise sheet](exercises/exer6.pdf) |
 | 15     | Chapter 11                  | [Exercise sheet](exercises/exer7.pdf) |
+| 15     | Chapters 13-15                  | [Exercise sheet](exercises/exer8.pdf) |
 " %}
 
 ### Programming Projects
@@ -49,7 +51,7 @@ Deadlines of the projects may be subject to change before their release.
 | ---------- | ---------- | --------------------------- | -------------- |
 | 16-02-2026 | 9-03-2026 |  [System Call](project1)    | TBA |
 | 09-03-2026 | 13-04-2026 |  [Kernel Module](project2)  | TBA |
-| 13-04-2025 | 11-05-2025 |  TBA    | TBA            |
+| 13-04-2025 | 11-05-2025 |  [File System](project3)    | TBA            |
 " %}
 
 ### Exam, grading, and repeat students
