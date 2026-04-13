@@ -16,7 +16,7 @@ all: pifs
 %.o: %.c
 	$(GCC) $(CFLAGS) -c -o $@ $<
 
-dm510fs: $(OBJS)
+pifs: $(OBJS)
 	$(GCC) $(OBJS) $(LIBS) $(CFLAGS) -o pifs
 
 clean:
