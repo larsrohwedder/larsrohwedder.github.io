@@ -65,4 +65,10 @@ The topics of the exam are the following:
 - C and Linux topics as seen in exercise sessions and projects
 - Exam exercises comparable to those on exercise sheets
 
+The exam is with limited aids. Only the following aids are allowed:
+- Built-in standard calculators in Windows/macOS/Linux.
+- Maple, Mathematica, Mathcad, MATLAB, GeoGebra Apps, R (including R-Studio), CAS TI-Nspire, MS Excel, and LibreOffice Calc are allowed. WordMat is permitted but not recommended. Use of WordMat is at your own risk, and no support will be provided for breakdowns or other errors caused by the program.
+- Internet is not allowed. However, you may access the course page in itslearning to open system "DE–Digital Exam" and complete any tests within the system.
+In particular, no textbook is allowed.
+
 Repeat students who have participated in the course and successfully passed the projects may transfer those partial grades without doing the projects again. Please confirm this by emailing the teacher.
