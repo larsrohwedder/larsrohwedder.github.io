@@ -22,7 +22,8 @@ The information on this page may be subject to changes during the run of the sem
 | 13    | 23-03-2026 | Main Memory II          | [Slides](lectures/lecture10.pdf), Textbook Chapter 9 + 10 |
 | 15    | 07-04-2026 | Mass-Storage Structure          | [Slides](lectures/lecture11.pdf), Textbook Chapter 11 |
 | 15    | 08-04-2026 | File Systems I          | [Slides](lectures/lecture12.pdf), Textbook Chapters 13+15 |
-| 15    | 08-04-2026 | File Systems II          | [Slides](lectures/lecture13.pdf), Textbook Chapter 14 |
+| 16    | 13-04-2026 | File Systems II          | [Slides](lectures/lecture13.pdf), Textbook Chapter 14 |
+| 17    | 20-04-2026 | Security and Protection          | [Slides](lectures/lecture14.pdf), Textbook Chapters 16-17 |
 " %}
 
 
@@ -40,7 +41,8 @@ Please see your individual calendar for the exact date.
 | 11     | Chapter 8+12                  | [Exercise sheet](exercises/exer5.pdf) |
 | 13     | Chapter 9+10                  | [Exercise sheet](exercises/exer6.pdf) |
 | 15     | Chapter 11                  | [Exercise sheet](exercises/exer7.pdf) |
-| 15     | Chapters 13-15                  | [Exercise sheet](exercises/exer8.pdf) |
+| 16     | Chapters 13-15                  | [Exercise sheet](exercises/exer8.pdf) |
+| 17     | Chapters 16-17                  | [Exercise sheet](exercises/exer9.pdf) |
 " %}
 
 ### Programming Projects
