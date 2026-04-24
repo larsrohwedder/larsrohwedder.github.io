@@ -1,6 +1,7 @@
 {: .table .table-striped}
 | Date       | Cake bringer          | The cake            |
 | ---------- | --------------------- | ------------------- |
+| 21.04.2026 | Faiza Rohwedder-Tahir | [Mango "tiramisu" cake](img/21_04_26.jpg) |
 | 14.04.2026 | Teresa Steiner        | [No-bake cheesecake with Oreo crust](img/14_04_26.jpg) |
 | 07.04.2026 | Mette Jørgensen       | [Carrot cake with frosting](img/07_04_26.jpeg) |
 | 24.03.2026 | Bjarne Toft           | [Election day cake](img/24_03_26.jpg) |
