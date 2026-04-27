@@ -7,4 +7,5 @@
 | 26.05.2026 | Jacopo Mauro          |
 | 02.06.2026 | Lene Favrholdt        |
 |            | ...                   |
+|            | ...                   |
 | 30.06.2026 | Jacob Matzen          |
