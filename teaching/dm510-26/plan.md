@@ -24,6 +24,7 @@ The information on this page may be subject to changes during the run of the sem
 | 15    | 08-04-2026 | File Systems I          | [Slides](lectures/lecture12.pdf), Textbook Chapters 13+15 |
 | 16    | 13-04-2026 | File Systems II          | [Slides](lectures/lecture13.pdf), Textbook Chapter 14 |
 | 17    | 20-04-2026 | Security and Protection          | [Slides](lectures/lecture14.pdf), Textbook Chapters 16-17 |
+| 18    | 27-04-2026 | Virtual Machines          | [Slides](lectures/lecture15.pdf), Textbook Chapter 18 |
 " %}
 
 
@@ -43,6 +44,7 @@ Please see your individual calendar for the exact date.
 | 15     | Chapter 11                  | [Exercise sheet](exercises/exer7.pdf) |
 | 16     | Chapters 13-15                  | [Exercise sheet](exercises/exer8.pdf) |
 | 17     | Chapters 16-17                  | [Exercise sheet](exercises/exer9.pdf) |
+| 18     | Chapters 18                  | [Exercise sheet](exercises/exer10.pdf) |
 " %}
 
 ### Programming Projects
