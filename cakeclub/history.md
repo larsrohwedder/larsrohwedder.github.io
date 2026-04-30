@@ -7,7 +7,7 @@
 | 24.03.2026 | Bjarne Toft           | [Election day cake](img/24_03_26.jpg) |
 | 17.03.2026 | Lars Rohwedder        | [Layered cake with chocolate butter cream and Estonian jam](img/17_03_26.jpg) |
 | 10.03.2026 | Kevin Schewior        | [Kardemommesnurrer & Kanelsnurrer](img/10_03_26.jpg) |
-| 24.10.2023 | Rolf Fagerberg        | [Halloween cake](img/24_10_23.jpg) [Pic 2](img/24_10_23b.jpg) [Pic 3](img/24_10_23c.jpg) |
+|       2023 |
 | 10.01.2023 | Joan Boyar            | Pingo Pingu |
 | 17.01.2023 | Christine Gundlach    | Homemade Carnival Buns |
 | 31.01.2023 | Daniel Merkle         | Applecake Variation |
@@ -20,6 +20,31 @@
 | 28.03.2023 | Kim Skak Larsen       | Gateau Marcel and a blueberry bonus |
 | 18.04.2023 | Lene Monrad Favrholdt | Choclate Cake with Kefir |
 | 08.04.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 02.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 09.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 16.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 23.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 30.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 06.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 13.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 20.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 27.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 05.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 12.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 19.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 26.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 03.10.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 10.10.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 24.10.2023 | Rolf Fagerberg        | Ice cream cake with yogurt strawberry ice cream and date base |(img/24_10_23.jpg) [Pic 2](img/24_10_23b.jpg) [Pic 3](img/24_10_23c.jpg) |
+| 31.10.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 07.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 14.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 21.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 28.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 05.12.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 12.12.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 19.12.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+|       2022 |
 | 08.03.2022 | Daniel Merkle         | Simple Cinnamon Rolls|
 | 15.03.2022 | Christine Gundlach    | Extremely Chocolaty Cake |
 | 22.03.2022 | Rolf Fagerberg        |Choux au craquelin med orange-lemon-chokoladecreme |
