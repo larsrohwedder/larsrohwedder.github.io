@@ -20,30 +20,30 @@
 | 28.03.2023 | Kim Skak Larsen       | Gateau Marcel and a blueberry bonus |
 | 18.04.2023 | Lene Monrad Favrholdt | Choclate Cake with Kefir |
 | 08.04.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 02.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 09.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 16.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 23.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 30.05.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 06.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 13.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 20.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 27.06.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 05.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 12.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 19.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 26.09.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 03.10.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 10.10.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 02.05.2023 | Kevin Schewior        | Rhubarb Meringue Cake |
+| 09.05.2023 | Jonatan               | Dummdidumm |
+| 16.05.2023 | Jakob                 | Vesterbros Cake collektion |
+| 23.05.2023 | Jacopo Mauro          | Unknown cake |
+| 30.05.2023 | Christine Gundlach    | Homemade Ice Cream (Coffee and Chocolate-Nutella)
+| 06.06.2023 | Simon                 | Taiwanese Pineapple Cake|
+| 13.06.2023 | Christian             | Game Play Cake |
+| 20.06.2023 | Joan Boyar            | Dark chocolate cake |
+| 27.06.2023 | Casper Bach           | Unknown cake |
+| 05.09.2023 | Magnus B.P.           | Kanelstang |
+| 12.09.2023 | Jacopo Mauro          | Jacopo Mauro |
+| 19.09.2023 | Jens Kaad             | Kokosmakroner |
+| 26.09.2023 | Arthur Zimek          | Brombærtærte |
+| 03.10.2023 | Jonas.                | Newtons applecake |
+| 10.10.2023 | Daniel Merkle         | Donauwelle |
 | 24.10.2023 | Rolf Fagerberg        | Ice cream cake with yogurt strawberry ice cream and date base |(img/24_10_23.jpg) [Pic 2](img/24_10_23b.jpg) [Pic 3](img/24_10_23c.jpg) |
-| 31.10.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 07.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 14.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 21.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 28.11.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 05.12.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 12.12.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
-| 19.12.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 31.10.2023 | Bjarne Toft           | Old-fashioned Apple Cake |
+| 07.11.2023 | Kim Skak Larsen       | Unknown cake |
+| 14.11.2023 | Jonatan               | Unknown cake |
+| 21.11.2023 | Kevin Schewior        | Unknown cake |
+| 28.11.2023 | Lene Monrad Favrholdt | Unknown cake |
+| 05.12.2023 | Simon                 | Unknown cake |
+| 12.12.2023 | Joan Boyar            | Unknown cake |
+| 19.12.2023 | Christine Gundlach    | Mocha Cake |
 |       2022 |
 | 08.03.2022 | Daniel Merkle         | Simple Cinnamon Rolls|
 | 15.03.2022 | Christine Gundlach    | Extremely Chocolaty Cake |
