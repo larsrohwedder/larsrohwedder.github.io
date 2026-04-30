@@ -10,13 +10,23 @@
 | 24.10.2023 | Rolf Fagerberg        | [Halloween cake](img/24_10_23.jpg) [Pic 2](img/24_10_23b.jpg) [Pic 3](img/24_10_23c.jpg) |
 | 10.01.2023 | Joan Boyar            | Pingo Pingu |
 | 17.01.2023 | Christine Gundlach    | Homemade Carnival Buns |
-| 31.01.2023 | Daniel                | Applecake Variation |
-| 07.02.2023 | Casper                | Thank God there's Cake |
+| 31.01.2023 | Daniel Merkle         | Applecake Variation |
+| 07.02.2023 | Casper Bach           | Thank God there's Cake |
 | 14.02.2023 | Rolf Fagerberg        | Sachertorte-ish |
 | 21.02.2023 | Arthur Zimek          | Unknown cake |
-| 07.03.2023 | Magnus BP             | Daim Cookies |
+| 07.03.2023 | Magnus B.P.           | Daim Cookies |
 | 14.03.2023 | Jonas                 | Pascal's nut triangle |
 | 21.03.2023 | Bjarne Toft           | Frk. Jensen's Easter Cake |
 | 28.03.2023 | Kim Skak Larsen       | Gateau Marcel and a blueberry bonus |
 | 18.04.2023 | Lene Monrad Favrholdt | Choclate Cake with Kefir |
-| 25.04.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 08.04.2023 | Philipp R.            | Mainzer Schokoladenkuchen |
+| 08.03.2022 | Daniel Merkle         | Simple Cinnamon Rolls|
+| 15.03.2022 | Christine Gundlach    | Extremely Chocolaty Cake |
+| 22.03.2022 | Rolf Fagerberg        |Choux au craquelin med orange-lemon-chokoladecreme |
+| 29.03.2022 | Jacopo Mauro          | Nutella sponge cake experiment 1 |
+| 19.04.2022 | Jens Kaad             | Othello |
+| 26.04.2022 | Arthur Zimek          | Othello and Strawberry |
+| 03.05.2022 | Jing                  | Fluffy Cake II |
+| 10.05.2022 | Bjarne Toft           | Ruhbarb Crumble and Cobbler |
+| 17.05.2022 | Kim Skak Larsen       | Snickers Cake |
+| 24.05.2022 | Lene Monrad Favrholdt | Mixmix |
