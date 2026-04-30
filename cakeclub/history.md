@@ -69,17 +69,17 @@
 | 06.09.2022 | Aziz                  |Revani ( Turkish Moist Cake) and Globi (Ancient Roman Dessert)
 | 13.09.2022 | Jonas                 | Blueberry White Chocolate Muffins |
 | 20.09.2022 | Jens Kaad             | Strawberry tart |
-| 04.10.2022 | Lene Monrad Favrholdt | Mixmix |
-| 11.10.2022 | Lene Monrad Favrholdt | Mixmix |
-| 25.10.2022 | Lene Monrad Favrholdt | Mixmix |
-| 01.11.2022 | Lene Monrad Favrholdt | Mixmix |
-| 08.11.2022 | Lene Monrad Favrholdt | Mixmix |
-| 15.11.2022 | Lene Monrad Favrholdt | Mixmix |
-| 22.11.2022 | Lene Monrad Favrholdt | Mixmix |
-| 29.11.2022 | Lene Monrad Favrholdt | Mixmix |
-| 22.12.2022 | Lene Monrad Favrholdt | Mixmix |
-| 22.12.2022 | Lene Monrad Favrholdt | Mixmix |
-| 22.12.2022 | Lene Monrad Favrholdt | Mixmix |
+| 04.10.2022 | Magnus B.P.           | Licorice cream puffs |
+| 11.10.2022 | Jacopo Mauro          | Wrong Tiramisù, Volume 1 |
+| 25.10.2022 | Jing                  | Skibhusvej's Butter Viennese Cake |
+| 01.11.2022 | Bjarne Toft           | Nutty Election Cookies |
+| 08.11.2022 | Jakob                 | Kanelkage 2.0 |
+| 15.11.2022 | Jonatan               | Arla' Brownies |
+| 22.11.2022 | Kim Skak Larsen       | Raspberry/meringue & French chocolate cake |
+| 29.11.2022 | Aziz                  | Mardin Cake |
+| 22.12.2022 | Lene Monrad Favrholdt | Layer cakes |
+| 22.12.2022 | Kevin Schewior        | Small Cardarmon Impressions |
+| 22.12.2022 | Simon                 | Fragilitéroulade |
 
 
 
