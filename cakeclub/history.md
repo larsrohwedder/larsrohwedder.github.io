@@ -7,10 +7,8 @@
 | 24.03.2026 | Bjarne Toft           | [Election day cake](img/24_03_26.jpg) |
 | 17.03.2026 | Lars Rohwedder        | [Layered cake with chocolate butter cream and Estonian jam](img/17_03_26.jpg) |
 | 10.03.2026 | Kevin Schewior        | [Kardemommesnurrer & Kanelsnurrer](img/10_03_26.jpg) |
-
 |       2024 |
 | 19.03.2024 | Christine Gundlach    | Tiramisu-inspired cake |
-
 |       2023 |
 | 10.01.2023 | Joan Boyar            | Pingo Pingu |
 | 17.01.2023 | Christine Gundlach    | Homemade Carnival Buns |
