@@ -7,6 +7,10 @@
 | 24.03.2026 | Bjarne Toft           | [Election day cake](img/24_03_26.jpg) |
 | 17.03.2026 | Lars Rohwedder        | [Layered cake with chocolate butter cream and Estonian jam](img/17_03_26.jpg) |
 | 10.03.2026 | Kevin Schewior        | [Kardemommesnurrer & Kanelsnurrer](img/10_03_26.jpg) |
+
+|       2024 |
+| 19.03.2024 | Christine Gundlach    | Tiramisu-inspired cake |
+
 |       2023 |
 | 10.01.2023 | Joan Boyar            | Pingo Pingu |
 | 17.01.2023 | Christine Gundlach    | Homemade Carnival Buns |
@@ -54,4 +58,30 @@
 | 03.05.2022 | Jing                  | Fluffy Cake II |
 | 10.05.2022 | Bjarne Toft           | Ruhbarb Crumble and Cobbler |
 | 17.05.2022 | Kim Skak Larsen       | Snickers Cake |
-| 24.05.2022 | Lene Monrad Favrholdt | Mixmix |
+| 24.05.2022 | Lene Monrad Favrholdt |  Mixmix |
+| 07.06.2022 | Jakob                 | Pineapple carrot cake|
+| 14.06.2022 | Joan Boyar            | Joan's fastest chocolate cake |
+| 21.06.2022 | Kevin Schewior        | Lemon Cake with Mint Leaf |
+| 28.06.2022 | Simon                 | Apple muffins |
+| 02.08.2022 | Christine Gundlach    | Brunsviger |
+| 09.08.2022 | Rolf Fagerberg        | Rice pudding cake with almonds|
+| 16.08.2022 | Casper Bach           | Mandelbrot mandel-kage |
+| 23.08.2022 | Arthur Zimek          | Brombærtærte |
+| 30.08.2022 | Daniel Merkle         | Quick Solution with Limited Amount of Baking Powder |
+| 06.09.2022 | Aziz                  |Revani ( Turkish Moist Cake) and Globi (Ancient Roman Dessert)
+| 13.09.2022 | Jonas                 | Blueberry White Chocolate Muffins |
+| 20.09.2022 | Jens Kaad             | Strawberry tart |
+| 04.10.2022 | Lene Monrad Favrholdt | Mixmix |
+| 11.10.2022 | Lene Monrad Favrholdt | Mixmix |
+| 25.10.2022 | Lene Monrad Favrholdt | Mixmix |
+| 01.11.2022 | Lene Monrad Favrholdt | Mixmix |
+| 08.11.2022 | Lene Monrad Favrholdt | Mixmix |
+| 15.11.2022 | Lene Monrad Favrholdt | Mixmix |
+| 22.11.2022 | Lene Monrad Favrholdt | Mixmix |
+| 29.11.2022 | Lene Monrad Favrholdt | Mixmix |
+| 22.12.2022 | Lene Monrad Favrholdt | Mixmix |
+| 22.12.2022 | Lene Monrad Favrholdt | Mixmix |
+| 22.12.2022 | Lene Monrad Favrholdt | Mixmix |
+
+
+
