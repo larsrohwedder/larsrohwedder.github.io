@@ -53,9 +53,9 @@ Deadlines of the projects may be subject to change before their release.
 {% include table.html content="
 |   Release  |  Deadline  |             Topic           | Resit Deadline |
 | ---------- | ---------- | --------------------------- | -------------- |
-| 16-02-2026 | 9-03-2026 |  [System Call](project1)    | TBA |
-| 09-03-2026 | 13-04-2026 |  [Kernel Module](project2)  | TBA |
-| 13-04-2025 | 11-05-2025 |  [File System](project3)    | TBA            |
+| 16-02-2026 | 9-03-2026 |  [System Call](project1)    | 29-05-26 (June exam), 31-07-26 (August exam) |
+| 09-03-2026 | 13-04-2026 |  [Kernel Module](project2)  | 29-05-26 (June exam), 31-07-26 (August exam) |
+| 13-04-2025 | 11-05-2025 |  [File System](project3)    | 29-05-26 (June exam), 31-07-26 (August exam) |
 " %}
 
 ### Exam, grading, and repeat students
