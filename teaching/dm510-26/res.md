@@ -71,5 +71,5 @@ Synchronization
 ### Exams
 
 From last year: 
-- [Exam 1](exams/DM510-exam1.pdf), [Exam 2](exams/DM510-exam2.pdf)
+- [Exam 1](exams/DM510-exam1.pdf) [(solutions)](exams/DM510-exam1-solutions.pdf), [Exam 2](exams/DM510-exam2.pdf) [(solutions)](exams/DM510-exam2-solutions.pdf)
 - Note that in the current year, there has been slightly more material on Linux and C programming compared to last year. This may be reflected in focus of the exam questions.
