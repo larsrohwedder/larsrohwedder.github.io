@@ -1,6 +1,8 @@
 {: .table .table-striped}
 | Date       | Cake bringer          | The cake            |
 | ---------- | --------------------- | ------------------- |
+| 05.05.2026 | Christine Gundlach    | [Brownie with nuts](img/05_05_26.jpg) |
+| 28.04.2026 | Arthur Zimek          | [Italian crumble](img/28_04_26.jpg) |
 | 21.04.2026 | Faiza Rohwedder-Tahir | [Mango "tiramisu" cake](img/21_04_26.jpg) |
 | 14.04.2026 | Teresa Steiner        | [No-bake cheesecake with Oreo crust](img/14_04_26.jpg) |
 | 07.04.2026 | Mette Jørgensen       | [Carrot cake with frosting](img/07_04_26.jpeg) |
