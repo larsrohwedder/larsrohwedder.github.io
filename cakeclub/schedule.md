@@ -1,10 +1,9 @@
 {: .table .table-striped}
 | Date       | Cake bringer          |
 | ---------- | --------------------- |
-| 12.05.2026 | Siddharth Bhaskar     |
-| 19.05.2026 | Jacopo Mauro          |
-|            | ...                   |
+| 26.05.2026 | Kim Skak Larsen       |
 | 02.06.2026 | Lene Favrholdt        |
 | 09.06.2026 | Manuel Penschuk       |
+| 16.06.2026 | Josefine Bjørndal Robl |
 |            | ...                   |
 | 30.06.2026 | Jacob Matzen          |
