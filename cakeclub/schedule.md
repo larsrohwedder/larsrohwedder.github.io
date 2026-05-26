@@ -1,7 +1,6 @@
 {: .table .table-striped}
 | Date       | Cake bringer          |
 | ---------- | --------------------- |
-| 26.05.2026 | Kim Skak Larsen       |
 | 02.06.2026 | Lene Favrholdt        |
 | 09.06.2026 | Manuel Penschuk       |
 | 16.06.2026 | Josefine Bjørndal Robl |

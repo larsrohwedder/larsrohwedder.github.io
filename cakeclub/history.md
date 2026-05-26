@@ -1,6 +1,7 @@
 {: .table .table-striped}
 | Date       | Cake bringer          | The cake            |
 | ---------- | --------------------- | ------------------- |
+| 26.05.2026 | Kim Skak Larsen       | French Chocoloate Cake |
 | 19.05.2026 | Jacopo Mauro          | Italian crumble     |
 | 12.05.2026 | Siddharth Bhaskar     | Cake with spices    |
 | 05.05.2026 | Christine Gundlach    | [Brownie with nuts](img/05_05_26.jpg) |
