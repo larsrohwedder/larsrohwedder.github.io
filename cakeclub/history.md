@@ -1,6 +1,9 @@
 {: .table .table-striped}
 | Date       | Cake bringer          | The cake            |
 | ---------- | --------------------- | ------------------- |
+| 16.06.2026 | Josefine Bjørndal Robl| |
+| 09.06.2026 | Manuel Penschuk       | |
+| 02.06.2026 | Lene Favrholdt        | |
 | 26.05.2026 | Kim Skak Larsen       | French Chocoloate Cake |
 | 19.05.2026 | Jacopo Mauro          | Italian crumble     |
 | 12.05.2026 | Siddharth Bhaskar     | Cake with spices    |
