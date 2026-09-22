@@ -1,3 +1,34 @@
+
+- authors: "Lars Rohwedder, Rico Zenklusen"
+  title: "Strong and Compact Policies for Submodular Markov Decision Processes via LP-Based Submodular Orienteering"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2609.15539"
+
+- authors: "Chandra Chekuri, Lars Rohwedder, Neta Singer, Jan Vondrák, Rico Zenklusen"
+  title: "Submodular Maximization over Bipartite Perfect Matchings and Matroid Intersection Bases"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2609.21696"
+  
+- authors: "Friedrich Eisenbrand, Samuel Fiorini, Lars Rohwedder, Jiaye Wei"
+  title: "Polyhedral extended formulations that approximate the Gomory closure for packing problems"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2607.09222"
+
+- authors: "Lars Rohwedder, Leander Schnaars"
+  title: "Graph Scheduling with Group Completion Times"
+  conference: "ESA'26"
+  preprint: "https://arxiv.org/abs/2606.31530"
+
+- authors: "Tatiana Rocha Avila, Lars Rohwedder, Leo Wennmann"
+  title: "Non-Additive Discrepancy: Coverage Functions in a Beck-Fiala Setting"
+  conference: "ESA'26"
+  preprint: "https://arxiv.org/abs/2602.09948"
+
+- authors: "Alexander Armbruster, Lars Rohwedder, Stefan Weltge, Andreas Wiese, Ruilong Zhang"
+  title: "Multiplicative Assignment with Upgrades"
+  conference: "ICALP'26"
+  preprint: "https://arxiv.org/abs/2504.07663"
+
 - authors: "Etienne Bamas, Shi Li, Lars Rohwedder"
   title: "Randomized Rounding over Dynamic Programs"
   conference: "STOC'26"
@@ -8,11 +39,6 @@
   Problem in Quasipolynomial Time"
   conference: "SODA'26"
   preprint: "https://arxiv.org/abs/2511.16536"
-
-- authors: "Alexander Armbruster, Lars Rohwedder, Stefan Weltge, Andreas Wiese, Ruilong Zhang"
-  title: "Multiplicative Assignment with Upgrades"
-  conference: "preprint"
-  preprint: "https://arxiv.org/abs/2504.07663"
 
 - authors: "Mads Anker Nielsen, Lars Rohwedder, Kevin Schewior"
   title: "Non-Adaptive Evaluation of k-of-n Functions: Tight Gap and a Unit-Cost PTAS"
