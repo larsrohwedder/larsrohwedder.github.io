@@ -1,4 +1,9 @@
 {: .table .table-striped}
 | Date       | Cake bringer          |
 | ---------- | --------------------- |
-| 08.09.2026 | Jacob Matzen          |
+| 29.09.2026 | Jonas Ellert          |
+| 06.10.2026 | Teresa Steiner        |
+| ...        | ...                   |
+| 27.10.2026 | Siddharth Bhaskar     |
+| ...        | ...                   |
+| 17.11.2026 | Giacomo Cappiello     |
