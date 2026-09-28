@@ -1,6 +1,9 @@
 {: .table .table-striped}
 | Date       | Cake bringer          | The cake            |
 | ---------- | --------------------- | ------------------- |
+| 22.09.2026 | Fie Dømler            | |
+| 15.09.2026 | Lene Favrholdt        | |
+| 08.09.2026 | Jacob Matzen          | |
 | 16.06.2026 | Josefine Bjørndal Robl| |
 | 09.06.2026 | Manuel Penschuk       | |
 | 02.06.2026 | Lene Favrholdt        | |
