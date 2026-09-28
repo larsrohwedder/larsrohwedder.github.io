@@ -3,6 +3,7 @@
 | ---------- | --------------------- |
 | 29.09.2026 | Jonas Ellert          |
 | 06.10.2026 | Teresa Steiner        |
+| 13.10.2026 | Diana Uy-Tuazon       |
 | ...        | ...                   |
 | 27.10.2026 | Siddharth Bhaskar     |
 | ...        | ...                   |
