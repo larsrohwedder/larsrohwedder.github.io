@@ -11,13 +11,15 @@ I am very grateful for the funding of my research projects.
 - 2026-2030. *PARAMLP: Parameterized Algorithms and Polyhedra* (ERC Starting Grant)
 - 2023-2027. *Twilight Zone of Efficiency: Optimality of Quasi-Polynomial Time Algorithms* (NWO Open Competition M1 project)
 
-**Group**
+**Current group**
 - Postdoc [Manolis Vasilakis (2026-)](https://manolisvasilakis.github.io/)
 - Postdoc [Matthias Gehnen (2026-)](https://sites.google.com/view/mgehnen)
-- PhD student Karl Oskar Vibaek (2026-)
+- PhD student Karl Oskar Vibaek (2026-) (together with Manuel Ariel Caceres)
 - PhD student [Krishna Narayanan (2026-)](https://nanakrish.github.io/)
-- Long term visitor [Leander Schnaars (2024-2025)](https://www.ot.mgt.tum.de/en/or/group/leander-schnaars/)
 - PhD student [Leo Wennmann (2023-)](https://leo-wennmann.github.io/)
+
+**Former group members**
+- Long term visitor [Leander Schnaars (2024-2025)](https://www.ot.mgt.tum.de/en/or/group/leander-schnaars/)
 - Long term visitor [Sarah Morell (2023)](https://www3.math.tu-berlin.de/coga/team/morell/)
 - PhD student [Ashkan Safari (2021-2026)](https://ashkansafari.com/) (together with Tjark Vredeveld)
 
