@@ -1,6 +1,11 @@
 {: .table .table-striped}
 | Date       | Cake bringer          | The cake            |
 | ---------- | --------------------- | ------------------- |
+| 27.10.2026 | Siddharth Bhaskar     | |
+| 20.10.2026 | Lars Rohwedder        | Kardemom Snurre     |
+| 13.10.2026 | **Break from Cake**   | |
+| 06.10.2026 | Teresa Steiner        | |
+| 29.09.2026 | Jonas Ellert          | |
 | 22.09.2026 | Fie Dømler            | |
 | 15.09.2026 | Lene Favrholdt        | |
 | 08.09.2026 | Jacob Matzen          | |
