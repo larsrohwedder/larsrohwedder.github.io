@@ -1,4 +1,9 @@
 
+- authors: "Lars Rohwedder"
+  title: "Approximating Submodular Orienteering via Rooted Subgraph Decomposition"
+  conference: "preprint"
+  preprint: "https://arxiv.org/abs/2611.03212"
+
 - authors: "Lars Rohwedder, Rico Zenklusen"
   title: "Strong and Compact Policies for Submodular Markov Decision Processes via LP-Based Submodular Orienteering"
   conference: "preprint"
